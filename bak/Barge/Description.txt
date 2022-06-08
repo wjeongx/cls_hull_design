@@ -1,0 +1,10 @@
+1. A- General Description
+
+1) General Information
+	- Ship's Name	:	보령8호
+	- Type of Ship	:	PONTOON BARGE
+	- Navigation Area	:	국내연해
+	- Port of Registry	:	보령시
+	- Nationality	: 	대한민국
+	- Classification 	:	KST
+	

@@ -1,0 +1,245 @@
+$# Creating journal file D:\Python\Import Nastran\kus-10_man_static1.db.jou 
+$# at 18-Apr-09 03:29:39
+uil_file_rebuild.start("C:\MSC.Software\Patran\2008_r1/template.db", @
+"D:\Python\Import Nastran\kus-10_man_static1.db")
+nastran_input_import( "D:\Python\Import Nastran\kus-10_man_static1.bdf",  @
+"default_group", 10, [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE,  @
+TRUE], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [ @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, 0, 0] )
+$# Loading dynamic library C:\MSC.Software\Patran\2008_r1\bin\exe\nifimp.dll
+$# Parsing input file...
+$# Importing data...
+$# 14455 Nodes written to database.
+$# 5 Materials written to database.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_skin_upr". 
+$# "fuse_skin_upr.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_skin_lwr". 
+$# "fuse_skin_lwr.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "te". "te.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_spar_flange_8ply". 
+$# "fuse_spar_flange_8ply.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_tip_skin". 
+$# "wing_tip_skin.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "ht_skin_upr_2ply". 
+$# "ht_skin_upr_2ply.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "vt_skin_2ply". "vt_skin_2ply.r1" 
+$# was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "boom_8ply". "boom_8ply.r1" was 
+$# created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "ht_skin_lwr_2ply". 
+$# "ht_skin_lwr_2ply.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "frame_em_angle". 
+$# "frame_em_angle.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "frame_em". "frame_em.r1" was 
+$# created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_rib_balsa". 
+$# "fuse_rib_balsa.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_frame_balsa_10t". 
+$# "fuse_frame_balsa_10t.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "vt_rib_balsa". "vt_rib_balsa.r1" 
+$# was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "vt_spar_balsa". 
+$# "vt_spar_balsa.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "ht_spar_balsa". 
+$# "ht_spar_balsa.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "ht_rib_balsa". "ht_rib_balsa.r1" 
+$# was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_floor". "fuse_floor.r1" was 
+$# created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_spar_rib_flange_8ply". 
+$# "fuse_spar_rib_flange_8ply.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_em_support_balsa5t". 
+$# "fuse_em_support_balsa5t.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_balsa_5t". 
+$# "wing_rib_balsa_5t.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_lwr_bay1_CF_5pl". 
+$# "wing_skin_lwr_bay1_CF_5pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_lwr_bay2_CF_4pl". 
+$# "wing_skin_lwr_bay2_CF_4pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_lwr_bay3_CF_3pl". 
+$# "wing_skin_lwr_bay3_CF_3pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_lwr_bay4_CF_2pl". 
+$# "wing_skin_lwr_bay4_CF_2pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_upr_bay1_CF_5pl". 
+$# "wing_skin_upr_bay1_CF_5pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_upr_bay2_CF_4pl". 
+$# "wing_skin_upr_bay2_CF_4pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_upr_bay3_CF_3pl". 
+$# "wing_skin_upr_bay3_CF_3pl.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_skin_upr_bay4_CF_2pl". 
+$# "wing_skin_upr_bay4_CF_2pl.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_intr_rib_balsa_2p5t". 
+$# "wing_intr_rib_balsa_2p5t.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange_7ply". 
+$# "wing_rib_flange_7ply.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange_6ply". 
+$# "wing_rib_flange_6ply.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange_5ply". 
+$# "wing_rib_flange_5ply.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange_4ply". 
+$# "wing_rib_flange_4ply.r1" was created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_keel_beam". 
+$# "fuse_keel_beam.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_spar_web_6plies". 
+$# "wing_spar_web_6plies.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_spar_flange_6plies". 
+$# "wing_spar_flange_6plies.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_keel_beam_flange". 
+$# "fuse_keel_beam_flange.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_nose". "fuse_nose.r1" was 
+$# created instead.
+$# Warning reported from application MATERIALS
+$#     A combination of 2-D and 3-D materials exists in the ply stack.  1 of 
+$# the 2 ply materials is 2-D.  All ply materials will be treated as 2-D 
+$# because there is not enough information to synthesize 3-D properties.  The 
+$# calculation of [A], [B], and [D] matrices (membrane, coupling, and bending 
+$# stiffness) is unaffected.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuse_acc_dr_b5t_2ply_45". 
+$# "fuse_acc_dr_b5t_2ply_45.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "access_cover_fstr_kx". 
+$# "access_cover_fstr_kx.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "access_cover_fstr_ky". 
+$# "access_cover_fstr_ky.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_root". 
+$# "wing_rib_root.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuselage_rib_root". 
+$# "fuselage_rib_root.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange". 
+$# "wing_rib_flange.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_root_rh". 
+$# "wing_rib_root_rh.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "wing_rib_flange_rh". 
+$# "wing_rib_flange_rh.r1" was created instead.
+$# Warning reported from application FILE
+$#     A conflict was encountered creating "fuselage_rib_root_rh". 
+$# "fuselage_rib_root_rh.r1" was created instead.
+$# 15669 Elements written to database.
+$# 52 Property Sets written to database.
+$# 410 MPCs written to database.
+$# 6 Load Cases written to database.
+$# 12 Load Sets of type "pload4" written to database.
+$# Reading of MSC.Nastran input file completed.
+$# Journal file stopped recording at 18-Apr-09 03:30:18
+$# Appending to existing journal file D:\Python\Import 
+$# Nastran\kus-10_man_static1.db.jou at 18-Apr-09 03:31:05
+$# Journal file stopped recording at 18-Apr-09 03:31:37

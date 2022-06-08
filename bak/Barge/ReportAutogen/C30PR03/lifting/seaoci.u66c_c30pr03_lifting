@@ -1,0 +1,2281 @@
+OPTIONS      MN       SDL3   1 1   DC  CPT  PTPTPTPTPT  PTPT                    
+LCSEL            100  101  211  221 LLUG                                        
+RFLRFD 1.0000.9500.8500.9500.9500.850     0.8500.8500.8500.900                  
+UCPART         0.8500.8501.0001.000                                             
+SECT                                                                            
+SECT HM294X2   WFC                               20.0001.20029.4000.800         
+SECT HM340X2   WFC                               25.0001.40034.0000.900         
+SECT HM390X3   WFC                               30.0001.60039.0001.000         
+SECT HM488X3   WFC                               30.0001.80048.8001.100         
+SECT HW250X2   WFC                               25.0001.40025.0000.900         
+SECT TN175X1   TEE                               17.50017.500.700 1.10013.700.00
+SECT TN200X2   TEE                               20.00020.000.800 1.30015.700.00
+GRUP                                                                            
+GRUP G1  HM488X3              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G2  HM340X2              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G3  HM390X3              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G4  HM294X2              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G5  TN175X1              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G6  HW250X2              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP G7  TN200X2              20.008.00034.50 1    1.001.00          N7.8500    
+GRUP SL           9.000 4.490T20.008.00035.50 1    1.001.00     0.500 1.00-5    
+MEMBER                                                                          
+MEMBER1 113 116 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 115 118 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 116 119 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 118 121 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 119 122 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 121 124 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 122 125 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 124 127 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 125 4XY G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 127 2XY G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 1XY 115 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 3XY 113 G1                            L    3.003.003.000                
+MEMBER OFFSETS                                 -24.40            -24.40         
+MEMBER1 210 213 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 212 215 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 213 216 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 215 218 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 216 219 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 218 221 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 219 222 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 221 224 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 222 225 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 224 227 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 225 228 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 227 230 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 298 336 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 300 338 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 336 339 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 338 341 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 339 342 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 341 344 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 342 345 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 344 347 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 345 348 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 347 350 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 348 301 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 350 303 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 392 426 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 394 428 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 426 429 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 428 431 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 429 432 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 431 434 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 432 435 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 434 437 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 435 438 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 437 440 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 438 395 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 440 397 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 472 506 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 474 508 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 506 509 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 508 511 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 509 512 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 511 514 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 512 515 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 514 517 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 515 518 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 517 520 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 518 475 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 520 477 G2                            L    3.003.003.000                
+MEMBER OFFSETS                                 -17.00            -17.00         
+MEMBER1 113 114 G3    000011                  L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 114 115 G3          000011            L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 116 117 G3    000011                  L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 117 118 G3          000011            L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 119 120 G3    000011                  L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 120 121 G3          000011            L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 122 123 G3    000011                  L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 123 124 G3          000011            L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 125 126 G3    000011                  L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 126 127 G3          000011            L    5.005.005.000                
+MEMBER OFFSETS                                 -19.50            -19.50         
+MEMBER1 114 117 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 117 120 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 120 123 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 123 126 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 213 214 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 214 215 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 214 217 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 216 217 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 217 218 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 217 220 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 219 220 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 220 221 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 220 223 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 222 223 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 223 224 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 223 226 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 225 226 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 226 227 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 336 337 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 337 338 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 337 340 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 339 340 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 340 341 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 340 343 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 342 343 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 343 344 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 343 346 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 345 346 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 346 347 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 346 349 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 348 349 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 349 350 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 426 427 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 427 428 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 427 430 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 429 430 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 430 431 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 430 433 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 432 433 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 433 434 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 433 436 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 435 436 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 436 437 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 436 439 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 438 439 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 439 440 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 506 507 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 507 508 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 507 510 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 509 510 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 510 511 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 510 513 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 512 513 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 513 514 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 513 516 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 515 516 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 516 517 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 516 519 G4    000011000011            L    3.003.003.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 518 519 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 519 520 G4                            L    5.005.005.000                
+MEMBER OFFSETS                                 -14.70            -14.70         
+MEMBER1 114 116 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 114 118 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 116 120 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 118 120 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 120 122 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 120 124 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 122 126 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 124 126 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 214 216 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 214 218 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 216 220 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 218 220 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 220 222 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 220 224 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 222 226 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 224 226 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 337 339 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 337 341 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 339 343 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 341 343 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 343 345 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 343 347 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 345 349 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 347 349 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 427 429 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 427 431 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 429 433 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 431 433 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 433 435 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 433 437 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 435 439 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 437 439 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 507 509 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 507 511 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 509 513 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 511 513 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 513 515 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 513 517 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 515 519 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER1 517 519 G5    000011000011            L    5.835.835.830  5.00          
+MEMBER OFFSETS                                 -3.819            -3.819         
+MEMBER  213 113 G6                            L    2.002.00                     
+MEMBER  215 115 G6                            L    2.002.00                     
+MEMBER  216 116 G6                            L    2.002.00                     
+MEMBER  218 118 G6                            L    2.002.00                     
+MEMBER  219 119 G6                            L    2.002.00                     
+MEMBER  221 121 G6                            L    2.002.00                     
+MEMBER  222 122 G6                            L    2.002.00                     
+MEMBER  224 124 G6                            L    2.002.00                     
+MEMBER  225 125 G6                            L    2.002.00                     
+MEMBER  227 127 G6                            L    2.002.00                     
+MEMBER  336 213 G6                            L    2.002.00                     
+MEMBER  338 215 G6                            L    2.002.00                     
+MEMBER  339 216 G6                            L    2.002.00                     
+MEMBER  341 218 G6                            L    2.002.00                     
+MEMBER  342 219 G6                            L    2.002.00                     
+MEMBER  344 221 G6                            L    2.002.00                     
+MEMBER  345 222 G6                            L    2.002.00                     
+MEMBER  347 224 G6                            L    2.002.00                     
+MEMBER  348 225 G6                            L    2.002.00                     
+MEMBER  350 227 G6                            L    2.002.00                     
+MEMBER  426 336 G6                            L    2.002.00                     
+MEMBER  428 338 G6                            L    2.002.00                     
+MEMBER  429 339 G6                            L    2.002.00                     
+MEMBER  431 341 G6                            L    2.002.00                     
+MEMBER  432 342 G6                            L    2.002.00                     
+MEMBER  434 344 G6                            L    2.002.00                     
+MEMBER  435 345 G6                            L    2.002.00                     
+MEMBER  437 347 G6                            L    2.002.00                     
+MEMBER  438 348 G6                            L    2.002.00                     
+MEMBER  440 350 G6                            L    2.002.00                     
+MEMBER  506 426 G6                            L    2.002.00                     
+MEMBER  508 428 G6                            L    2.002.00                     
+MEMBER  509 429 G6                            L    2.002.00                     
+MEMBER  511 431 G6                            L    2.002.00                     
+MEMBER  512 432 G6                            L    2.002.00                     
+MEMBER  514 434 G6                            L    2.002.00                     
+MEMBER  515 435 G6                            L    2.002.00                     
+MEMBER  517 437 G6                            L    2.002.00                     
+MEMBER  518 438 G6                            L    2.002.00                     
+MEMBER  520 440 G6                            L    2.002.00                     
+MEMBER1 119 222 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 121 224 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 122 225 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 124 227 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 125 228 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 127 230 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 210 113 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 212 115 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 213 116 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 215 118 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 216 119 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 218 121 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 219 345 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 221 347 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 222 348 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 224 350 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 225 301 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 227 303 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 298 213 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 300 215 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 336 216 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 338 218 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 339 219 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 341 221 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 342 435 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 344 437 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 345 438 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 347 440 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 348 395 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 350 397 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 392 336 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 394 338 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 426 339 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 428 341 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 429 342 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 431 344 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 432 515 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 434 517 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 435 518 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 437 520 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 438 475 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 440 477 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 472 426 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 474 428 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 506 429 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 508 431 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 509 432 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER1 511 434 G7    000011000011            L    3.603.603.600  5.00          
+MEMBER OFFSETS                                 -3.580            -3.580         
+MEMBER  5090000 SL   T000011000111           N                                  
+MEMBER  5110000 SL   T000011000111           N                                  
+MEMBER  5150000 SL   T000011000111           N                                  
+MEMBER  5170000 SL   T000011000111           N                                  
+JOINT                                                                           
+JOINT  113     -6.     4.     0.        74.300                                  
+JOINT  114     -6.     0.     0.       -25.700                                  
+JOINT  115     -6.    -5.     0.       -25.700                                  
+JOINT  116     -3.     4.     0.        74.300                                  
+JOINT  117     -3.     0.     0.       -25.700                                  
+JOINT  118     -3.    -5.     0.       -25.700                                  
+JOINT  119      0.     4.     0.  0.001 74.300                                  
+JOINT  120      0.     0.     0.  0.001-25.700                                  
+JOINT  121      0.    -5.     0.  0.001-25.700                                  
+JOINT  122      3.     4.     0.        74.300                                  
+JOINT  123      3.     0.     0.       -25.700                                  
+JOINT  124      3.    -5.     0.       -25.700                                  
+JOINT  125      6.     4.     0.        74.300                                  
+JOINT  126      6.     0.     0.       -25.700                                  
+JOINT  127      6.    -5.     0.       -25.700                                  
+JOINT  1XY     -9.    -5.     0.       -25.700        110000                    
+JOINT  1XY 10.000 10.000                              ELASTI                    
+JOINT  210     -9.     4.     2.        74.300                                  
+JOINT  212     -9.    -5.     2.       -25.700                                  
+JOINT  213     -6.     4.     2.        74.300                                  
+JOINT  214     -6.     0.     2.       -25.700                                  
+JOINT  215     -6.    -5.     2.       -25.700                                  
+JOINT  216     -3.     4.     2.        74.300                                  
+JOINT  217     -3.     0.     2.       -25.700                                  
+JOINT  218     -3.    -5.     2.       -25.700                                  
+JOINT  219      0.     4.     2.  0.001 74.300                                  
+JOINT  220      0.     0.     2.  0.001-25.700                                  
+JOINT  221      0.    -5.     2.  0.001-25.700                                  
+JOINT  222      3.     4.     2.        74.300                                  
+JOINT  223      3.     0.     2.       -25.700                                  
+JOINT  224      3.    -5.     2.       -25.700                                  
+JOINT  225      6.     4.     2.        74.300                                  
+JOINT  226      6.     0.     2.       -25.700                                  
+JOINT  227      6.    -5.     2.       -25.700                                  
+JOINT  228      9.     4.     2.        74.300                                  
+JOINT  230      9.    -5.     2.       -25.700                                  
+JOINT  298     -9.     4.     4.        74.300                                  
+JOINT  2XY      9.    -5.     0.       -25.700                                  
+JOINT  300     -9.    -5.     4.       -25.700                                  
+JOINT  301      9.     4.     4.        74.300                                  
+JOINT  303      9.    -5.     4.       -25.700                                  
+JOINT  336     -6.     4.     4.        74.300                                  
+JOINT  337     -6.     0.     4.       -25.700                                  
+JOINT  338     -6.    -5.     4.       -25.700                                  
+JOINT  339     -3.     4.     4.        74.300                                  
+JOINT  340     -3.     0.     4.       -25.700                                  
+JOINT  341     -3.    -5.     4.       -25.700                                  
+JOINT  342      0.     4.     4.  0.001 74.300                                  
+JOINT  343      0.     0.     4.  0.001-25.700                                  
+JOINT  344      0.    -5.     4.  0.001-25.700                                  
+JOINT  345      3.     4.     4.        74.300                                  
+JOINT  346      3.     0.     4.       -25.700                                  
+JOINT  347      3.    -5.     4.       -25.700                                  
+JOINT  348      6.     4.     4.        74.300                                  
+JOINT  349      6.     0.     4.       -25.700                                  
+JOINT  350      6.    -5.     4.       -25.700                                  
+JOINT  392     -9.     4.     6.        74.300                                  
+JOINT  394     -9.    -5.     6.       -25.700                                  
+JOINT  395      9.     4.     6.        74.300                                  
+JOINT  397      9.    -5.     6.       -25.700                                  
+JOINT  3XY     -9.     4.     0.        74.300                                  
+JOINT  426     -6.     4.     6.        74.300                                  
+JOINT  427     -6.     0.     6.       -25.700                                  
+JOINT  428     -6.    -5.     6.       -25.700                                  
+JOINT  429     -3.     4.     6.        74.300                                  
+JOINT  430     -3.     0.     6.       -25.700                                  
+JOINT  431     -3.    -5.     6.       -25.700                                  
+JOINT  432      0.     4.     6.  0.001 74.300                                  
+JOINT  433      0.     0.     6.  0.001-25.700                                  
+JOINT  434      0.    -5.     6.  0.001-25.700                                  
+JOINT  435      3.     4.     6.        74.300                                  
+JOINT  436      3.     0.     6.       -25.700                                  
+JOINT  437      3.    -5.     6.       -25.700                                  
+JOINT  438      6.     4.     6.        74.300                                  
+JOINT  439      6.     0.     6.       -25.700                                  
+JOINT  440      6.    -5.     6.       -25.700                                  
+JOINT  472     -9.     4.     8.        74.300                                  
+JOINT  474     -9.    -5.     8.       -25.700                                  
+JOINT  475      9.     4.     8.        74.300                                  
+JOINT  477      9.    -5.     8.       -25.700                                  
+JOINT  4XY      9.     4.     0.        74.300        110000                    
+JOINT  4XY 10.000 10.000                              ELASTI                    
+JOINT  506     -6.     4.     8.        74.300                                  
+JOINT  507     -6.     0.     8.       -25.700                                  
+JOINT  508     -6.    -5.     8.       -25.700                                  
+JOINT  509     -3.     4.     8.        74.300                                  
+JOINT  510     -3.     0.     8.       -25.700                                  
+JOINT  511     -3.    -5.     8.       -25.700                                  
+JOINT  512      0.     4.     8.  0.001 74.300                                  
+JOINT  513      0.     0.     8.  0.001-25.700                                  
+JOINT  514      0.    -5.     8.  0.001-25.700                                  
+JOINT  515      3.     4.     8.        74.300                                  
+JOINT  516      3.     0.     8.       -25.700                                  
+JOINT  517      3.    -5.     8.       -25.700                                  
+JOINT  518      6.     4.     8.        74.300                                  
+JOINT  519      6.     0.     8.       -25.700                                  
+JOINT  520      6.    -5.     8.       -25.700                                  
+JOINT  COG      0.     0.     3.                6.000 111000                    
+JOINT 0000      0.     0.    28.                      111111                    
+LOAD                                                                            
+LOADCN 100                                                                      
+* CASE 1001.1   *    1 + 1.0   *    2 + 1.0   *    4                            
+LOAD Z  113 116     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  115 118     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  116 119     0.0-1.47183.00001-1.4718                GLOB UNIF           
+LOAD Z  118 121     0.0-1.47183.00001-1.4718                GLOB UNIF           
+LOAD Z  119 122     0.0-1.47182.99999-1.4718                GLOB UNIF           
+LOAD Z  121 124     0.0-1.47182.99999-1.4718                GLOB UNIF           
+LOAD Z  122 125     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  124 127     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  125 4XY     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  127 2XY     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  1XY 115     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  3XY 113     0.0-1.47183.00000-1.4718                GLOB UNIF           
+LOAD Z  210 213     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  212 215     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  213 216     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  215 218     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  216 219     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  218 221     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  219 222     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  221 224     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  222 225     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  224 227     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  225 228     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  227 230     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  298 336     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  300 338     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  336 339     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  338 341     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  339 342     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  341 344     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  342 345     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  344 347     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  345 348     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  347 350     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  348 301     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  350 303     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  392 426     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  394 428     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  426 429     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  428 431     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  429 432     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  431 434     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  432 435     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  434 437     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  435 438     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  437 440     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  438 395     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  440 397     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  472 506     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  474 508     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  506 509     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  508 511     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  509 512     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  511 514     0.0-.915263.00001-.91526                GLOB UNIF           
+LOAD Z  512 515     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  514 517     0.0-.915262.99999-.91526                GLOB UNIF           
+LOAD Z  515 518     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  517 520     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  518 475     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  520 477     0.0-.915263.00000-.91526                GLOB UNIF           
+LOAD Z  113 114     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  114 115     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  116 117     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  117 118     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  119 120     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  120 121     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  122 123     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  123 124     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  125 126     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  126 127     0.0-1.22995.00000-1.2299                GLOB UNIF           
+LOAD Z  114 117     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  117 120     0.0-.649493.00001-.64949                GLOB UNIF           
+LOAD Z  120 123     0.0-.649492.99999-.64949                GLOB UNIF           
+LOAD Z  123 126     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  213 214     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  214 215     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  214 217     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  216 217     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  217 218     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  217 220     0.0-.649493.00001-.64949                GLOB UNIF           
+LOAD Z  219 220     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  220 221     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  220 223     0.0-.649492.99999-.64949                GLOB UNIF           
+LOAD Z  222 223     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  223 224     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  223 226     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  225 226     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  226 227     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  336 337     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  337 338     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  337 340     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  339 340     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  340 341     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  340 343     0.0-.649493.00001-.64949                GLOB UNIF           
+LOAD Z  342 343     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  343 344     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  343 346     0.0-.649492.99999-.64949                GLOB UNIF           
+LOAD Z  345 346     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  346 347     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  346 349     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  348 349     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  349 350     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  426 427     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  427 428     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  427 430     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  429 430     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  430 431     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  430 433     0.0-.649493.00001-.64949                GLOB UNIF           
+LOAD Z  432 433     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  433 434     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  433 436     0.0-.649492.99999-.64949                GLOB UNIF           
+LOAD Z  435 436     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  436 437     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  436 439     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  438 439     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  439 440     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  506 507     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  507 508     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  507 510     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  509 510     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  510 511     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  510 513     0.0-.649493.00001-.64949                GLOB UNIF           
+LOAD Z  512 513     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  513 514     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  513 516     0.0-.649492.99999-.64949                GLOB UNIF           
+LOAD Z  515 516     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  516 517     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  516 519     0.0-.649493.00000-.64949                GLOB UNIF           
+LOAD Z  518 519     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  519 520     0.0-.649495.00000-.64949                GLOB UNIF           
+LOAD Z  114 116     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  114 118     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  116 120     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  118 120     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  120 122     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  120 124     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  122 126     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  124 126     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  214 216     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  214 218     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  216 220     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  218 220     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  220 222     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  220 224     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  222 226     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  224 226     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  337 339     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  337 341     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  339 343     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  341 343     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  343 345     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  343 347     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  345 349     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  347 349     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  427 429     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  427 431     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  429 433     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  431 433     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  433 435     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  433 437     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  435 439     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  437 439     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  507 509     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  507 511     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  509 513     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  511 513     0.0-.182655.83096-.18265                GLOB UNIF           
+LOAD Z  513 515     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  513 517     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  515 519     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  517 519     0.0-.182655.83095-.18265                GLOB UNIF           
+LOAD Z  213 113     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  215 115     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  216 116     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  218 118     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  219 119     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  221 121     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  222 122     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  224 124     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  225 125     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  227 127     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  336 213     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  338 215     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  339 216     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  341 218     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  342 219     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  344 221     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  345 222     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  347 224     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  348 225     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  350 227     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  426 336     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  428 338     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  429 339     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  431 341     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  432 342     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  434 344     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  435 345     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  437 347     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  438 348     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  440 350     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  506 426     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  508 428     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  509 429     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  511 431     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  512 432     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  514 434     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  515 435     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  517 437     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  518 438     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  520 440     0.0-.839672.00000-.83967                GLOB UNIF           
+LOAD Z  119 222     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  121 224     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  122 225     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  124 227     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  125 228     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  127 230     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  210 113     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  212 115     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  213 116     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  215 118     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  216 119     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  218 121     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  219 345     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  221 347     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  222 348     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  224 350     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  225 301     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  227 303     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  298 213     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  300 215     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  336 216     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  338 218     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  339 219     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  341 221     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  342 435     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  344 437     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  345 438     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  347 440     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  348 395     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  350 397     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  392 336     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  394 338     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  426 339     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  428 341     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  429 342     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  431 344     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  432 515     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  434 517     0.0-.243463.60554-.24346                GLOB UNIF           
+LOAD Z  435 518     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  437 520     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  438 475     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  440 477     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  472 426     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  474 428     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  506 429     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  508 431     0.0-.243463.60555-.24346                GLOB UNIF           
+LOAD Z  509 432     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  511 434     0.0-.243463.60556-.24346                GLOB UNIF           
+LOAD Z  506 507 3.75000-.350001.25000-.35000                GLOB UNIF           
+LOAD Z  506 507 2.58000-.59000.300000-.59000                GLOB UNIF           
+LOAD Z  507 508     0.0-.350004.50000-.35000                GLOB UNIF           
+LOAD Z  509 510 3.75000-.350001.25000-.35000                GLOB UNIF           
+LOAD Z  509 510 2.58000-.59000.300000-.59000                GLOB UNIF           
+LOAD Z  510 511     0.0-.350004.50000-.35000                GLOB UNIF           
+LOAD Z  512 513 3.75000-.350001.25000-.35000                GLOB UNIF           
+LOAD Z  512 513 2.58000-.59000.300000-.59000                GLOB UNIF           
+LOAD Z  513 514     0.0-.350004.50000-.35000                GLOB UNIF           
+LOAD Z  515 516 3.75000-.350001.25000-.35000                GLOB UNIF           
+LOAD Z  515 516 2.58000-.59000.300000-.59000                GLOB UNIF           
+LOAD Z  516 517     0.0-.350004.50000-.35000                GLOB UNIF           
+LOAD Z  518 519 3.75000-.350001.25000-.35000                GLOB UNIF           
+LOAD Z  518 519 2.58000-.59000.300000-.59000                GLOB UNIF           
+LOAD Z  519 520     0.0-.350004.50000-.35000                GLOB UNIF           
+LOAD Z  113 114 .820000-3.6900                   0.0    0.0 GLOB CONC           
+LOAD Z  113 114 1.50000-3.30001.85000-3.3000                GLOB UNIF           
+LOAD Z  114 115     0.0-3.60003.92000-3.6000                GLOB UNIF           
+LOAD Z  116 117 .820000-3.6900                   0.0    0.0 GLOB CONC           
+LOAD Z  116 117 1.50000-3.30001.85000-3.3000                GLOB UNIF           
+LOAD Z  117 118     0.0-3.60003.92000-3.6000                GLOB UNIF           
+LOAD Z  119 120 .820000-3.6900                   0.0    0.0 GLOB CONC           
+LOAD Z  119 120 1.50000-3.30001.85000-3.3000                GLOB UNIF           
+LOAD Z  120 121     0.0-3.60003.92000-3.6000                GLOB UNIF           
+LOAD Z  122 123 .820000-3.6900                   0.0    0.0 GLOB CONC           
+LOAD Z  122 123 1.50000-3.30001.85000-3.3000                GLOB UNIF           
+LOAD Z  123 124     0.0-3.60003.92000-3.6000                GLOB UNIF           
+LOAD Z  125 126 .820000-3.6900                   0.0    0.0 GLOB CONC           
+LOAD Z  125 126 1.50000-3.30001.85000-3.3000                GLOB UNIF           
+LOAD Z  126 127     0.0-3.60003.92000-3.6000                GLOB UNIF           
+LOAD Z  213 214 1.80000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 2.71000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 3.70000-2.10001.30000-2.1000                GLOB UNIF           
+LOAD Z  214 215     0.0-2.10001.17000-2.1000                GLOB UNIF           
+LOAD Z  216 217 1.80000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 2.71000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 3.70000-2.10001.30000-2.1000                GLOB UNIF           
+LOAD Z  217 218     0.0-2.10001.17000-2.1000                GLOB UNIF           
+LOAD Z  219 220 1.80000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 2.71000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 3.70000-2.10001.30000-2.1000                GLOB UNIF           
+LOAD Z  220 221     0.0-2.10001.17000-2.1000                GLOB UNIF           
+LOAD Z  222 223 1.80000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 2.71000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 3.70000-2.10001.30000-2.1000                GLOB UNIF           
+LOAD Z  223 224     0.0-2.10001.17000-2.1000                GLOB UNIF           
+LOAD Z  225 226 1.80000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 2.71000-5.5200                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 3.70000-2.10001.30000-2.1000                GLOB UNIF           
+LOAD Z  226 227     0.0-2.10001.17000-2.1000                GLOB UNIF           
+LOAD Z  336 337 2.03000-4.5000.800000-4.5000                GLOB UNIF           
+LOAD Z  336 337 3.43000-3.3000.720000-3.3000                GLOB UNIF           
+LOAD Z  337 338 3.90000-6.9000                   0.0    0.0 GLOB CONC           
+LOAD Z  339 340 2.03000-4.5000.800000-4.5000                GLOB UNIF           
+LOAD Z  339 340 3.43000-3.3000.720000-3.3000                GLOB UNIF           
+LOAD Z  340 341 3.90000-6.9000                   0.0    0.0 GLOB CONC           
+LOAD Z  342 343 2.03000-4.5000.800000-4.5000                GLOB UNIF           
+LOAD Z  342 343 3.43000-3.3000.720000-3.3000                GLOB UNIF           
+LOAD Z  343 344 3.90000-6.9000                   0.0    0.0 GLOB CONC           
+LOAD Z  345 346 2.03000-4.5000.800000-4.5000                GLOB UNIF           
+LOAD Z  345 346 3.43000-3.3000.720000-3.3000                GLOB UNIF           
+LOAD Z  346 347 3.90000-6.9000                   0.0    0.0 GLOB CONC           
+LOAD Z  348 349 2.03000-4.5000.800000-4.5000                GLOB UNIF           
+LOAD Z  348 349 3.43000-3.3000.720000-3.3000                GLOB UNIF           
+LOAD Z  349 350 3.90000-6.9000                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 .950000-.48000                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 1.70000-8.2500                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 .950000-.48000                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 1.70000-8.2500                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 .950000-.48000                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 1.70000-8.2500                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 .950000-.48000                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 1.70000-8.2500                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 .950000-.48000                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 1.70000-8.2500                   0.0    0.0 GLOB CONC           
+LOADCN 101                                                                      
+* CASE 1011.21  *  100                                                          
+LOAD Z  113 116     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  115 118     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  116 119     0.0-1.78093.00001-1.7809                GLOB UNIF           
+LOAD Z  118 121     0.0-1.78093.00001-1.7809                GLOB UNIF           
+LOAD Z  119 122     0.0-1.78092.99999-1.7809                GLOB UNIF           
+LOAD Z  121 124     0.0-1.78092.99999-1.7809                GLOB UNIF           
+LOAD Z  122 125     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  124 127     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  125 4XY     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  127 2XY     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  1XY 115     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  3XY 113     0.0-1.78093.00000-1.7809                GLOB UNIF           
+LOAD Z  210 213     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  212 215     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  213 216     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  215 218     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  216 219     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  218 221     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  219 222     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  221 224     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  222 225     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  224 227     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  225 228     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  227 230     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  298 336     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  300 338     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  336 339     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  338 341     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  339 342     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  341 344     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  342 345     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  344 347     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  345 348     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  347 350     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  348 301     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  350 303     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  392 426     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  394 428     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  426 429     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  428 431     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  429 432     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  431 434     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  432 435     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  434 437     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  435 438     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  437 440     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  438 395     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  440 397     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  472 506     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  474 508     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  506 509     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  508 511     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  509 512     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  511 514     0.0-1.10753.00001-1.1075                GLOB UNIF           
+LOAD Z  512 515     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  514 517     0.0-1.10752.99999-1.1075                GLOB UNIF           
+LOAD Z  515 518     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  517 520     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  518 475     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  520 477     0.0-1.10753.00000-1.1075                GLOB UNIF           
+LOAD Z  113 114     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  114 115     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  116 117     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  117 118     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  119 120     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  120 121     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  122 123     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  123 124     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  125 126     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  126 127     0.0-1.48825.00000-1.4882                GLOB UNIF           
+LOAD Z  114 117     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  117 120     0.0-.785883.00001-.78588                GLOB UNIF           
+LOAD Z  120 123     0.0-.785882.99999-.78588                GLOB UNIF           
+LOAD Z  123 126     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  213 214     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  214 215     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  214 217     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  216 217     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  217 218     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  217 220     0.0-.785883.00001-.78588                GLOB UNIF           
+LOAD Z  219 220     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  220 221     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  220 223     0.0-.785882.99999-.78588                GLOB UNIF           
+LOAD Z  222 223     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  223 224     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  223 226     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  225 226     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  226 227     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  336 337     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  337 338     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  337 340     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  339 340     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  340 341     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  340 343     0.0-.785883.00001-.78588                GLOB UNIF           
+LOAD Z  342 343     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  343 344     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  343 346     0.0-.785882.99999-.78588                GLOB UNIF           
+LOAD Z  345 346     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  346 347     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  346 349     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  348 349     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  349 350     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  426 427     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  427 428     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  427 430     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  429 430     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  430 431     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  430 433     0.0-.785883.00001-.78588                GLOB UNIF           
+LOAD Z  432 433     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  433 434     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  433 436     0.0-.785882.99999-.78588                GLOB UNIF           
+LOAD Z  435 436     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  436 437     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  436 439     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  438 439     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  439 440     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  506 507     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  507 508     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  507 510     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  509 510     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  510 511     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  510 513     0.0-.785883.00001-.78588                GLOB UNIF           
+LOAD Z  512 513     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  513 514     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  513 516     0.0-.785882.99999-.78588                GLOB UNIF           
+LOAD Z  515 516     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  516 517     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  516 519     0.0-.785883.00000-.78588                GLOB UNIF           
+LOAD Z  518 519     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  519 520     0.0-.785885.00000-.78588                GLOB UNIF           
+LOAD Z  114 116     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  114 118     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  116 120     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  118 120     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  120 122     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  120 124     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  122 126     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  124 126     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  214 216     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  214 218     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  216 220     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  218 220     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  220 222     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  220 224     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  222 226     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  224 226     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  337 339     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  337 341     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  339 343     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  341 343     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  343 345     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  343 347     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  345 349     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  347 349     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  427 429     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  427 431     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  429 433     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  431 433     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  433 435     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  433 437     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  435 439     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  437 439     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  507 509     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  507 511     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  509 513     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  511 513     0.0-.221015.83096-.22101                GLOB UNIF           
+LOAD Z  513 515     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  513 517     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  515 519     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  517 519     0.0-.221015.83095-.22101                GLOB UNIF           
+LOAD Z  213 113     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  215 115     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  216 116     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  218 118     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  219 119     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  221 121     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  222 122     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  224 124     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  225 125     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  227 127     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  336 213     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  338 215     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  339 216     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  341 218     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  342 219     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  344 221     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  345 222     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  347 224     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  348 225     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  350 227     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  426 336     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  428 338     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  429 339     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  431 341     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  432 342     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  434 344     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  435 345     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  437 347     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  438 348     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  440 350     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  506 426     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  508 428     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  509 429     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  511 431     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  512 432     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  514 434     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  515 435     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  517 437     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  518 438     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  520 440     0.0-1.01602.00000-1.0160                GLOB UNIF           
+LOAD Z  119 222     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  121 224     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  122 225     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  124 227     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  125 228     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  127 230     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  210 113     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  212 115     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  213 116     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  215 118     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  216 119     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  218 121     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  219 345     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  221 347     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  222 348     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  224 350     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  225 301     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  227 303     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  298 213     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  300 215     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  336 216     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  338 218     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  339 219     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  341 221     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  342 435     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  344 437     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  345 438     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  347 440     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  348 395     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  350 397     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  392 336     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  394 338     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  426 339     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  428 341     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  429 342     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  431 344     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  432 515     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  434 517     0.0-.294583.60554-.29458                GLOB UNIF           
+LOAD Z  435 518     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  437 520     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  438 475     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  440 477     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  472 426     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  474 428     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  506 429     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  508 431     0.0-.294583.60555-.29458                GLOB UNIF           
+LOAD Z  509 432     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  511 434     0.0-.294583.60556-.29458                GLOB UNIF           
+LOAD Z  506 507 3.75000-.423501.25000-.42350                GLOB UNIF           
+LOAD Z  506 507 2.58000-.71390.300000-.71390                GLOB UNIF           
+LOAD Z  507 508     0.0-.423504.50000-.42350                GLOB UNIF           
+LOAD Z  509 510 3.75000-.423501.25000-.42350                GLOB UNIF           
+LOAD Z  509 510 2.58000-.71390.300000-.71390                GLOB UNIF           
+LOAD Z  510 511     0.0-.423504.50000-.42350                GLOB UNIF           
+LOAD Z  512 513 3.75000-.423501.25000-.42350                GLOB UNIF           
+LOAD Z  512 513 2.58000-.71390.300000-.71390                GLOB UNIF           
+LOAD Z  513 514     0.0-.423504.50000-.42350                GLOB UNIF           
+LOAD Z  515 516 3.75000-.423501.25000-.42350                GLOB UNIF           
+LOAD Z  515 516 2.58000-.71390.300000-.71390                GLOB UNIF           
+LOAD Z  516 517     0.0-.423504.50000-.42350                GLOB UNIF           
+LOAD Z  518 519 3.75000-.423501.25000-.42350                GLOB UNIF           
+LOAD Z  518 519 2.58000-.71390.300000-.71390                GLOB UNIF           
+LOAD Z  519 520     0.0-.423504.50000-.42350                GLOB UNIF           
+LOAD Z  113 114 .820000-4.4649                   0.0    0.0 GLOB CONC           
+LOAD Z  113 114 1.50000-3.99301.85000-3.9930                GLOB UNIF           
+LOAD Z  114 115     0.0-4.35603.92000-4.3560                GLOB UNIF           
+LOAD Z  116 117 .820000-4.4649                   0.0    0.0 GLOB CONC           
+LOAD Z  116 117 1.50000-3.99301.85000-3.9930                GLOB UNIF           
+LOAD Z  117 118     0.0-4.35603.92000-4.3560                GLOB UNIF           
+LOAD Z  119 120 .820000-4.4649                   0.0    0.0 GLOB CONC           
+LOAD Z  119 120 1.50000-3.99301.85000-3.9930                GLOB UNIF           
+LOAD Z  120 121     0.0-4.35603.92000-4.3560                GLOB UNIF           
+LOAD Z  122 123 .820000-4.4649                   0.0    0.0 GLOB CONC           
+LOAD Z  122 123 1.50000-3.99301.85000-3.9930                GLOB UNIF           
+LOAD Z  123 124     0.0-4.35603.92000-4.3560                GLOB UNIF           
+LOAD Z  125 126 .820000-4.4649                   0.0    0.0 GLOB CONC           
+LOAD Z  125 126 1.50000-3.99301.85000-3.9930                GLOB UNIF           
+LOAD Z  126 127     0.0-4.35603.92000-4.3560                GLOB UNIF           
+LOAD Z  213 214 1.80000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 2.71000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 3.70000-2.54101.30000-2.5410                GLOB UNIF           
+LOAD Z  214 215     0.0-2.54101.17000-2.5410                GLOB UNIF           
+LOAD Z  216 217 1.80000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 2.71000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 3.70000-2.54101.30000-2.5410                GLOB UNIF           
+LOAD Z  217 218     0.0-2.54101.17000-2.5410                GLOB UNIF           
+LOAD Z  219 220 1.80000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 2.71000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 3.70000-2.54101.30000-2.5410                GLOB UNIF           
+LOAD Z  220 221     0.0-2.54101.17000-2.5410                GLOB UNIF           
+LOAD Z  222 223 1.80000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 2.71000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 3.70000-2.54101.30000-2.5410                GLOB UNIF           
+LOAD Z  223 224     0.0-2.54101.17000-2.5410                GLOB UNIF           
+LOAD Z  225 226 1.80000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 2.71000-6.6792                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 3.70000-2.54101.30000-2.5410                GLOB UNIF           
+LOAD Z  226 227     0.0-2.54101.17000-2.5410                GLOB UNIF           
+LOAD Z  336 337 2.03000-5.4450.800000-5.4450                GLOB UNIF           
+LOAD Z  336 337 3.43000-3.9930.720000-3.9930                GLOB UNIF           
+LOAD Z  337 338 3.90000-8.3490                   0.0    0.0 GLOB CONC           
+LOAD Z  339 340 2.03000-5.4450.800000-5.4450                GLOB UNIF           
+LOAD Z  339 340 3.43000-3.9930.720000-3.9930                GLOB UNIF           
+LOAD Z  340 341 3.90000-8.3490                   0.0    0.0 GLOB CONC           
+LOAD Z  342 343 2.03000-5.4450.800000-5.4450                GLOB UNIF           
+LOAD Z  342 343 3.43000-3.9930.720000-3.9930                GLOB UNIF           
+LOAD Z  343 344 3.90000-8.3490                   0.0    0.0 GLOB CONC           
+LOAD Z  345 346 2.03000-5.4450.800000-5.4450                GLOB UNIF           
+LOAD Z  345 346 3.43000-3.9930.720000-3.9930                GLOB UNIF           
+LOAD Z  346 347 3.90000-8.3490                   0.0    0.0 GLOB CONC           
+LOAD Z  348 349 2.03000-5.4450.800000-5.4450                GLOB UNIF           
+LOAD Z  348 349 3.43000-3.9930.720000-3.9930                GLOB UNIF           
+LOAD Z  349 350 3.90000-8.3490                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 .950000-.58080                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 1.70000-9.9825                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 .950000-.58080                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 1.70000-9.9825                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 .950000-.58080                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 1.70000-9.9825                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 .950000-.58080                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 1.70000-9.9825                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 .950000-.58080                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 1.70000-9.9825                   0.0    0.0 GLOB CONC           
+LOADCN 211                                                                      
+* CASE 2111.6   *  210                                                          
+LOAD Z  113 116     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  115 118     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  116 119     0.0-3.27683.00001-3.2768                GLOB UNIF           
+LOAD Z  118 121     0.0-3.27683.00001-3.2768                GLOB UNIF           
+LOAD Z  119 122     0.0-3.27682.99999-3.2768                GLOB UNIF           
+LOAD Z  121 124     0.0-3.27682.99999-3.2768                GLOB UNIF           
+LOAD Z  122 125     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  124 127     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  125 4XY     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  127 2XY     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  1XY 115     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  3XY 113     0.0-3.27683.00000-3.2768                GLOB UNIF           
+LOAD Z  210 213     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  212 215     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  213 216     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  215 218     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  216 219     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  218 221     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  219 222     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  221 224     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  222 225     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  224 227     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  225 228     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  227 230     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  298 336     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  300 338     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  336 339     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  338 341     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  339 342     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  341 344     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  342 345     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  344 347     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  345 348     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  347 350     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  348 301     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  350 303     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  392 426     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  394 428     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  426 429     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  428 431     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  429 432     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  431 434     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  432 435     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  434 437     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  435 438     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  437 440     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  438 395     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  440 397     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  472 506     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  474 508     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  506 509     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  508 511     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  509 512     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  511 514     0.0-2.03773.00001-2.0377                GLOB UNIF           
+LOAD Z  512 515     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  514 517     0.0-2.03772.99999-2.0377                GLOB UNIF           
+LOAD Z  515 518     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  517 520     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  518 475     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  520 477     0.0-2.03773.00000-2.0377                GLOB UNIF           
+LOAD Z  113 114     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  114 115     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  116 117     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  117 118     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  119 120     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  120 121     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  122 123     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  123 124     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  125 126     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  126 127     0.0-2.73835.00000-2.7383                GLOB UNIF           
+LOAD Z  114 117     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  117 120     0.0-1.44603.00001-1.4460                GLOB UNIF           
+LOAD Z  120 123     0.0-1.44602.99999-1.4460                GLOB UNIF           
+LOAD Z  123 126     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  213 214     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  214 215     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  214 217     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  216 217     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  217 218     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  217 220     0.0-1.44603.00001-1.4460                GLOB UNIF           
+LOAD Z  219 220     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  220 221     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  220 223     0.0-1.44602.99999-1.4460                GLOB UNIF           
+LOAD Z  222 223     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  223 224     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  223 226     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  225 226     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  226 227     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  336 337     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  337 338     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  337 340     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  339 340     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  340 341     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  340 343     0.0-1.44603.00001-1.4460                GLOB UNIF           
+LOAD Z  342 343     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  343 344     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  343 346     0.0-1.44602.99999-1.4460                GLOB UNIF           
+LOAD Z  345 346     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  346 347     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  346 349     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  348 349     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  349 350     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  426 427     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  427 428     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  427 430     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  429 430     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  430 431     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  430 433     0.0-1.44603.00001-1.4460                GLOB UNIF           
+LOAD Z  432 433     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  433 434     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  433 436     0.0-1.44602.99999-1.4460                GLOB UNIF           
+LOAD Z  435 436     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  436 437     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  436 439     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  438 439     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  439 440     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  506 507     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  507 508     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  507 510     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  509 510     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  510 511     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  510 513     0.0-1.44603.00001-1.4460                GLOB UNIF           
+LOAD Z  512 513     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  513 514     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  513 516     0.0-1.44602.99999-1.4460                GLOB UNIF           
+LOAD Z  515 516     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  516 517     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  516 519     0.0-1.44603.00000-1.4460                GLOB UNIF           
+LOAD Z  518 519     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  519 520     0.0-1.44605.00000-1.4460                GLOB UNIF           
+LOAD Z  114 116     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  114 118     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  116 120     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  118 120     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  120 122     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  120 124     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  122 126     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  124 126     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  214 216     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  214 218     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  216 220     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  218 220     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  220 222     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  220 224     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  222 226     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  224 226     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  337 339     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  337 341     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  339 343     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  341 343     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  343 345     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  343 347     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  345 349     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  347 349     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  427 429     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  427 431     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  429 433     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  431 433     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  433 435     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  433 437     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  435 439     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  437 439     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  507 509     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  507 511     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  509 513     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  511 513     0.0-.406665.83096-.40666                GLOB UNIF           
+LOAD Z  513 515     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  513 517     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  515 519     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  517 519     0.0-.406665.83095-.40666                GLOB UNIF           
+LOAD Z  213 113     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  215 115     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  216 116     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  218 118     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  219 119     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  221 121     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  222 122     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  224 124     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  225 125     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  227 127     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  336 213     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  338 215     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  339 216     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  341 218     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  342 219     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  344 221     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  345 222     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  347 224     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  348 225     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  350 227     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  426 336     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  428 338     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  429 339     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  431 341     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  432 342     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  434 344     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  435 345     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  437 347     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  438 348     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  440 350     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  506 426     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  508 428     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  509 429     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  511 431     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  512 432     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  514 434     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  515 435     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  517 437     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  518 438     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  520 440     0.0-1.86942.00000-1.8694                GLOB UNIF           
+LOAD Z  119 222     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  121 224     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  122 225     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  124 227     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  125 228     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  127 230     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  210 113     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  212 115     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  213 116     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  215 118     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  216 119     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  218 121     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  219 345     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  221 347     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  222 348     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  224 350     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  225 301     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  227 303     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  298 213     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  300 215     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  336 216     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  338 218     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  339 219     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  341 221     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  342 435     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  344 437     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  345 438     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  347 440     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  348 395     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  350 397     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  392 336     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  394 338     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  426 339     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  428 341     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  429 342     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  431 344     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  432 515     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  434 517     0.0-.542033.60554-.54203                GLOB UNIF           
+LOAD Z  435 518     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  437 520     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  438 475     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  440 477     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  472 426     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  474 428     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  506 429     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  508 431     0.0-.542033.60555-.54203                GLOB UNIF           
+LOAD Z  509 432     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  511 434     0.0-.542033.60556-.54203                GLOB UNIF           
+LOAD Z  506 507 3.75000-.779241.25000-.77924                GLOB UNIF           
+LOAD Z  506 507 2.58000-1.3136.300000-1.3136                GLOB UNIF           
+LOAD Z  507 508     0.0-.779244.50000-.77924                GLOB UNIF           
+LOAD Z  509 510 3.75000-.779241.25000-.77924                GLOB UNIF           
+LOAD Z  509 510 2.58000-1.3136.300000-1.3136                GLOB UNIF           
+LOAD Z  510 511     0.0-.779244.50000-.77924                GLOB UNIF           
+LOAD Z  512 513 3.75000-.779241.25000-.77924                GLOB UNIF           
+LOAD Z  512 513 2.58000-1.3136.300000-1.3136                GLOB UNIF           
+LOAD Z  513 514     0.0-.779244.50000-.77924                GLOB UNIF           
+LOAD Z  515 516 3.75000-.779241.25000-.77924                GLOB UNIF           
+LOAD Z  515 516 2.58000-1.3136.300000-1.3136                GLOB UNIF           
+LOAD Z  516 517     0.0-.779244.50000-.77924                GLOB UNIF           
+LOAD Z  518 519 3.75000-.779241.25000-.77924                GLOB UNIF           
+LOAD Z  518 519 2.58000-1.3136.300000-1.3136                GLOB UNIF           
+LOAD Z  519 520     0.0-.779244.50000-.77924                GLOB UNIF           
+LOAD Z  113 114 .820000-8.2154                   0.0    0.0 GLOB CONC           
+LOAD Z  113 114 1.50000-7.34711.85000-7.3471                GLOB UNIF           
+LOAD Z  114 115     0.0-8.01503.92000-8.0150                GLOB UNIF           
+LOAD Z  116 117 .820000-8.2154                   0.0    0.0 GLOB CONC           
+LOAD Z  116 117 1.50000-7.34711.85000-7.3471                GLOB UNIF           
+LOAD Z  117 118     0.0-8.01503.92000-8.0150                GLOB UNIF           
+LOAD Z  119 120 .820000-8.2154                   0.0    0.0 GLOB CONC           
+LOAD Z  119 120 1.50000-7.34711.85000-7.3471                GLOB UNIF           
+LOAD Z  120 121     0.0-8.01503.92000-8.0150                GLOB UNIF           
+LOAD Z  122 123 .820000-8.2154                   0.0    0.0 GLOB CONC           
+LOAD Z  122 123 1.50000-7.34711.85000-7.3471                GLOB UNIF           
+LOAD Z  123 124     0.0-8.01503.92000-8.0150                GLOB UNIF           
+LOAD Z  125 126 .820000-8.2154                   0.0    0.0 GLOB CONC           
+LOAD Z  125 126 1.50000-7.34711.85000-7.3471                GLOB UNIF           
+LOAD Z  126 127     0.0-8.01503.92000-8.0150                GLOB UNIF           
+LOAD Z  213 214 1.80000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 2.71000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 3.70000-4.67541.30000-4.6754                GLOB UNIF           
+LOAD Z  214 215     0.0-4.67541.17000-4.6754                GLOB UNIF           
+LOAD Z  216 217 1.80000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 2.71000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 3.70000-4.67541.30000-4.6754                GLOB UNIF           
+LOAD Z  217 218     0.0-4.67541.17000-4.6754                GLOB UNIF           
+LOAD Z  219 220 1.80000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 2.71000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 3.70000-4.67541.30000-4.6754                GLOB UNIF           
+LOAD Z  220 221     0.0-4.67541.17000-4.6754                GLOB UNIF           
+LOAD Z  222 223 1.80000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 2.71000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 3.70000-4.67541.30000-4.6754                GLOB UNIF           
+LOAD Z  223 224     0.0-4.67541.17000-4.6754                GLOB UNIF           
+LOAD Z  225 226 1.80000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 2.71000-12.290                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 3.70000-4.67541.30000-4.6754                GLOB UNIF           
+LOAD Z  226 227     0.0-4.67541.17000-4.6754                GLOB UNIF           
+LOAD Z  336 337 2.03000-10.019.800000-10.019                GLOB UNIF           
+LOAD Z  336 337 3.43000-7.3471.720000-7.3471                GLOB UNIF           
+LOAD Z  337 338 3.90000-15.362                   0.0    0.0 GLOB CONC           
+LOAD Z  339 340 2.03000-10.019.800000-10.019                GLOB UNIF           
+LOAD Z  339 340 3.43000-7.3471.720000-7.3471                GLOB UNIF           
+LOAD Z  340 341 3.90000-15.362                   0.0    0.0 GLOB CONC           
+LOAD Z  342 343 2.03000-10.019.800000-10.019                GLOB UNIF           
+LOAD Z  342 343 3.43000-7.3471.720000-7.3471                GLOB UNIF           
+LOAD Z  343 344 3.90000-15.362                   0.0    0.0 GLOB CONC           
+LOAD Z  345 346 2.03000-10.019.800000-10.019                GLOB UNIF           
+LOAD Z  345 346 3.43000-7.3471.720000-7.3471                GLOB UNIF           
+LOAD Z  346 347 3.90000-15.362                   0.0    0.0 GLOB CONC           
+LOAD Z  348 349 2.03000-10.019.800000-10.019                GLOB UNIF           
+LOAD Z  348 349 3.43000-7.3471.720000-7.3471                GLOB UNIF           
+LOAD Z  349 350 3.90000-15.362                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 .950000-1.0687                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 1.70000-18.368                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 .950000-1.0687                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 1.70000-18.368                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 .950000-1.0687                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 1.70000-18.368                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 .950000-1.0687                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 1.70000-18.368                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 .950000-1.0687                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 1.70000-18.368                   0.0    0.0 GLOB CONC           
+LOADCN 221                                                                      
+* CASE 2211.6   *  220                                                          
+LOAD Z  113 116     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  115 118     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  116 119     0.0-2.84943.00001-2.8494                GLOB UNIF           
+LOAD Z  118 121     0.0-2.84943.00001-2.8494                GLOB UNIF           
+LOAD Z  119 122     0.0-2.84942.99999-2.8494                GLOB UNIF           
+LOAD Z  121 124     0.0-2.84942.99999-2.8494                GLOB UNIF           
+LOAD Z  122 125     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  124 127     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  125 4XY     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  127 2XY     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  1XY 115     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  3XY 113     0.0-2.84943.00000-2.8494                GLOB UNIF           
+LOAD Z  210 213     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  212 215     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  213 216     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  215 218     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  216 219     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  218 221     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  219 222     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  221 224     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  222 225     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  224 227     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  225 228     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  227 230     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  298 336     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  300 338     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  336 339     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  338 341     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  339 342     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  341 344     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  342 345     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  344 347     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  345 348     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  347 350     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  348 301     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  350 303     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  392 426     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  394 428     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  426 429     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  428 431     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  429 432     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  431 434     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  432 435     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  434 437     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  435 438     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  437 440     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  438 395     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  440 397     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  472 506     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  474 508     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  506 509     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  508 511     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  509 512     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  511 514     0.0-1.77193.00001-1.7719                GLOB UNIF           
+LOAD Z  512 515     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  514 517     0.0-1.77192.99999-1.7719                GLOB UNIF           
+LOAD Z  515 518     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  517 520     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  518 475     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  520 477     0.0-1.77193.00000-1.7719                GLOB UNIF           
+LOAD Z  113 114     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  114 115     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  116 117     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  117 118     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  119 120     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  120 121     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  122 123     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  123 124     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  125 126     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  126 127     0.0-2.38115.00000-2.3811                GLOB UNIF           
+LOAD Z  114 117     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  117 120     0.0-1.25743.00001-1.2574                GLOB UNIF           
+LOAD Z  120 123     0.0-1.25742.99999-1.2574                GLOB UNIF           
+LOAD Z  123 126     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  213 214     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  214 215     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  214 217     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  216 217     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  217 218     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  217 220     0.0-1.25743.00001-1.2574                GLOB UNIF           
+LOAD Z  219 220     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  220 221     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  220 223     0.0-1.25742.99999-1.2574                GLOB UNIF           
+LOAD Z  222 223     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  223 224     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  223 226     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  225 226     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  226 227     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  336 337     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  337 338     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  337 340     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  339 340     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  340 341     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  340 343     0.0-1.25743.00001-1.2574                GLOB UNIF           
+LOAD Z  342 343     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  343 344     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  343 346     0.0-1.25742.99999-1.2574                GLOB UNIF           
+LOAD Z  345 346     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  346 347     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  346 349     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  348 349     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  349 350     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  426 427     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  427 428     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  427 430     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  429 430     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  430 431     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  430 433     0.0-1.25743.00001-1.2574                GLOB UNIF           
+LOAD Z  432 433     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  433 434     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  433 436     0.0-1.25742.99999-1.2574                GLOB UNIF           
+LOAD Z  435 436     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  436 437     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  436 439     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  438 439     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  439 440     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  506 507     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  507 508     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  507 510     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  509 510     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  510 511     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  510 513     0.0-1.25743.00001-1.2574                GLOB UNIF           
+LOAD Z  512 513     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  513 514     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  513 516     0.0-1.25742.99999-1.2574                GLOB UNIF           
+LOAD Z  515 516     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  516 517     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  516 519     0.0-1.25743.00000-1.2574                GLOB UNIF           
+LOAD Z  518 519     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  519 520     0.0-1.25745.00000-1.2574                GLOB UNIF           
+LOAD Z  114 116     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  114 118     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  116 120     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  118 120     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  120 122     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  120 124     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  122 126     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  124 126     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  214 216     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  214 218     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  216 220     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  218 220     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  220 222     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  220 224     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  222 226     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  224 226     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  337 339     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  337 341     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  339 343     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  341 343     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  343 345     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  343 347     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  345 349     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  347 349     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  427 429     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  427 431     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  429 433     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  431 433     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  433 435     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  433 437     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  435 439     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  437 439     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  507 509     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  507 511     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  509 513     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  511 513     0.0-.353615.83096-.35361                GLOB UNIF           
+LOAD Z  513 515     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  513 517     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  515 519     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  517 519     0.0-.353615.83095-.35361                GLOB UNIF           
+LOAD Z  213 113     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  215 115     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  216 116     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  218 118     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  219 119     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  221 121     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  222 122     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  224 124     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  225 125     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  227 127     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  336 213     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  338 215     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  339 216     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  341 218     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  342 219     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  344 221     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  345 222     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  347 224     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  348 225     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  350 227     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  426 336     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  428 338     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  429 339     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  431 341     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  432 342     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  434 344     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  435 345     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  437 347     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  438 348     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  440 350     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  506 426     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  508 428     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  509 429     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  511 431     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  512 432     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  514 434     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  515 435     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  517 437     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  518 438     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  520 440     0.0-1.62562.00000-1.6256                GLOB UNIF           
+LOAD Z  119 222     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  121 224     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  122 225     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  124 227     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  125 228     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  127 230     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  210 113     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  212 115     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  213 116     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  215 118     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  216 119     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  218 121     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  219 345     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  221 347     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  222 348     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  224 350     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  225 301     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  227 303     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  298 213     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  300 215     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  336 216     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  338 218     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  339 219     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  341 221     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  342 435     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  344 437     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  345 438     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  347 440     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  348 395     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  350 397     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  392 336     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  394 338     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  426 339     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  428 341     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  429 342     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  431 344     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  432 515     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  434 517     0.0-.471333.60554-.47133                GLOB UNIF           
+LOAD Z  435 518     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  437 520     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  438 475     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  440 477     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  472 426     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  474 428     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  506 429     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  508 431     0.0-.471333.60555-.47133                GLOB UNIF           
+LOAD Z  509 432     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  511 434     0.0-.471333.60556-.47133                GLOB UNIF           
+LOAD Z  506 507 3.75000-.677601.25000-.67760                GLOB UNIF           
+LOAD Z  506 507 2.58000-1.1422.300000-1.1422                GLOB UNIF           
+LOAD Z  507 508     0.0-.677604.50000-.67760                GLOB UNIF           
+LOAD Z  509 510 3.75000-.677601.25000-.67760                GLOB UNIF           
+LOAD Z  509 510 2.58000-1.1422.300000-1.1422                GLOB UNIF           
+LOAD Z  510 511     0.0-.677604.50000-.67760                GLOB UNIF           
+LOAD Z  512 513 3.75000-.677601.25000-.67760                GLOB UNIF           
+LOAD Z  512 513 2.58000-1.1422.300000-1.1422                GLOB UNIF           
+LOAD Z  513 514     0.0-.677604.50000-.67760                GLOB UNIF           
+LOAD Z  515 516 3.75000-.677601.25000-.67760                GLOB UNIF           
+LOAD Z  515 516 2.58000-1.1422.300000-1.1422                GLOB UNIF           
+LOAD Z  516 517     0.0-.677604.50000-.67760                GLOB UNIF           
+LOAD Z  518 519 3.75000-.677601.25000-.67760                GLOB UNIF           
+LOAD Z  518 519 2.58000-1.1422.300000-1.1422                GLOB UNIF           
+LOAD Z  519 520     0.0-.677604.50000-.67760                GLOB UNIF           
+LOAD Z  113 114 .820000-7.1438                   0.0    0.0 GLOB CONC           
+LOAD Z  113 114 1.50000-6.38881.85000-6.3888                GLOB UNIF           
+LOAD Z  114 115     0.0-6.96963.92000-6.9696                GLOB UNIF           
+LOAD Z  116 117 .820000-7.1438                   0.0    0.0 GLOB CONC           
+LOAD Z  116 117 1.50000-6.38881.85000-6.3888                GLOB UNIF           
+LOAD Z  117 118     0.0-6.96963.92000-6.9696                GLOB UNIF           
+LOAD Z  119 120 .820000-7.1438                   0.0    0.0 GLOB CONC           
+LOAD Z  119 120 1.50000-6.38881.85000-6.3888                GLOB UNIF           
+LOAD Z  120 121     0.0-6.96963.92000-6.9696                GLOB UNIF           
+LOAD Z  122 123 .820000-7.1438                   0.0    0.0 GLOB CONC           
+LOAD Z  122 123 1.50000-6.38881.85000-6.3888                GLOB UNIF           
+LOAD Z  123 124     0.0-6.96963.92000-6.9696                GLOB UNIF           
+LOAD Z  125 126 .820000-7.1438                   0.0    0.0 GLOB CONC           
+LOAD Z  125 126 1.50000-6.38881.85000-6.3888                GLOB UNIF           
+LOAD Z  126 127     0.0-6.96963.92000-6.9696                GLOB UNIF           
+LOAD Z  213 214 1.80000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 2.71000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 3.70000-4.06561.30000-4.0656                GLOB UNIF           
+LOAD Z  214 215     0.0-4.06561.17000-4.0656                GLOB UNIF           
+LOAD Z  216 217 1.80000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 2.71000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 3.70000-4.06561.30000-4.0656                GLOB UNIF           
+LOAD Z  217 218     0.0-4.06561.17000-4.0656                GLOB UNIF           
+LOAD Z  219 220 1.80000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 2.71000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 3.70000-4.06561.30000-4.0656                GLOB UNIF           
+LOAD Z  220 221     0.0-4.06561.17000-4.0656                GLOB UNIF           
+LOAD Z  222 223 1.80000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 2.71000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 3.70000-4.06561.30000-4.0656                GLOB UNIF           
+LOAD Z  223 224     0.0-4.06561.17000-4.0656                GLOB UNIF           
+LOAD Z  225 226 1.80000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 2.71000-10.687                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 3.70000-4.06561.30000-4.0656                GLOB UNIF           
+LOAD Z  226 227     0.0-4.06561.17000-4.0656                GLOB UNIF           
+LOAD Z  336 337 2.03000-8.7120.800000-8.7120                GLOB UNIF           
+LOAD Z  336 337 3.43000-6.3888.720000-6.3888                GLOB UNIF           
+LOAD Z  337 338 3.90000-13.358                   0.0    0.0 GLOB CONC           
+LOAD Z  339 340 2.03000-8.7120.800000-8.7120                GLOB UNIF           
+LOAD Z  339 340 3.43000-6.3888.720000-6.3888                GLOB UNIF           
+LOAD Z  340 341 3.90000-13.358                   0.0    0.0 GLOB CONC           
+LOAD Z  342 343 2.03000-8.7120.800000-8.7120                GLOB UNIF           
+LOAD Z  342 343 3.43000-6.3888.720000-6.3888                GLOB UNIF           
+LOAD Z  343 344 3.90000-13.358                   0.0    0.0 GLOB CONC           
+LOAD Z  345 346 2.03000-8.7120.800000-8.7120                GLOB UNIF           
+LOAD Z  345 346 3.43000-6.3888.720000-6.3888                GLOB UNIF           
+LOAD Z  346 347 3.90000-13.358                   0.0    0.0 GLOB CONC           
+LOAD Z  348 349 2.03000-8.7120.800000-8.7120                GLOB UNIF           
+LOAD Z  348 349 3.43000-6.3888.720000-6.3888                GLOB UNIF           
+LOAD Z  349 350 3.90000-13.358                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 .950000-.92928                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 1.70000-15.972                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 .950000-.92928                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 1.70000-15.972                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 .950000-.92928                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 1.70000-15.972                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 .950000-.92928                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 1.70000-15.972                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 .950000-.92928                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 1.70000-15.972                   0.0    0.0 GLOB CONC           
+LOADCNLLUG                                                                      
+* CASELLUG1.3   *  121                                                          
+LOAD Z  113 116     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  115 118     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  116 119     0.0-2.31513.00001-2.3151                GLOB UNIF           
+LOAD Z  118 121     0.0-2.31513.00001-2.3151                GLOB UNIF           
+LOAD Z  119 122     0.0-2.31512.99999-2.3151                GLOB UNIF           
+LOAD Z  121 124     0.0-2.31512.99999-2.3151                GLOB UNIF           
+LOAD Z  122 125     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  124 127     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  125 4XY     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  127 2XY     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  1XY 115     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  3XY 113     0.0-2.31513.00000-2.3151                GLOB UNIF           
+LOAD Z  210 213     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  212 215     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  213 216     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  215 218     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  216 219     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  218 221     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  219 222     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  221 224     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  222 225     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  224 227     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  225 228     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  227 230     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  298 336     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  300 338     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  336 339     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  338 341     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  339 342     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  341 344     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  342 345     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  344 347     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  345 348     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  347 350     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  348 301     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  350 303     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  392 426     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  394 428     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  426 429     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  428 431     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  429 432     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  431 434     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  432 435     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  434 437     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  435 438     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  437 440     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  438 395     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  440 397     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  472 506     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  474 508     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  506 509     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  508 511     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  509 512     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  511 514     0.0-1.43973.00001-1.4397                GLOB UNIF           
+LOAD Z  512 515     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  514 517     0.0-1.43972.99999-1.4397                GLOB UNIF           
+LOAD Z  515 518     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  517 520     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  518 475     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  520 477     0.0-1.43973.00000-1.4397                GLOB UNIF           
+LOAD Z  113 114     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  114 115     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  116 117     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  117 118     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  119 120     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  120 121     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  122 123     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  123 124     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  125 126     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  126 127     0.0-1.93475.00000-1.9347                GLOB UNIF           
+LOAD Z  114 117     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  117 120     0.0-1.02163.00001-1.0216                GLOB UNIF           
+LOAD Z  120 123     0.0-1.02162.99999-1.0216                GLOB UNIF           
+LOAD Z  123 126     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  213 214     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  214 215     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  214 217     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  216 217     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  217 218     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  217 220     0.0-1.02163.00001-1.0216                GLOB UNIF           
+LOAD Z  219 220     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  220 221     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  220 223     0.0-1.02162.99999-1.0216                GLOB UNIF           
+LOAD Z  222 223     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  223 224     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  223 226     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  225 226     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  226 227     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  336 337     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  337 338     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  337 340     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  339 340     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  340 341     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  340 343     0.0-1.02163.00001-1.0216                GLOB UNIF           
+LOAD Z  342 343     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  343 344     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  343 346     0.0-1.02162.99999-1.0216                GLOB UNIF           
+LOAD Z  345 346     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  346 347     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  346 349     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  348 349     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  349 350     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  426 427     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  427 428     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  427 430     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  429 430     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  430 431     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  430 433     0.0-1.02163.00001-1.0216                GLOB UNIF           
+LOAD Z  432 433     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  433 434     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  433 436     0.0-1.02162.99999-1.0216                GLOB UNIF           
+LOAD Z  435 436     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  436 437     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  436 439     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  438 439     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  439 440     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  506 507     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  507 508     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  507 510     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  509 510     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  510 511     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  510 513     0.0-1.02163.00001-1.0216                GLOB UNIF           
+LOAD Z  512 513     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  513 514     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  513 516     0.0-1.02162.99999-1.0216                GLOB UNIF           
+LOAD Z  515 516     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  516 517     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  516 519     0.0-1.02163.00000-1.0216                GLOB UNIF           
+LOAD Z  518 519     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  519 520     0.0-1.02165.00000-1.0216                GLOB UNIF           
+LOAD Z  114 116     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  114 118     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  116 120     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  118 120     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  120 122     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  120 124     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  122 126     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  124 126     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  214 216     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  214 218     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  216 220     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  218 220     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  220 222     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  220 224     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  222 226     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  224 226     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  337 339     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  337 341     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  339 343     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  341 343     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  343 345     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  343 347     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  345 349     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  347 349     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  427 429     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  427 431     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  429 433     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  431 433     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  433 435     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  433 437     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  435 439     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  437 439     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  507 509     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  507 511     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  509 513     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  511 513     0.0-.287315.83096-.28731                GLOB UNIF           
+LOAD Z  513 515     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  513 517     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  515 519     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  517 519     0.0-.287315.83095-.28731                GLOB UNIF           
+LOAD Z  213 113     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  215 115     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  216 116     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  218 118     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  219 119     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  221 121     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  222 122     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  224 124     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  225 125     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  227 127     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  336 213     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  338 215     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  339 216     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  341 218     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  342 219     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  344 221     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  345 222     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  347 224     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  348 225     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  350 227     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  426 336     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  428 338     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  429 339     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  431 341     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  432 342     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  434 344     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  435 345     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  437 347     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  438 348     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  440 350     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  506 426     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  508 428     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  509 429     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  511 431     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  512 432     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  514 434     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  515 435     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  517 437     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  518 438     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  520 440     0.0-1.32082.00000-1.3208                GLOB UNIF           
+LOAD Z  119 222     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  121 224     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  122 225     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  124 227     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  125 228     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  127 230     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  210 113     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  212 115     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  213 116     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  215 118     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  216 119     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  218 121     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  219 345     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  221 347     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  222 348     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  224 350     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  225 301     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  227 303     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  298 213     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  300 215     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  336 216     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  338 218     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  339 219     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  341 221     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  342 435     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  344 437     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  345 438     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  347 440     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  348 395     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  350 397     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  392 336     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  394 338     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  426 339     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  428 341     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  429 342     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  431 344     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  432 515     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  434 517     0.0-.382963.60554-.38296                GLOB UNIF           
+LOAD Z  435 518     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  437 520     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  438 475     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  440 477     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  472 426     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  474 428     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  506 429     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  508 431     0.0-.382963.60555-.38296                GLOB UNIF           
+LOAD Z  509 432     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  511 434     0.0-.382963.60556-.38296                GLOB UNIF           
+LOAD Z  506 507 3.75000-.550551.25000-.55055                GLOB UNIF           
+LOAD Z  506 507 2.58000-.92807.300000-.92807                GLOB UNIF           
+LOAD Z  507 508     0.0-.550554.50000-.55055                GLOB UNIF           
+LOAD Z  509 510 3.75000-.550551.25000-.55055                GLOB UNIF           
+LOAD Z  509 510 2.58000-.92807.300000-.92807                GLOB UNIF           
+LOAD Z  510 511     0.0-.550554.50000-.55055                GLOB UNIF           
+LOAD Z  512 513 3.75000-.550551.25000-.55055                GLOB UNIF           
+LOAD Z  512 513 2.58000-.92807.300000-.92807                GLOB UNIF           
+LOAD Z  513 514     0.0-.550554.50000-.55055                GLOB UNIF           
+LOAD Z  515 516 3.75000-.550551.25000-.55055                GLOB UNIF           
+LOAD Z  515 516 2.58000-.92807.300000-.92807                GLOB UNIF           
+LOAD Z  516 517     0.0-.550554.50000-.55055                GLOB UNIF           
+LOAD Z  518 519 3.75000-.550551.25000-.55055                GLOB UNIF           
+LOAD Z  518 519 2.58000-.92807.300000-.92807                GLOB UNIF           
+LOAD Z  519 520     0.0-.550554.50000-.55055                GLOB UNIF           
+LOAD Z  113 114 .820000-5.8044                   0.0    0.0 GLOB CONC           
+LOAD Z  113 114 1.50000-5.19091.85000-5.1909                GLOB UNIF           
+LOAD Z  114 115     0.0-5.66283.92000-5.6628                GLOB UNIF           
+LOAD Z  116 117 .820000-5.8044                   0.0    0.0 GLOB CONC           
+LOAD Z  116 117 1.50000-5.19091.85000-5.1909                GLOB UNIF           
+LOAD Z  117 118     0.0-5.66283.92000-5.6628                GLOB UNIF           
+LOAD Z  119 120 .820000-5.8044                   0.0    0.0 GLOB CONC           
+LOAD Z  119 120 1.50000-5.19091.85000-5.1909                GLOB UNIF           
+LOAD Z  120 121     0.0-5.66283.92000-5.6628                GLOB UNIF           
+LOAD Z  122 123 .820000-5.8044                   0.0    0.0 GLOB CONC           
+LOAD Z  122 123 1.50000-5.19091.85000-5.1909                GLOB UNIF           
+LOAD Z  123 124     0.0-5.66283.92000-5.6628                GLOB UNIF           
+LOAD Z  125 126 .820000-5.8044                   0.0    0.0 GLOB CONC           
+LOAD Z  125 126 1.50000-5.19091.85000-5.1909                GLOB UNIF           
+LOAD Z  126 127     0.0-5.66283.92000-5.6628                GLOB UNIF           
+LOAD Z  213 214 1.80000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 2.71000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  213 214 3.70000-3.30331.30000-3.3033                GLOB UNIF           
+LOAD Z  214 215     0.0-3.30331.17000-3.3033                GLOB UNIF           
+LOAD Z  216 217 1.80000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 2.71000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  216 217 3.70000-3.30331.30000-3.3033                GLOB UNIF           
+LOAD Z  217 218     0.0-3.30331.17000-3.3033                GLOB UNIF           
+LOAD Z  219 220 1.80000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 2.71000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  219 220 3.70000-3.30331.30000-3.3033                GLOB UNIF           
+LOAD Z  220 221     0.0-3.30331.17000-3.3033                GLOB UNIF           
+LOAD Z  222 223 1.80000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 2.71000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  222 223 3.70000-3.30331.30000-3.3033                GLOB UNIF           
+LOAD Z  223 224     0.0-3.30331.17000-3.3033                GLOB UNIF           
+LOAD Z  225 226 1.80000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 2.71000-8.6830                   0.0    0.0 GLOB CONC           
+LOAD Z  225 226 3.70000-3.30331.30000-3.3033                GLOB UNIF           
+LOAD Z  226 227     0.0-3.30331.17000-3.3033                GLOB UNIF           
+LOAD Z  336 337 2.03000-7.0785.800000-7.0785                GLOB UNIF           
+LOAD Z  336 337 3.43000-5.1909.720000-5.1909                GLOB UNIF           
+LOAD Z  337 338 3.90000-10.854                   0.0    0.0 GLOB CONC           
+LOAD Z  339 340 2.03000-7.0785.800000-7.0785                GLOB UNIF           
+LOAD Z  339 340 3.43000-5.1909.720000-5.1909                GLOB UNIF           
+LOAD Z  340 341 3.90000-10.854                   0.0    0.0 GLOB CONC           
+LOAD Z  342 343 2.03000-7.0785.800000-7.0785                GLOB UNIF           
+LOAD Z  342 343 3.43000-5.1909.720000-5.1909                GLOB UNIF           
+LOAD Z  343 344 3.90000-10.854                   0.0    0.0 GLOB CONC           
+LOAD Z  345 346 2.03000-7.0785.800000-7.0785                GLOB UNIF           
+LOAD Z  345 346 3.43000-5.1909.720000-5.1909                GLOB UNIF           
+LOAD Z  346 347 3.90000-10.854                   0.0    0.0 GLOB CONC           
+LOAD Z  348 349 2.03000-7.0785.800000-7.0785                GLOB UNIF           
+LOAD Z  348 349 3.43000-5.1909.720000-5.1909                GLOB UNIF           
+LOAD Z  349 350 3.90000-10.854                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 .950000-.75504                   0.0    0.0 GLOB CONC           
+LOAD Z  426 427 1.70000-12.977                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 .950000-.75504                   0.0    0.0 GLOB CONC           
+LOAD Z  429 430 1.70000-12.977                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 .950000-.75504                   0.0    0.0 GLOB CONC           
+LOAD Z  432 433 1.70000-12.977                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 .950000-.75504                   0.0    0.0 GLOB CONC           
+LOAD Z  435 436 1.70000-12.977                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 .950000-.75504                   0.0    0.0 GLOB CONC           
+LOAD Z  438 439 1.70000-12.977                   0.0    0.0 GLOB CONC           
+END                                                                             
+ **JNCV** 0 0 0 0 0 0 1                                                         
+END                                                                             

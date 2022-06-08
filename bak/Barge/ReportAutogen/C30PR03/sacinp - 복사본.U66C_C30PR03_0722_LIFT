@@ -1,0 +1,461 @@
+LDOPT       NF+Z1.032   7.85    0.00    0.00    GLOBMN          CMBMPT  NP     
+OPTIONS      MN       SDUCJT1 1        APT  PTPTPTPTPT  PTPT            
+                                                                            
+UCPART    0.00 .85  .85  1.0  1.0       
+SECT
+SECT HM488X3   WFC                               30.   1.8  48.8  1.1  0        
+SECT HM340X2   WFC                               25.   1.4  34.   0.9  0        
+SECT HM390X3   WFC                               30.   1.6  39.   1.0  0        
+SECT HM294X2   WFC                               20.   1.2  29.4  0.8  0        
+SECT TN175X1   TEE                               17.5  17.5 0.7   1.1  13.7 0   
+SECT HW250X2   WFC                               25.   1.4  25.   0.9  0        
+SECT TN200X2   TEE                               20.   20.  0.8   1.3  15.7 0   
+GRUP
+GRUP G1  HM488X3              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G2  HM340X2              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G3  HM390X3              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G4  HM294X2              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G5  TN175X1              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G6  HW250X2              20   8.0  0     1    1.0 1.0           N7.85      
+GRUP G7  TN200X2              20   8.0  0     1    1.0 1.0           N7.85      
+MEMBER
+MEMBER 110 113  G1                            L    3   3                     
+MEMBER 112 115  G1                            L    3   3                     
+MEMBER 210 213  G2                            L    3   3                     
+MEMBER 212 215  G2                            L    3   3                     
+MEMBER 298 336  G2                            L    3   3                     
+MEMBER 300 338  G2                            L    3   3                     
+MEMBER 392 426  G2                            L    3   3                     
+MEMBER 394 428  G2                            L    3   3                     
+MEMBER 472 506  G2                            L    3   3                     
+MEMBER 474 508  G2                            L    3   3                     
+MEMBER 113 114  G3                            L    5   5                     
+MEMBER 114 115  G3    000011000011            L    5   5                     
+MEMBER 213 214  G4                            L    5   5                     
+MEMBER 214 215  G4                            L    5   5                     
+MEMBER 336 337  G4                            L    5   5                     
+MEMBER 337 338  G4                            L    5   5                     
+MEMBER 426 427  G4                            L    5   5                     
+MEMBER 427 428  G4                            L    5   5                     
+MEMBER 506 507  G4                            L    5   5                     
+MEMBER 507 508  G4                            L    5   5                     
+MEMBER 113 116  G1                            L    3   3                     
+MEMBER 114 116  G5    000011000011            L    5.830955.83095                  
+MEMBER 114 117  G4    000011000011            L    3   3                     
+MEMBER 114 118  G5    000011000011            L    5.830955.83095                  
+MEMBER 115 118  G1                            L    3   3                     
+MEMBER 213 216  G2                            L    3   3                     
+MEMBER 214 216  G5    000011000011            L    5.830955.83095                  
+MEMBER 214 217  G4    000011000011            L    3   3                     
+MEMBER 214 218  G5    000011000011            L    5.830955.83095                  
+MEMBER 215 218  G2                            L    3   3                     
+MEMBER 336 339  G2                            L    3   3                     
+MEMBER 337 339  G5    000011000011            L    5.830955.83095                  
+MEMBER 337 340  G4    000011000011            L    3   3                     
+MEMBER 337 341  G5    000011000011            L    5.830955.83095                  
+MEMBER 338 341  G2                            L    3   3                     
+MEMBER 426 429  G2                            L    3   3                     
+MEMBER 427 429  G5    000011000011            L    5.830955.83095                  
+MEMBER 427 430  G4    000011000011            L    3   3                     
+MEMBER 427 431  G5    000011000011            L    5.830955.83095                  
+MEMBER 428 431  G2                            L    3   3                     
+MEMBER 506 509  G2                            L    3   3                     
+MEMBER 507 509  G5    000011000011            L    5.830955.83095                  
+MEMBER 507 510  G4    000011000011            L    3   3                     
+MEMBER 507 511  G5    000011000011            L    5.830955.83095                  
+MEMBER 508 511  G2                            L    3   3                     
+MEMBER 116 117  G3                            L    5   5                     
+MEMBER 117 118  G3    000011000011            L    5   5                     
+MEMBER 216 217  G4                            L    5   5                     
+MEMBER 217 218  G4                            L    5   5                     
+MEMBER 339 340  G4                            L    5   5                     
+MEMBER 340 341  G4                            L    5   5                     
+MEMBER 429 430  G4                            L    5   5                     
+MEMBER 430 431  G4                            L    5   5                     
+MEMBER 509 510  G4                            L    5   5                     
+MEMBER 510 511  G4                            L    5   5                     
+MEMBER 116 119  G1                            L    3   3                     
+MEMBER 116 120  G5    000011000011            L    5.830955.83095                  
+MEMBER 117 120  G4    000011000011            L    3   3                     
+MEMBER 118 120  G5    000011000011            L    5.830955.83095                  
+MEMBER 118 121  G1                            L    3   3                     
+MEMBER 216 219  G2                            L    3   3                     
+MEMBER 216 220  G5    000011000011            L    5.830955.83095                  
+MEMBER 217 220  G4    000011000011            L    3   3                     
+MEMBER 218 220  G5    000011000011            L    5.830955.83095                  
+MEMBER 218 221  G2                            L    3   3                     
+MEMBER 339 342  G2                            L    3   3                     
+MEMBER 339 343  G5    000011000011            L    5.830955.83095                  
+MEMBER 340 343  G4    000011000011            L    3   3                     
+MEMBER 341 343  G5    000011000011            L    5.830955.83095                  
+MEMBER 341 344  G2                            L    3   3                     
+MEMBER 429 432  G2                            L    3   3                     
+MEMBER 429 433  G5    000011000011            L    5.830955.83095                  
+MEMBER 430 433  G4    000011000011            L    3   3                     
+MEMBER 431 433  G5    000011000011            L    5.830955.83095                  
+MEMBER 431 434  G2                            L    3   3                     
+MEMBER 509 512  G2                            L    3   3                     
+MEMBER 509 513  G5    000011000011            L    5.830955.83095                  
+MEMBER 510 513  G4    000011000011            L    3   3                     
+MEMBER 511 513  G5    000011000011            L    5.830955.83095                  
+MEMBER 511 514  G2                            L    3   3                     
+MEMBER 119 120  G3                            L    5   5                     
+MEMBER 120 121  G3    000011000011            L    5   5                     
+MEMBER 219 220  G4                            L    5   5                     
+MEMBER 220 221  G4                            L    5   5                     
+MEMBER 342 343  G4                            L    5   5                     
+MEMBER 343 344  G4                            L    5   5                     
+MEMBER 432 433  G4                            L    5   5                     
+MEMBER 433 434  G4                            L    5   5                     
+MEMBER 512 513  G4                            L    5   5                     
+MEMBER 513 514  G4                            L    5   5                     
+MEMBER 119 122  G1                            L    3   3                     
+MEMBER 120 122  G5    000011000011            L    5.830955.83095                  
+MEMBER 120 123  G4    000011000011            L    3   3                     
+MEMBER 120 124  G5    000011000011            L    5.830955.83095                  
+MEMBER 121 124  G1                            L    3   3                     
+MEMBER 219 222  G2                            L    3   3                     
+MEMBER 220 222  G5    000011000011            L    5.830955.83095                  
+MEMBER 220 223  G4    000011000011            L    3   3                     
+MEMBER 220 224  G5    000011000011            L    5.830955.83095                  
+MEMBER 221 224  G2                            L    3   3                     
+MEMBER 342 345  G2                            L    3   3                     
+MEMBER 343 345  G5    000011000011            L    5.830955.83095                  
+MEMBER 343 346  G4    000011000011            L    3   3                     
+MEMBER 343 347  G5    000011000011            L    5.830955.83095                  
+MEMBER 344 347  G2                            L    3   3                     
+MEMBER 432 435  G2                            L    3   3                     
+MEMBER 433 435  G5    000011000011            L    5.830955.83095                  
+MEMBER 433 436  G4    000011000011            L    3   3                     
+MEMBER 433 437  G5    000011000011            L    5.830955.83095                  
+MEMBER 434 437  G2                            L    3   3                     
+MEMBER 512 515  G2                            L    3   3                     
+MEMBER 513 515  G5    000011000011            L    5.830955.83095                  
+MEMBER 513 516  G4    000011000011            L    3   3                     
+MEMBER 513 517  G5    000011000011            L    5.830955.83095                  
+MEMBER 514 517  G2                            L    3   3                     
+MEMBER 122 123  G3                            L    5   5                     
+MEMBER 123 124  G3    000011000011            L    5   5                     
+MEMBER 222 223  G4                            L    5   5                     
+MEMBER 223 224  G4                            L    5   5                     
+MEMBER 345 346  G4                            L    5   5                     
+MEMBER 346 347  G4                            L    5   5                     
+MEMBER 435 436  G4                            L    5   5                     
+MEMBER 436 437  G4                            L    5   5                     
+MEMBER 515 516  G4                            L    5   5                     
+MEMBER 516 517  G4                            L    5   5                     
+MEMBER 122 125  G1                            L    3   3                     
+MEMBER 122 126  G5    000011000011            L    5.830955.83095                  
+MEMBER 123 126  G4    000011000011            L    3   3                     
+MEMBER 124 126  G5    000011000011            L    5.830955.83095                  
+MEMBER 124 127  G1                            L    3   3                     
+MEMBER 222 225  G2                            L    3   3                     
+MEMBER 222 226  G5    000011000011            L    5.830955.83095                  
+MEMBER 223 226  G4    000011000011            L    3   3                     
+MEMBER 224 226  G5    000011000011            L    5.830955.83095                  
+MEMBER 224 227  G2                            L    3   3                     
+MEMBER 345 348  G2                            L    3   3                     
+MEMBER 345 349  G5    000011000011            L    5.830955.83095                  
+MEMBER 346 349  G4    000011000011            L    3   3                     
+MEMBER 347 349  G5    000011000011            L    5.830955.83095                  
+MEMBER 347 350  G2                            L    3   3                     
+MEMBER 435 438  G2                            L    3   3                     
+MEMBER 435 439  G5    000011000011            L    5.830955.83095                  
+MEMBER 436 439  G4    000011000011            L    3   3                     
+MEMBER 437 439  G5    000011000011            L    5.830955.83095                  
+MEMBER 437 440  G2                            L    3   3                     
+MEMBER 515 518  G2                            L    3   3                     
+MEMBER 515 519  G5    000011000011            L    5.830955.83095                  
+MEMBER 516 519  G4    000011000011            L    3   3                     
+MEMBER 517 519  G5    000011000011            L    5.830955.83095                  
+MEMBER 517 520  G2                            L    3   3                     
+MEMBER 125 126  G3                            L    5   5                     
+MEMBER 126 127  G3    000011000011            L    5   5                     
+MEMBER 225 226  G4                            L    5   5                     
+MEMBER 226 227  G4                            L    5   5                     
+MEMBER 348 349  G4                            L    5   5                     
+MEMBER 349 350  G4                            L    5   5                     
+MEMBER 438 439  G4                            L    5   5                     
+MEMBER 439 440  G4                            L    5   5                     
+MEMBER 518 519  G4                            L    5   5                     
+MEMBER 519 520  G4                            L    5   5                     
+MEMBER 125 128  G1    000011000011            L    3   3                     
+MEMBER 127 130  G1    000011000011            L    3   3                     
+MEMBER 225 228  G2    000011000011            L    3   3                     
+MEMBER 227 230  G2    000011000011            L    3   3                     
+MEMBER 348 301  G2    000011000011            L    3   3                     
+MEMBER 350 303  G2    000011000011            L    3   3                     
+MEMBER 438 395  G2    000011000011            L    3   3                     
+MEMBER 440 397  G2    000011000011            L    3   3                     
+MEMBER 518 475  G2    000011000011            L    3   3                     
+MEMBER 520 477  G2    000011000011            L    3   3                     
+MEMBER 506 426  G6                            L    2   2                     
+MEMBER 426 336  G6                            L    2   2                     
+MEMBER 336 213  G6                            L    2   2                     
+MEMBER 213 113  G6                            L    2   2                     
+MEMBER 509 429  G6                            L    2   2                     
+MEMBER 429 339  G6                            L    2   2                     
+MEMBER 339 216  G6                            L    2   2                     
+MEMBER 216 116  G6                            L    2   2                     
+MEMBER 512 432  G6                            L    2   2                     
+MEMBER 432 342  G6                            L    2   2                     
+MEMBER 342 219  G6                            L    2   2                     
+MEMBER 219 119  G6                            L    2   2                     
+MEMBER 515 435  G6                            L    2   2                     
+MEMBER 435 345  G6                            L    2   2                     
+MEMBER 345 222  G6                            L    2   2                     
+MEMBER 222 122  G6                            L    2   2                     
+MEMBER 518 438  G6                            L    2   2                     
+MEMBER 438 348  G6                            L    2   2                     
+MEMBER 348 225  G6                            L    2   2                     
+MEMBER 225 125  G6                            L    2   2                     
+MEMBER 509 432  G7    000011000011            L    3.605553.60555                  
+MEMBER 429 342  G7    000011000011            L    3.605553.60555                  
+MEMBER 339 219  G7    000011000011            L    3.605553.60555                  
+MEMBER 216 119  G7    000011000011            L    3.605553.60555                  
+MEMBER 432 515  G7    000011000011            L    3.605553.60555                  
+MEMBER 342 435  G7    000011000011            L    3.605553.60555                  
+MEMBER 219 345  G7    000011000011            L    3.605553.60555                  
+MEMBER 119 222  G7    000011000011            L    3.605553.60555                  
+MEMBER 435 518  G7    000011000011            L    3.605553.60555                  
+MEMBER 345 438  G7    000011000011            L    3.605553.60555                  
+MEMBER 222 348  G7    000011000011            L    3.605553.60555                  
+MEMBER 122 225  G7    000011000011            L    3.605553.60555                  
+MEMBER 438 475  G7    000011000011            L    3.605553.60555                  
+MEMBER 348 395  G7    000011000011            L    3.605553.60555                  
+MEMBER 225 301  G7    000011000011            L    3.605553.60555                  
+MEMBER 125 228  G7    000011000011            L    3.605553.60555                  
+MEMBER 506 429  G7    000011000011            L    3.605553.60555                  
+MEMBER 426 339  G7    000011000011            L    3.605553.60555                  
+MEMBER 336 216  G7    000011000011            L    3.605553.60555                  
+MEMBER 213 116  G7    000011000011            L    3.605553.60555                  
+MEMBER 472 426  G7    000011000011            L    3.605553.60555                  
+MEMBER 392 336  G7    000011000011            L    3.605553.60555                  
+MEMBER 298 213  G7    000011000011            L    3.605553.60555                  
+MEMBER 210 113  G7    000011000011            L    3.605553.60555                  
+MEMBER 508 428  G6                            L    2   2                     
+MEMBER 428 338  G6                            L    2   2                     
+MEMBER 338 215  G6                            L    2   2                     
+MEMBER 215 115  G6                            L    2   2                     
+MEMBER 511 431  G6                            L    2   2                     
+MEMBER 431 341  G6                            L    2   2                     
+MEMBER 341 218  G6                            L    2   2                     
+MEMBER 218 118  G6                            L    2   2                     
+MEMBER 514 434  G6                            L    2   2                     
+MEMBER 434 344  G6                            L    2   2                     
+MEMBER 344 221  G6                            L    2   2                     
+MEMBER 221 121  G6                            L    2   2                     
+MEMBER 517 437  G6                            L    2   2                     
+MEMBER 437 347  G6                            L    2   2                     
+MEMBER 347 224  G6                            L    2   2                     
+MEMBER 224 124  G6                            L    2   2                     
+MEMBER 520 440  G6                            L    2   2                     
+MEMBER 440 350  G6                            L    2   2                     
+MEMBER 350 227  G6                            L    2   2                     
+MEMBER 227 127  G6                            L    2   2                     
+MEMBER 511 434  G7    000011000011            L    3.605553.60555                  
+MEMBER 431 344  G7    000011000011            L    3.605553.60555                  
+MEMBER 341 221  G7    000011000011            L    3.605553.60555                  
+MEMBER 218 121  G7    000011000011            L    3.605553.60555                  
+MEMBER 434 517  G7    000011000011            L    3.605553.60555                  
+MEMBER 344 437  G7    000011000011            L    3.605553.60555                  
+MEMBER 221 347  G7    000011000011            L    3.605553.60555                  
+MEMBER 121 224  G7    000011000011            L    3.605553.60555                  
+MEMBER 437 520  G7    000011000011            L    3.605553.60555                  
+MEMBER 347 440  G7    000011000011            L    3.605553.60555                  
+MEMBER 224 350  G7    000011000011            L    3.605553.60555                  
+MEMBER 124 227  G7    000011000011            L    3.605553.60555                  
+MEMBER 440 477  G7    000011000011            L    3.605553.60555                  
+MEMBER 350 397  G7    000011000011            L    3.605553.60555                  
+MEMBER 227 303  G7    000011000011            L    3.605553.60555                  
+MEMBER 127 230  G7    000011000011            L    3.605553.60555                  
+MEMBER 508 431  G7    000011000011            L    3.605553.60555                  
+MEMBER 428 341  G7    000011000011            L    3.605553.60555                  
+MEMBER 338 218  G7    000011000011            L    3.605553.60555                  
+MEMBER 215 118  G7    000011000011            L    3.605553.60555                  
+MEMBER 474 428  G7    000011000011            L    3.605553.60555                  
+MEMBER 394 338  G7    000011000011            L    3.605553.60555                  
+MEMBER 300 215  G7    000011000011            L    3.605553.60555                  
+MEMBER 212 115  G7    000011000011            L    3.605553.60555                  
+PGRUP
+JOINT
+JOINT 110  47     0      7      50                          
+JOINT 112  47     -10    7      50                          
+JOINT 113  50     0      7      50                          
+JOINT 114  50     -5     7      50                          
+JOINT 115  50     -10    7      50                          
+JOINT 116  53     0      7      50                          
+JOINT 117  53     -5     7      50                          
+JOINT 118  53     -10    7      50                          
+JOINT 119  56     0      7      50                          
+JOINT 120  56     -5     7      50                          
+JOINT 121  56     -10    7      50                          
+JOINT 122  59     0      7      50                          
+JOINT 123  59     -5     7      50                          
+JOINT 124  59     -10    7      50                          
+JOINT 125  62     0      7      50                          
+JOINT 126  62     -5     7      50                          
+JOINT 127  62     -10    7      50                          
+JOINT 128  65     0      7      50                          
+JOINT 130  65     -10    7      50                          
+JOINT 210  47     0      9      50                          
+JOINT 212  47     -10    9      50                          
+JOINT 213  50     0      9      50                          
+JOINT 214  50     -5     9      50                          
+JOINT 215  50     -10    9      50                          
+JOINT 216  53     0      9      50                          
+JOINT 217  53     -5     9      50                          
+JOINT 218  53     -10    9      50                          
+JOINT 219  56     0      9      50                          
+JOINT 220  56     -5     9      50                          
+JOINT 221  56     -10    9      50                          
+JOINT 222  59     0      9      50                          
+JOINT 223  59     -5     9      50                          
+JOINT 224  59     -10    9      50                          
+JOINT 225  62     0      9      50                          
+JOINT 226  62     -5     9      50                          
+JOINT 227  62     -10    9      50                          
+JOINT 228  65     0      9      50                          
+JOINT 230  65     -10    9      50                          
+JOINT 298  47     0      11     50                          
+JOINT 300  47     -10    11     50                          
+JOINT 301  65     0      11     50                          
+JOINT 303  65     -10    11     50                          
+JOINT 336  50     0      11     50                          
+JOINT 337  50     -5     11     50                          
+JOINT 338  50     -10    11     50                          
+JOINT 339  53     0      11     50                          
+JOINT 340  53     -5     11     50                          
+JOINT 341  53     -10    11     50                          
+JOINT 342  56     0      11     50                          
+JOINT 343  56     -5     11     50                          
+JOINT 344  56     -10    11     50                          
+JOINT 345  59     0      11     50                          
+JOINT 346  59     -5     11     50                          
+JOINT 347  59     -10    11     50                          
+JOINT 348  62     0      11     50                          
+JOINT 349  62     -5     11     50                          
+JOINT 350  62     -10    11     50                          
+JOINT 392  47     0      13     50                          
+JOINT 394  47     -10    13     50                          
+JOINT 395  65     0      13     50                          
+JOINT 397  65     -10    13     50                          
+JOINT 426  50     0      13     50                          
+JOINT 427  50     -5     13     50                          
+JOINT 428  50     -10    13     50                          
+JOINT 429  53     0      13     50                          
+JOINT 430  53     -5     13     50                          
+JOINT 431  53     -10    13     50                          
+JOINT 432  56     0      13     50                          
+JOINT 433  56     -5     13     50                          
+JOINT 434  56     -10    13     50                          
+JOINT 435  59     0      13     50                          
+JOINT 436  59     -5     13     50                          
+JOINT 437  59     -10    13     50                          
+JOINT 438  62     0      13     50                          
+JOINT 439  62     -5     13     50                          
+JOINT 440  62     -10    13     50                          
+JOINT 472  47     0      15     50                          
+JOINT 474  47     -10    15     50                          
+JOINT 475  65     0      15     50                          
+JOINT 477  65     -10    15     50                          
+JOINT 506  50     0      15     50                          
+JOINT 507  50     -5     15     50                          
+JOINT 508  50     -10    15     50                          
+JOINT 509  53     0      15     50                    111111
+JOINT 510  53     -5     15     50                          
+JOINT 511  53     -10    15     50                    111111
+JOINT 512  56     0      15     50                          
+JOINT 513  56     -5     15     50                          
+JOINT 514  56     -10    15     50                          
+JOINT 515  59     0      15     50                    111111
+JOINT 516  59     -5     15     50                          
+JOINT 517  59     -10    15     50                    111111
+JOINT 518  62     0      15     50                          
+JOINT 519  62     -5     15     50                          
+JOINT 520  62     -10    15     50                          
+LOAD
+LOADCN1   
+LOADLB1   DEAD LOAD: D                                       
+DEAD
+DEAD      -Z                                     
+LOADCN2   
+LOADLB2   DEAD LOAD: D                                       
+LOAD Z 506 507  3.75   -0.35  1.25   -0.35                  GLOB UNIF           
+LOAD Z 509 510  3.75   -0.35  1.25   -0.35                  GLOB UNIF           
+LOAD Z 512 513  3.75   -0.35  1.25   -0.35                  GLOB UNIF           
+LOAD Z 515 516  3.75   -0.35  1.25   -0.35                  GLOB UNIF           
+LOAD Z 518 519  3.75   -0.35  1.25   -0.35                  GLOB UNIF           
+LOAD Z 507 508  0.00   -0.35  4.50   -0.35                  GLOB UNIF           
+LOAD Z 510 511  0.00   -0.35  4.50   -0.35                  GLOB UNIF           
+LOAD Z 513 514  0.00   -0.35  4.50   -0.35                  GLOB UNIF           
+LOAD Z 516 517  0.00   -0.35  4.50   -0.35                  GLOB UNIF           
+LOAD Z 519 520  0.00   -0.35  4.50   -0.35                  GLOB UNIF           
+LOAD Z 506 507  2.58   -0.59  0.30   -0.59                  GLOB UNIF           
+LOAD Z 509 510  2.58   -0.59  0.30   -0.59                  GLOB UNIF           
+LOAD Z 512 513  2.58   -0.59  0.30   -0.59                  GLOB UNIF           
+LOAD Z 515 516  2.58   -0.59  0.30   -0.59                  GLOB UNIF           
+LOAD Z 518 519  2.58   -0.59  0.30   -0.59                  GLOB UNIF           
+LOADCN3   
+LOADLB3   PIPING&EQUIPMENT LOAD-EMPTY: DE                    
+LOAD Z 113 114  0.82   -3.69  0.82   0.00                   GLOB CONC           
+LOAD Z 116 117  0.82   -3.69  0.82   0.00                   GLOB CONC           
+LOAD Z 119 120  0.82   -3.69  0.82   0.00                   GLOB CONC           
+LOAD Z 122 123  0.82   -3.69  0.82   0.00                   GLOB CONC           
+LOAD Z 125 126  0.82   -3.69  0.82   0.00                   GLOB CONC           
+LOAD Z 113 114  1.50   -3.30  1.85   -3.30                  GLOB UNIF           
+LOAD Z 116 117  1.50   -3.30  1.85   -3.30                  GLOB UNIF           
+LOAD Z 119 120  1.50   -3.30  1.85   -3.30                  GLOB UNIF           
+LOAD Z 122 123  1.50   -3.30  1.85   -3.30                  GLOB UNIF           
+LOAD Z 125 126  1.50   -3.30  1.85   -3.30                  GLOB UNIF           
+LOAD Z 114 115  0.00   -3.60  3.92   -3.60                  GLOB UNIF           
+LOAD Z 117 118  0.00   -3.60  3.92   -3.60                  GLOB UNIF           
+LOAD Z 120 121  0.00   -3.60  3.92   -3.60                  GLOB UNIF           
+LOAD Z 123 124  0.00   -3.60  3.92   -3.60                  GLOB UNIF           
+LOAD Z 126 127  0.00   -3.60  3.92   -3.60                  GLOB UNIF           
+LOAD Z 213 214  1.80   -5.52  1.80   0.00                   GLOB CONC           
+LOAD Z 216 217  1.80   -5.52  1.80   0.00                   GLOB CONC           
+LOAD Z 219 220  1.80   -5.52  1.80   0.00                   GLOB CONC           
+LOAD Z 222 223  1.80   -5.52  1.80   0.00                   GLOB CONC           
+LOAD Z 225 226  1.80   -5.52  1.80   0.00                   GLOB CONC           
+LOAD Z 213 214  2.71   -5.52  2.71   0.00                   GLOB CONC           
+LOAD Z 216 217  2.71   -5.52  2.71   0.00                   GLOB CONC           
+LOAD Z 219 220  2.71   -5.52  2.71   0.00                   GLOB CONC           
+LOAD Z 222 223  2.71   -5.52  2.71   0.00                   GLOB CONC           
+LOAD Z 225 226  2.71   -5.52  2.71   0.00                   GLOB CONC           
+LOAD Z 213 214  3.70   -2.10  1.30   -2.10                  GLOB UNIF           
+LOAD Z 216 217  3.70   -2.10  1.30   -2.10                  GLOB UNIF           
+LOAD Z 219 220  3.70   -2.10  1.30   -2.10                  GLOB UNIF           
+LOAD Z 222 223  3.70   -2.10  1.30   -2.10                  GLOB UNIF           
+LOAD Z 225 226  3.70   -2.10  1.30   -2.10                  GLOB UNIF           
+LOAD Z 214 215  0.00   -2.10  1.17   -2.10                  GLOB UNIF           
+LOAD Z 217 218  0.00   -2.10  1.17   -2.10                  GLOB UNIF           
+LOAD Z 220 221  0.00   -2.10  1.17   -2.10                  GLOB UNIF           
+LOAD Z 223 224  0.00   -2.10  1.17   -2.10                  GLOB UNIF           
+LOAD Z 226 227  0.00   -2.10  1.17   -2.10                  GLOB UNIF           
+LOAD Z 337 338  3.90   -6.90  3.90   0.00                   GLOB CONC           
+LOAD Z 340 341  3.90   -6.90  3.90   0.00                   GLOB CONC           
+LOAD Z 343 344  3.90   -6.90  3.90   0.00                   GLOB CONC           
+LOAD Z 346 347  3.90   -6.90  3.90   0.00                   GLOB CONC           
+LOAD Z 349 350  3.90   -6.90  3.90   0.00                   GLOB CONC           
+LOAD Z 336 337  2.03   -4.50  0.80   -4.50                  GLOB UNIF           
+LOAD Z 339 340  2.03   -4.50  0.80   -4.50                  GLOB UNIF           
+LOAD Z 342 343  2.03   -4.50  0.80   -4.50                  GLOB UNIF           
+LOAD Z 345 346  2.03   -4.50  0.80   -4.50                  GLOB UNIF           
+LOAD Z 348 349  2.03   -4.50  0.80   -4.50                  GLOB UNIF           
+LOAD Z 336 337  3.43   -3.30  0.72   -3.30                  GLOB UNIF           
+LOAD Z 339 340  3.43   -3.30  0.72   -3.30                  GLOB UNIF           
+LOAD Z 342 343  3.43   -3.30  0.72   -3.30                  GLOB UNIF           
+LOAD Z 345 346  3.43   -3.30  0.72   -3.30                  GLOB UNIF           
+LOAD Z 348 349  3.43   -3.30  0.72   -3.30                  GLOB UNIF           
+LOAD Z 426 427  0.95   -0.48  0.95   0.00                   GLOB CONC           
+LOAD Z 429 430  0.95   -0.48  0.95   0.00                   GLOB CONC           
+LOAD Z 432 433  0.95   -0.48  0.95   0.00                   GLOB CONC           
+LOAD Z 435 436  0.95   -0.48  0.95   0.00                   GLOB CONC           
+LOAD Z 438 439  0.95   -0.48  0.95   0.00                   GLOB CONC           
+LOAD Z 426 427  1.70   -8.25  1.70   0.00                   GLOB CONC           
+LOAD Z 429 430  1.70   -8.25  1.70   0.00                   GLOB CONC           
+LOAD Z 432 433  1.70   -8.25  1.70   0.00                   GLOB CONC           
+LOAD Z 435 436  1.70   -8.25  1.70   0.00                   GLOB CONC           
+LOAD Z 438 439  1.70   -8.25  1.70   0.00                   GLOB CONC           
+END

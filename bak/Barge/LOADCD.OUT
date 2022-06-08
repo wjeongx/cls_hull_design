@@ -1,0 +1,156 @@
+
+
+
+                 ############################################# 
+                 #       LOADING CONDITION CALCULATION       # 
+                 ############################################# 
+
+
+
+           Ship No.             :   100
+
+           Ship Name            : L 50M CLASS PONTOON BARGE               
+
+           Density of Sea Water : 1.025
+
+           Reference Position   :  Midship (Longitudinal)
+                                :  Keel Bottom (Vertical)
+
+
+
+
+                    Abbreviation & Units
+                    ====================
+
+              L.C.G     :    Longitudinal Center of Gravity ( m )
+              V.C.G     :    Vertical     Center of Gravity ( m )
+              L-MOMT    :    Longitudinal Moment ( ton*m )
+              V-MOMT    :    Vertical     Moment ( ton*m )
+              F.S.M     :    Free Surface Moment ( ton*m )
+              Draft     :    Draft Equivalent
+
+
+
+                Dfwd    = -( LBP/2 - LCF ) / LBP  * Trim
+                Daft    =  ( LBP/2 + LCF ) / LBP  * Trim
+                F.S.M   = Inertia Moment * Density
+                G'Z     = KN - KG' * SIN(angle)
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456   400.546
+ 
+
+
+
+       CONDITION NO   10   LIGHTSHIP                                                       
+
+
+                                                                                         
+                                   WEIGHT    L.C.G    L-MOMT    V.C.G    V-MOMT     F.S.M
+       DEADWEIGHT ITEMS                                                                  
+                                     ton       m       ton*m      m       ton*m     ton*m
+       ==================================================================================
+
+       LIGHT SHIP WEIGHT          410.560    2.963   1216.49    3.500   1436.96
+
+       TOTAL WEIGHT               410.560    2.963   1216.49    3.500   1436.96
+       ========================================================================
+ 
+
+
+
+       CONDITION NO   10   LIGHTSHIP                                                       
+
+
+
+       ------------------------------------------------------------------------
+       DRAFT EQUIVALENT        0.570 M        TRANSV. METACENTER   KMT 39.068 M
+
+       TOTAL TRIM BY HEAD      0.500 M        VERT CENTRE OF GRAV   KG  3.500 M
+
+       DRAFT FORWARD           0.823 M        METAC. HEIGHT         GM 35.568 M
+
+       DRAFT AFT               0.323 M        FREE SURFACE CORR.   GG'  0.000 M
+
+       DRAFT MEAN              0.573 M        CORR. METAC. HEIGHT  G'M 35.568 M
+       ------------------------------------------------------------------------
+       L.C.B                  -0.133 M        M.T.C                25.417 M*TON
+
+       L.C.F                  -0.315 M        T.P.C                 7.440 MT/CM
+       ------------------------------------------------------------------------
+ 
+
+
+
+
+          STAB. DATA NOT CALC.
+ ILLEGAL CHARACTER IN INPUT NO    8
+	                                                                               
+ ILLEGAL CHARACTER IN INPUT NO    8
+	                                                                               
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ ** INTERPOLATION RANGE OUT ** RETINT1  2410.833  2775.456  2037.581
+ 
+
+
+
+       CONDITION NO   20   FULLLOAD                                                        
+
+
+                                                                                         
+                                   WEIGHT    L.C.G    L-MOMT    V.C.G    V-MOMT     F.S.M
+       DEADWEIGHT ITEMS                                                                  
+                                     ton       m       ton*m      m       ton*m     ton*m
+       ==================================================================================
+       STORE                        2.000   21.000     42.00    4.500      9.00      0.00
+       ----------------------------------------------------------------------------------
+       CARGO ON DECK             1675.960   -4.000  -6703.84    6.000  10055.76      0.00
+       ----------------------------------------------------------------------------------
+
+       ========================================================================
+       DEADWEIGHT                1677.960   -3.970  -6661.84    5.998  10064.76
+
+       LIGHT SHIP WEIGHT          410.560    2.963   1216.49    3.500   1436.96
+
+       TOTAL WEIGHT              2088.520   -2.607  -5445.35    5.507  11501.72
+       ========================================================================
+ 
+
+
+
+       CONDITION NO   20   FULLLOAD                                                        
+
+
+
+       ------------------------------------------------------------------------
+       DRAFT EQUIVALENT        2.687 M        TRANSV. METACENTER   KMT  9.734 M
+
+       TOTAL TRIM BY STERN    -1.483 M        VERT CENTRE OF GRAV   KG  5.507 M
+
+       DRAFT FORWARD           1.945 M        METAC. HEIGHT         GM  4.227 M
+
+       DRAFT AFT               3.428 M        FREE SURFACE CORR.   GG'  0.000 M
+
+       DRAFT MEAN              2.686 M        CORR. METAC. HEIGHT  G'M  4.227 M
+       ------------------------------------------------------------------------
+       L.C.B                  -0.192 M        M.T.C                34.020 M*TON
+
+       L.C.F                  -0.021 M        T.P.C                 8.196 MT/CM
+       ------------------------------------------------------------------------
+ 
+
+
+
+
+          STAB. DATA NOT CALC.

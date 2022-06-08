@@ -1,0 +1,14 @@
+Rem Runmulti file multi.runx
+Echo "Running SACu66c_c30pr03_static.run"
+call SACu66c_c30pr03_static.run
+Echo "Running TOWu66c_pr03_tow.run"
+call TOWu66c_pr03_tow.run
+Echo "Running GAPu66c_pr03_sea.run"
+call GAPu66c_pr03_sea.run
+Echo "Running CMBu66c_pr03_comb.run"
+call CMBu66c_pr03_comb.run
+Echo "Running PSTu66c_pr03_pstdata.run"
+call PSTu66c_pr03_pstdata.run
+Echo "Running PVIu66c_pr03_pstvu.run"
+call PVIu66c_pr03_pstvu.run
+PAUSE

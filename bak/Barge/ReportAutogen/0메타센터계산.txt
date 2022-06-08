@@ -1,0 +1,9 @@
+1) 본선의 적하상태에 대한 연직방향 무게중심위치(KG)를 계산한다.
+2) 배수량에 상당하는 횡방향 메타센타높이 (Transverse Metacentric Height, TKM)을 구한다.
+3) 적하상태에서 유동수에 의한 무게중심 상승량(Effect of Freesurface, GGo)를 구한다.
+	GGo 	= ∑(IN × S.GN) / DISP
+	GM 		= TKM - KG
+	KGo 	= KG + GGo
+	GoM 	= KMT - KGo
+	※ IN 	: 각 TANK에 대한 FREE SURFACE의 MOMENT OF INERTIA(M4)
+	※ S.GN	: 각 TANK의 유동수에 대한 비중

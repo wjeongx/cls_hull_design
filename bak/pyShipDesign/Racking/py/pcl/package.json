@@ -1,0 +1,25 @@
+{
+    "name": "pcl",
+    "displayName": "pcl",
+    "description": "Syntax highlighting for pcl",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pcl",
+            "aliases": ["PCL", "pcl"],
+            "extensions": [".pcl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pcl",
+            "scopeName": "source.pcl",
+            "path": "./syntaxes/pcl.tmLanguage.json"
+        }]
+    }
+}

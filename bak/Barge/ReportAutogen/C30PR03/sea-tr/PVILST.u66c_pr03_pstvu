@@ -1,0 +1,139 @@
+SACS Release 5.3			 gs_eng                                                                                  ID=00000245
+                                                                                  DATE 05-FEB-2012  TIME 13:42:33   PST PAGE     1
+
+                                                                                                        PST VERSION 6.1.2.2
+
+                              ******* SACS MODEL PARAMETERS ********
+
+
+                              NUMBER OF JOINTS ..............  105
+
+
+                              NUMBER OF MEMBERS .............  268
+
+
+                              NUMBER OF PLATES ..............    0
+
+
+                              NUMBER OF SHELL ELEMENTS ......    0
+
+
+                              NUMBER OF SOLID ELEMENTS ......    0
+
+
+                              NUMBER OF BASIC LOADS .........   24
+
+
+                              NUMBER OF COMBINED LOADS ......    0
+
+
+                              UNITY CHECK ....... API RP2A-LRFD /AISC 1ST       
+                                                  RESISTANCE FACTOR OPTION .... USER SUPPLIED
+
+
+                                                  ******** LRFD RESISTANCE FACTORS ********
+                                                          YIELD STRESS FACTOR 1.000
+                                                                   TUBULAR      NON-TUBULAR
+                                                  COMPRESSION       0.850         0.850
+                                                  BENDING           0.950         0.850
+                                                  SHEAR             0.950         0.900
+                                                  TENSION           0.950         0.850
+                                                  HOOP BUCKLING     0.850
+
+
+                              JOINT DEFLECTION REPORT ...................YES
+
+
+                              GROUP SUMMARY REPORT ......................YES
+
+
+                              ELEMENT STRESS AT MAXIMUM UC REPORT .......YES
+
+
+                              MEMBER INTERNAL LOADS SUMMARY REPORT ......YES
+
+
+                              ELEMENT UNITY CHECK REPORT ................YES
+
+
+                              ELEMENT DETAIL REPORT .....................NO 
+
+
+                              MEMBER END FORCES AND MOMENTS REPORT ......YES
+
+
+                              JOINT REACTIONS REPORT ....................YES
+
+
+
+
+SACS Release 5.3			 gs_eng                                                                                  ID=00000245
+                                                                                  DATE 05-FEB-2012  TIME 13:42:33   PST PAGE     2
+
+                                        ***** SACS LOAD CASE REPORT *****
+
+  LOAD  LOAD  TYPE   PRINT   AMOD   WATER     LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR
+   NO.  CASE         OPTION FACTOR  DEPTH
+                                      M   
+
+
+    1  1100   BASIC   YES      0.0     0.0
+
+    2  1200   BASIC   YES      0.0     0.0
+
+    3  1300   BASIC   YES      0.0     0.0
+
+    4  1400   BASIC   YES      0.0     0.0
+
+    5  1500   BASIC   YES      0.0     0.0
+
+    6  1600   BASIC   YES      0.0     0.0
+
+    7  1700   BASIC   YES      0.0     0.0
+
+    8  1800   BASIC   YES      0.0     0.0
+
+    9  2100   BASIC   YES      0.0     0.0
+
+   10  2200   BASIC   YES      0.0     0.0
+
+   11  2300   BASIC   YES      0.0     0.0
+
+   12  2400   BASIC   YES      0.0     0.0
+
+   13  2500   BASIC   YES      0.0     0.0
+
+   14  2600   BASIC   YES      0.0     0.0
+
+   15  2700   BASIC   YES      0.0     0.0
+
+   16  2800   BASIC   YES      0.0     0.0
+
+   17  3100   BASIC   YES      0.0     0.0
+
+   18  3200   BASIC   YES      0.0     0.0
+
+   19  3300   BASIC   YES      0.0     0.0
+
+   20  3400   BASIC   YES      0.0     0.0
+
+   21  3500   BASIC   YES      0.0     0.0
+
+   22  3600   BASIC   YES      0.0     0.0
+
+
+SACS Release 5.3			 gs_eng                                                                                  ID=00000245
+                                                                                  DATE 05-FEB-2012  TIME 13:42:33   PST PAGE     3
+
+                                        ***** SACS LOAD CASE REPORT *****
+
+  LOAD  LOAD  TYPE   PRINT   AMOD   WATER     LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR    LC   FACTOR
+   NO.  CASE         OPTION FACTOR  DEPTH
+                                      M   
+
+
+   23  3700   BASIC   YES      0.0     0.0
+
+   24  3800   BASIC   YES      0.0     0.0
+
+

@@ -1,0 +1,15 @@
+$# Session file patran.ses.02 started recording at 18-Apr-09 03:30:55
+$# Build: 16.0.028 Sun Jun 15 15:50:12 PDT 2008
+$# Recorded by: Patran 2008r1
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: C:\MSC.Software\MSC.Licensing\10.8.6\license.dat
+$# Patran 2008r1 has obtained 1 concurrent license(s) from FLEXlm per a 
+$# request to execute on Windows node JEONGWY (Windows 5.1 (Build 2600: 
+$# Service Pack 3)) at 18-Apr-09 03:30:56.
+uil_file_open.go( "D:\Python\Import Nastran\kus-10_man_static1.db" )
+$# Database version 3.9 created by Patran 2008r1 successfully opened.
+$# Appending to existing journal file D:\Python\Import 
+$# Nastran\kus-10_man_static1.db.jou at 18-Apr-09 03:31:05
+uil_file_close.goquit(  )
+$# Journal file stopped recording at 18-Apr-09 03:31:37
+$# Session file patran.ses.02 stopped recording at 18-Apr-09 03:31:37

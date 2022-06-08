@@ -1,0 +1,703 @@
+LDOPT SF    NF+Z   1.032    7.85    0.00    0.00GLOBMN          CMBMPT  NP     
+OPTIONS      MN       SDL3   1 1   DC  CPT  PTPTPTPTPT  PTPT            
+RFLRFD  1.0  0.95 0.85 0.95 0.95 0.85      0.85 0.85 0.85 0.9 
+LCSEL ST         100
+UCPART     0.00.85  .85  1.0  1.0       
+SECT
+SECT HM294X2   WFC                                20.0 1.2   29.4 0.8
+SECT HM340X2   WFC                                25.0 1.4   34.0 0.9
+SECT HM390X3   WFC                                30.0 1.6   39.0 1.0
+SECT HM488X3   WFC                                30.0 1.8   48.8 1.1
+SECT HW250X2   WFC                                25.0 1.4   25.0 0.9
+SECT TN175X1   TEE                                17.5 17.5   0.7 1.1  13.7
+SECT TN200X2   TEE                                20.0 20.0   0.8 1.3  15.7
+GRUP
+GRUP G1  HM488X3              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G2  HM340X2              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G3  HM390X3              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G4  HM294X2              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G5  TN175X1              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G6  HW250X2              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP G7  TN200X2              20.0  8.0 34.5  1    1.0 1.0           N 7.85
+GRUP LS1          3.0   1.49 T20.0  8.0 35.5  1    1.0 1.0       0.5 N1.0E-6
+MEMBER
+MEMBER1 110 113 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 112 115 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 113 116 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 115 118 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 116 119 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 118 121 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 119 122 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 121 124 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 122 125 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 124 127 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 125 128 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 127 130 G1                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -24.4             -24.4
+MEMBER1 210 213 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 212 215 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 213 216 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 215 218 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 216 219 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 218 221 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 219 222 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 221 224 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 222 225 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 224 227 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 225 228 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 227 230 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 298 336 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 300 338 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 336 339 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 338 341 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 339 342 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 341 344 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 342 345 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 344 347 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 345 348 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 347 350 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 348 301 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 350 303 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 392 426 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 394 428 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 426 429 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 428 431 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 429 432 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 431 434 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 432 435 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 434 437 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 435 438 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 437 440 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 438 395 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 440 397 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 472 506 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 474 508 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 506 509 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 508 511 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 509 512 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 511 514 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 512 515 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 514 517 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 515 518 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 517 520 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 518 475 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 520 477 G2                            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -17.0             -17.0
+MEMBER1 113 114 G3    000011000000            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 114 115 G3    000000000011            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 116 117 G3    000011000000            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 117 118 G3    000000000011            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 119 120 G3    000011000000            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 120 121 G3    000000000011            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 122 123 G3    000011000000            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 123 124 G3    000000000011            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 125 126 G3    000011000000            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 126 127 G3    000000000011            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -19.5             -19.5
+MEMBER1 114 117 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 117 120 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 120 123 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 123 126 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 213 214 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 214 215 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 214 217 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 216 217 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 217 218 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 217 220 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 219 220 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 220 221 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 220 223 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 222 223 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 223 224 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 223 226 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 225 226 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 226 227 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 336 337 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 337 338 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 337 340 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 339 340 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 340 341 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 340 343 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 342 343 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 343 344 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 343 346 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 345 346 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 346 347 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 346 349 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 348 349 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 349 350 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 426 427 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 427 428 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 427 430 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 429 430 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 430 431 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 430 433 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 432 433 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 433 434 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 433 436 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 435 436 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 436 437 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 436 439 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 438 439 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 439 440 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 506 507 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 507 508 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 507 510 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 509 510 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 510 511 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 510 513 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 512 513 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 513 514 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 513 516 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 515 516 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 516 517 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 516 519 G4    000011000011            L    3.0 3.0  3.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 518 519 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 519 520 G4                            L    5.0 5.0  5.0       
+MEMBER OFFSETS                                 -14.7             -14.7
+MEMBER1 114 116 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 114 118 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 116 120 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 118 120 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 120 122 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 120 124 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 122 126 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 124 126 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 214 216 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 214 218 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 216 220 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 218 220 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 220 222 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 220 224 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 222 226 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 224 226 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 337 339 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 337 341 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 339 343 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 341 343 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 343 345 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 343 347 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 345 349 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 347 349 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 427 429 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 427 431 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 429 433 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 431 433 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 433 435 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 433 437 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 435 439 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 437 439 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 507 509 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 507 511 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 509 513 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 511 513 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 513 515 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 513 517 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 515 519 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER1 517 519 G5    000011000011            L    5.835.83 5.83  5.0 
+MEMBER OFFSETS                                  -3.82             -3.82
+MEMBER  213 113 G6                            L    2.0 2.0            
+MEMBER  215 115 G6                            L    2.0 2.0            
+MEMBER  216 116 G6                            L    2.0 2.0            
+MEMBER  218 118 G6                            L    2.0 2.0            
+MEMBER  219 119 G6                            L    2.0 2.0            
+MEMBER  221 121 G6                            L    2.0 2.0            
+MEMBER  222 122 G6                            L    2.0 2.0            
+MEMBER  224 124 G6                            L    2.0 2.0            
+MEMBER  225 125 G6                            L    2.0 2.0            
+MEMBER  227 127 G6                            L    2.0 2.0            
+MEMBER  336 213 G6                            L    2.0 2.0            
+MEMBER  338 215 G6                            L    2.0 2.0            
+MEMBER  339 216 G6                            L    2.0 2.0            
+MEMBER  341 218 G6                            L    2.0 2.0            
+MEMBER  342 219 G6                            L    2.0 2.0            
+MEMBER  344 221 G6                            L    2.0 2.0            
+MEMBER  345 222 G6                            L    2.0 2.0            
+MEMBER  347 224 G6                            L    2.0 2.0            
+MEMBER  348 225 G6                            L    2.0 2.0            
+MEMBER  350 227 G6                            L    2.0 2.0            
+MEMBER  426 336 G6                            L    2.0 2.0            
+MEMBER  428 338 G6                            L    2.0 2.0            
+MEMBER  429 339 G6                            L    2.0 2.0            
+MEMBER  431 341 G6                            L    2.0 2.0            
+MEMBER  432 342 G6                            L    2.0 2.0            
+MEMBER  434 344 G6                            L    2.0 2.0            
+MEMBER  435 345 G6                            L    2.0 2.0            
+MEMBER  437 347 G6                            L    2.0 2.0            
+MEMBER  438 348 G6                            L    2.0 2.0            
+MEMBER  440 350 G6                            L    2.0 2.0            
+MEMBER  506 426 G6                            L    2.0 2.0            
+MEMBER  508 428 G6                            L    2.0 2.0            
+MEMBER  509 429 G6                            L    2.0 2.0            
+MEMBER  511 431 G6                            L    2.0 2.0            
+MEMBER  512 432 G6                            L    2.0 2.0            
+MEMBER  514 434 G6                            L    2.0 2.0            
+MEMBER  515 435 G6                            L    2.0 2.0            
+MEMBER  517 437 G6                            L    2.0 2.0            
+MEMBER  518 438 G6                            L    2.0 2.0            
+MEMBER  520 440 G6                            L    2.0 2.0            
+MEMBER1 119 222 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 121 224 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 122 225 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 124 227 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 125 228 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 127 230 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 210 113 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 212 115 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 213 116 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 215 118 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 216 119 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 218 121 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 219 345 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 221 347 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 222 348 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 224 350 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 225 301 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 227 303 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 298 213 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 300 215 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 336 216 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 338 218 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 339 219 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 341 221 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 342 435 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 344 437 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 345 438 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 347 440 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 348 395 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 350 397 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 392 336 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 394 338 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 426 339 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 428 341 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 429 342 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 431 344 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 432 515 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 434 517 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 435 518 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 437 520 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 438 475 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 440 477 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 472 426 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 474 428 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 506 429 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 508 431 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 509 432 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER1 511 434 G7    000011000011            L    3.6 3.6  3.6   5.0 
+MEMBER OFFSETS                                  -3.58             -3.58
+MEMBER 0000 336 LS1                                                   
+MEMBER 0001 339 LS1                                                   
+MEMBER 0002 342 LS1                                                   
+MEMBER 0003 345 LS1                                                   
+MEMBER 0004 348 LS1                                                   
+MEMBER 0005 338 LS1                                                   
+MEMBER 0006 341 LS1                                                   
+MEMBER 0007 344 LS1                                                   
+MEMBER 0008 347 LS1                                                   
+MEMBER 0009 350 LS1                                                   
+JOINT
+JOINT  110     -9.     4.     0.        74.3                
+JOINT  112     -9.    -5.     0.       -25.7                
+JOINT  113     -6.     4.     0.        74.3          111111
+JOINT  114     -6.     0.     0.       -25.7                
+JOINT  115     -6.    -5.     0.       -25.7          111111
+JOINT  116     -3.     4.     0.        74.3          111111
+JOINT  117     -3.     0.     0.       -25.7                
+JOINT  118     -3.    -5.     0.       -25.7          111111
+JOINT  119      0.     4.     0.  0.001 74.3          111111
+JOINT  120      0.     0.     0.  0.001-25.7                
+JOINT  121      0.    -5.     0.  0.001-25.7          111111
+JOINT  122      3.     4.     0.        74.3          111111
+JOINT  123      3.     0.     0.       -25.7                
+JOINT  124      3.    -5.     0.       -25.7          111111
+JOINT  125      6.     4.     0.        74.3          111111
+JOINT  126      6.     0.     0.       -25.7                
+JOINT  127      6.    -5.     0.       -25.7          111111
+JOINT  128      9.     4.     0.        74.3                
+JOINT  130      9.    -5.     0.       -25.7                
+JOINT  210     -9.     4.     2.        74.3                
+JOINT  212     -9.    -5.     2.       -25.7                
+JOINT  213     -6.     4.     2.        74.3                
+JOINT  214     -6.     0.     2.       -25.7                
+JOINT  215     -6.    -5.     2.       -25.7                
+JOINT  216     -3.     4.     2.        74.3                
+JOINT  217     -3.     0.     2.       -25.7                
+JOINT  218     -3.    -5.     2.       -25.7                
+JOINT  219      0.     4.     2.  0.001 74.3                
+JOINT  220      0.     0.     2.  0.001-25.7                
+JOINT  221      0.    -5.     2.  0.001-25.7                
+JOINT  222      3.     4.     2.        74.3                
+JOINT  223      3.     0.     2.       -25.7                
+JOINT  224      3.    -5.     2.       -25.7                
+JOINT  225      6.     4.     2.        74.3                
+JOINT  226      6.     0.     2.       -25.7                
+JOINT  227      6.    -5.     2.       -25.7                
+JOINT  228      9.     4.     2.        74.3                
+JOINT  230      9.    -5.     2.       -25.7                
+JOINT  298     -9.     4.     4.        74.3                
+JOINT  300     -9.    -5.     4.       -25.7                
+JOINT  301      9.     4.     4.        74.3                
+JOINT  303      9.    -5.     4.       -25.7                
+JOINT  336     -6.     4.     4.        74.3                
+JOINT  337     -6.     0.     4.       -25.7                
+JOINT  338     -6.    -5.     4.       -25.7                
+JOINT  339     -3.     4.     4.        74.3                
+JOINT  340     -3.     0.     4.       -25.7                
+JOINT  341     -3.    -5.     4.       -25.7                
+JOINT  342      0.     4.     4.  0.001 74.3                
+JOINT  343      0.     0.     4.  0.001-25.7                
+JOINT  344      0.    -5.     4.  0.001-25.7                
+JOINT  345      3.     4.     4.        74.3                
+JOINT  346      3.     0.     4.       -25.7                
+JOINT  347      3.    -5.     4.       -25.7                
+JOINT  348      6.     4.     4.        74.3                
+JOINT  349      6.     0.     4.       -25.7                
+JOINT  350      6.    -5.     4.       -25.7                
+JOINT  392     -9.     4.     6.        74.3                
+JOINT  394     -9.    -5.     6.       -25.7                
+JOINT  395      9.     4.     6.        74.3                
+JOINT  397      9.    -5.     6.       -25.7                
+JOINT  426     -6.     4.     6.        74.3                
+JOINT  427     -6.     0.     6.       -25.7                
+JOINT  428     -6.    -5.     6.       -25.7                
+JOINT  429     -3.     4.     6.        74.3                
+JOINT  430     -3.     0.     6.       -25.7                
+JOINT  431     -3.    -5.     6.       -25.7                
+JOINT  432      0.     4.     6.  0.001 74.3                
+JOINT  433      0.     0.     6.  0.001-25.7                
+JOINT  434      0.    -5.     6.  0.001-25.7                
+JOINT  435      3.     4.     6.        74.3                
+JOINT  436      3.     0.     6.       -25.7                
+JOINT  437      3.    -5.     6.       -25.7                
+JOINT  438      6.     4.     6.        74.3                
+JOINT  439      6.     0.     6.       -25.7                
+JOINT  440      6.    -5.     6.       -25.7                
+JOINT  472     -9.     4.     8.        74.3                
+JOINT  474     -9.    -5.     8.       -25.7                
+JOINT  475      9.     4.     8.        74.3                
+JOINT  477      9.    -5.     8.       -25.7                
+JOINT  506     -6.     4.     8.        74.3                
+JOINT  507     -6.     0.     8.       -25.7                
+JOINT  508     -6.    -5.     8.       -25.7                
+JOINT  509     -3.     4.     8.        74.3                
+JOINT  510     -3.     0.     8.       -25.7                
+JOINT  511     -3.    -5.     8.       -25.7                
+JOINT  512      0.     4.     8.  0.001 74.3                
+JOINT  513      0.     0.     8.  0.001-25.7                
+JOINT  514      0.    -5.     8.  0.001-25.7                
+JOINT  515      3.     4.     8.        74.3                
+JOINT  516      3.     0.     8.       -25.7                
+JOINT  517      3.    -5.     8.       -25.7                
+JOINT  518      6.     4.     8.        74.3                
+JOINT  519      6.     0.     8.       -25.7                
+JOINT  520      6.    -5.     8.       -25.7                
+JOINT 0000     -6.     7.     0.        74.3                
+JOINT 0001     -3.     7.     0.        74.3                
+JOINT 0002      0.     7.     0.  0.001 74.3                
+JOINT 0003      3.     7.     0.        74.3                
+JOINT 0004      6.     7.     0.        74.3                
+JOINT 0005     -6.    -8.     0.       -25.7                
+JOINT 0006     -3.    -8.     0.       -25.7                
+JOINT 0007      0.    -8.     0.  0.001-25.7                
+JOINT 0008      3.    -8.     0.       -25.7                
+JOINT 0009      6.    -8.     0.       -25.7                
+LOAD
+LOADCN   1   1.102                                
+LOADLB   1DEAD LOAD: D                                                
+DEAD
+DEAD      -Z                                M    
+LOADCN   2                                        
+LOADLB   2EL CABLE TRY LOAD                                           
+LOAD Z  506 507   3.75  -0.35   1.25  -0.35                 GLOB UNIF           
+LOAD Z  509 510   3.75  -0.35   1.25  -0.35                 GLOB UNIF           
+LOAD Z  512 513   3.75  -0.35   1.25  -0.35                 GLOB UNIF           
+LOAD Z  515 516   3.75  -0.35   1.25  -0.35                 GLOB UNIF           
+LOAD Z  518 519   3.75  -0.35   1.25  -0.35                 GLOB UNIF           
+LOAD Z  507 508         -0.35   4.5   -0.35                 GLOB UNIF           
+LOAD Z  510 511         -0.35   4.5   -0.35                 GLOB UNIF           
+LOAD Z  513 514         -0.35   4.5   -0.35                 GLOB UNIF           
+LOAD Z  516 517         -0.35   4.5   -0.35                 GLOB UNIF           
+LOAD Z  519 520         -0.35   4.5   -0.35                 GLOB UNIF           
+LOAD Z  506 507   2.58  -0.59   0.3   -0.59                 GLOB UNIF           
+LOAD Z  509 510   2.58  -0.59   0.3   -0.59                 GLOB UNIF           
+LOAD Z  512 513   2.58  -0.59   0.3   -0.59                 GLOB UNIF           
+LOAD Z  515 516   2.58  -0.59   0.3   -0.59                 GLOB UNIF           
+LOAD Z  518 519   2.58  -0.59   0.3   -0.59                 GLOB UNIF           
+LOADCN   4                                        
+LOADLB   4PIPING&EQUIPMENT LOAD-EMPTY: DE                             
+LOAD Z  113 114   0.82  -3.69                               GLOB CONC           
+LOAD Z  116 117   0.82  -3.69                               GLOB CONC           
+LOAD Z  119 120   0.82  -3.69                               GLOB CONC           
+LOAD Z  122 123   0.82  -3.69                               GLOB CONC           
+LOAD Z  125 126   0.82  -3.69                               GLOB CONC           
+LOAD Z  113 114   1.5   -3.3    1.85  -3.3                  GLOB UNIF           
+LOAD Z  116 117   1.5   -3.3    1.85  -3.3                  GLOB UNIF           
+LOAD Z  119 120   1.5   -3.3    1.85  -3.3                  GLOB UNIF           
+LOAD Z  122 123   1.5   -3.3    1.85  -3.3                  GLOB UNIF           
+LOAD Z  125 126   1.5   -3.3    1.85  -3.3                  GLOB UNIF           
+LOAD Z  114 115         -3.6    3.92  -3.6                  GLOB UNIF           
+LOAD Z  117 118         -3.6    3.92  -3.6                  GLOB UNIF           
+LOAD Z  120 121         -3.6    3.92  -3.6                  GLOB UNIF           
+LOAD Z  123 124         -3.6    3.92  -3.6                  GLOB UNIF           
+LOAD Z  126 127         -3.6    3.92  -3.6                  GLOB UNIF           
+LOAD Z  213 214   1.8   -5.52                               GLOB CONC           
+LOAD Z  216 217   1.8   -5.52                               GLOB CONC           
+LOAD Z  219 220   1.8   -5.52                               GLOB CONC           
+LOAD Z  222 223   1.8   -5.52                               GLOB CONC           
+LOAD Z  225 226   1.8   -5.52                               GLOB CONC           
+LOAD Z  213 214   2.71  -5.52                               GLOB CONC           
+LOAD Z  216 217   2.71  -5.52                               GLOB CONC           
+LOAD Z  219 220   2.71  -5.52                               GLOB CONC           
+LOAD Z  222 223   2.71  -5.52                               GLOB CONC           
+LOAD Z  225 226   2.71  -5.52                               GLOB CONC           
+LOAD Z  213 214   3.7   -2.1    1.3   -2.1                  GLOB UNIF           
+LOAD Z  216 217   3.7   -2.1    1.3   -2.1                  GLOB UNIF           
+LOAD Z  219 220   3.7   -2.1    1.3   -2.1                  GLOB UNIF           
+LOAD Z  222 223   3.7   -2.1    1.3   -2.1                  GLOB UNIF           
+LOAD Z  225 226   3.7   -2.1    1.3   -2.1                  GLOB UNIF           
+LOAD Z  214 215         -2.1    1.17  -2.1                  GLOB UNIF           
+LOAD Z  217 218         -2.1    1.17  -2.1                  GLOB UNIF           
+LOAD Z  220 221         -2.1    1.17  -2.1                  GLOB UNIF           
+LOAD Z  223 224         -2.1    1.17  -2.1                  GLOB UNIF           
+LOAD Z  226 227         -2.1    1.17  -2.1                  GLOB UNIF           
+LOAD Z  337 338   3.9   -6.9                                GLOB CONC           
+LOAD Z  340 341   3.9   -6.9                                GLOB CONC           
+LOAD Z  343 344   3.9   -6.9                                GLOB CONC           
+LOAD Z  346 347   3.9   -6.9                                GLOB CONC           
+LOAD Z  349 350   3.9   -6.9                                GLOB CONC           
+LOAD Z  336 337   2.03  -4.5    0.8   -4.5                  GLOB UNIF           
+LOAD Z  339 340   2.03  -4.5    0.8   -4.5                  GLOB UNIF           
+LOAD Z  342 343   2.03  -4.5    0.8   -4.5                  GLOB UNIF           
+LOAD Z  345 346   2.03  -4.5    0.8   -4.5                  GLOB UNIF           
+LOAD Z  348 349   2.03  -4.5    0.8   -4.5                  GLOB UNIF           
+LOAD Z  336 337   3.43  -3.3    0.72  -3.3                  GLOB UNIF           
+LOAD Z  339 340   3.43  -3.3    0.72  -3.3                  GLOB UNIF           
+LOAD Z  342 343   3.43  -3.3    0.72  -3.3                  GLOB UNIF           
+LOAD Z  345 346   3.43  -3.3    0.72  -3.3                  GLOB UNIF           
+LOAD Z  348 349   3.43  -3.3    0.72  -3.3                  GLOB UNIF           
+LOAD Z  426 427   0.95  -0.48                               GLOB CONC           
+LOAD Z  429 430   0.95  -0.48                               GLOB CONC           
+LOAD Z  432 433   0.95  -0.48                               GLOB CONC           
+LOAD Z  435 436   0.95  -0.48                               GLOB CONC           
+LOAD Z  438 439   0.95  -0.48                               GLOB CONC           
+LOAD Z  426 427   1.7   -8.25                               GLOB CONC           
+LOAD Z  429 430   1.7   -8.25                               GLOB CONC           
+LOAD Z  432 433   1.7   -8.25                               GLOB CONC           
+LOAD Z  435 436   1.7   -8.25                               GLOB CONC           
+LOAD Z  438 439   1.7   -8.25                               GLOB CONC           
+LCOMB
+LCOMB  100    11.1      21.0      41.0   
+END
+END

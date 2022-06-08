@@ -1,0 +1,14 @@
+1) General Information
+	- Ship's Name		:	보령8호
+	- Type of Ship		:	PONTOON BARGE
+	- Navigation Area	:	국내연해
+	- Port of Registry	:	보령시
+	- Nationality		: 	대한민국
+	- Classification 	:	KST
+2) Principal Particular
+	- Length B.P	:	 50.000 m
+	- Breadth	:	 16.000 m
+	- Depth (MLD.)	:	  3.500 m
+	- D.L.W.L	:	  2.900 m
+	- Initial Trim	:	  0.000 m
+	

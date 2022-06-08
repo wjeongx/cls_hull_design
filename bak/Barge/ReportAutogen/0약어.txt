@@ -1,0 +1,30 @@
+¾à ¾î
+Symbol	 Definition	Unit
+df	    : Draft at FORE Draft Mark	m
+da	    : Draft at AFT. Draft Mark	m
+dm	    : Draft at MID. Draft Mark	m
+dF	    : Draft at FP.	m
+dA	    : Draft at AP.	m
+dM	    : Draft at MID.	m
+deq	    : Equivalent Draft at L.C.F	m
+T       : Trim(dF-dA)	m
+DISPT.  : Displacement	ton
+L.C.B.	: Center Of Buoyancy From Midship	m
+L.C.G.	: Center Of Gravity From Midship	m
+BGL	    : Distance Between lL.C.G and L.C.B (L.C.G - L.C.B)	m
+KMT(KM)	: Transverse Metarcenter Height Above Base Line	m
+K.G(V.C.G)	: Center Of Gravity Above Base Line	m
+GGo	    : Loss In GM Due To Free Surface Effects By Liquid In Tank	m
+GoM	    : Metacentric Height Corrected By Free Surface Effects(GM-GGo)	m
+MTC	    : Moment To Change Trim 1 CM	ton-m
+TPC	    : Tonnes Per 1 CM Immersion	ton
+I	    : Moment Of Inertia Of Free Surface In Tank	m4
+S.G	    : Specific Gravity Of Liquid & Cargo	ton/m3
+GZ	    : Righting Lever Of Statical Stability	m
+KN	    : Stability Cross Curve Ordinate	m
+Cb	    : Block coefficient	-
+Cp	    : Prismatic coefficient	-
+Cw	    : Water Plane coefficient	-
+Cm	    : Midship Section coefficient	-
+
+	

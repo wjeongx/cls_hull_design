@@ -1,0 +1,78 @@
+CMBOPT
+*
+*************************** Orthogonal Directions ******************************
+LCOND 1100   LIN     1.0
+COMP PT101         1.0
+COMP S 100         1.0
+LCOND 1200   LIN     1.0
+COMP PT102         1.0
+COMP S 100         1.0
+LCOND 1300   LIN     1.0
+COMP PT103         1.0
+COMP S 100         1.0
+LCOND 1400   LIN     1.0
+COMP PT104         1.0
+COMP S 100         1.0
+LCOND 1500   LIN     1.0
+COMP PT105         1.0
+COMP S 100         1.0
+LCOND 1600   LIN     1.0
+COMP PT106         1.0
+COMP S 100         1.0
+LCOND 1700   LIN     1.0
+COMP PT107         1.0
+COMP S 100         1.0
+LCOND 1800   LIN     1.0
+COMP PT108         1.0
+COMP S 100         1.0
+**************************** Diagonal Directions *******************************
+LCOND 2100   LIN     1.0
+COMP PT201         1.0
+COMP S 100         1.0
+LCOND 2200   LIN     1.0
+COMP PT202         1.0
+COMP S 100         1.0
+LCOND 2300   LIN     1.0
+COMP PT203         1.0
+COMP S 100         1.0
+LCOND 2400   LIN     1.0
+COMP PT204         1.0
+COMP S 100         1.0
+LCOND 2500   LIN     1.0
+COMP PT205         1.0
+COMP S 100         1.0
+LCOND 2600   LIN     1.0
+COMP PT206         1.0
+COMP S 100         1.0
+LCOND 2700   LIN     1.0
+COMP PT207         1.0
+COMP S 100         1.0
+LCOND 2800   LIN     1.0
+COMP PT208         1.0
+COMP S 100         1.0
+LCOND 3100   LIN     1.0
+COMP PT301         1.0
+COMP S 100         1.0
+LCOND 3200   LIN     1.0
+COMP PT302         1.0
+COMP S 100         1.0
+LCOND 3300   LIN     1.0
+COMP PT303         1.0
+COMP S 100         1.0
+LCOND 3400   LIN     1.0
+COMP PT304         1.0
+COMP S 100         1.0
+LCOND 3500   LIN     1.0
+COMP PT305         1.0
+COMP S 100         1.0
+LCOND 3600   LIN     1.0
+COMP PT306         1.0
+COMP S 100         1.0
+LCOND 3700   LIN     1.0
+COMP PT307         1.0
+COMP S 100         1.0
+LCOND 3800   LIN     1.0
+COMP PT308         1.0
+COMP S 100         1.0
+*
+END

@@ -1,0 +1,34 @@
+1) 본선의 선수, 선미 및 중앙부에 표시된 Draft Marks에 의하여 흘수를 계측한다.
+	df	:	FORE DRAFT AT DRAFT MARK 	(M)
+	da	:	AFT. DRAFT AT DRAFT MARK	(M)
+	dm	:	MIDSHIP DRAFT AT DRAFT MARK	(M)
+2) F.P와 A.P에서의 흘수를 계산하기 위하여 선수?미 흘수를 수정한다.
+	LBP	: 수선간장
+	L1	: 선수수선에서 선수 흘수 마크까지 거리(선수수선에서 중앙부 방향 : +)
+	L2	: 선미수선에서 선미 흘수 마크까지 거리(선미수선에서 중앙부 방향 : +)
+	IT	: 초기 트림(선미트림 : -)
+		: 선수 흘수 수정량 = ( df - da - IT ) ×L1 / ( LBP - L1 -L2 )
+		: 선미 흘수 수정량 = ( df - da - IT ) ×L2 / ( LBP - L1 -L2 )
+	dF	: 선수 수선에서 흘수 = df +
+	dA	: 선미 수선에서 흘수 = da -
+3) 배수량 등곡선도 또는 배수량 등곡선표의 Draft 0 Point에 대한 흘수 수정을 한다.
+	Kt	: 배수량 등곡선도 또는 배수량 등곡선표의 Draft 0 Point와 기선과의 거리
+		  (기선의 하방향을 -로 한다)
+	dFe	: 선수 수선에서 흘수(Extreme) = dF -  Kt	
+	dAe	: 선미 수선에서 흘수(Extreme) = dA + Kt
+	dMe : 평균흘수 = ( dFe + dAe ) / 2
+	Te	: 트림 = dFe - dAe
+4) 평균 흘수(dMe)에 대한 L.C.F를 배수량 등곡선표에서 구하여 트림에 의한 수정을 한다.
+	δTe	: 트림에 의한 수정량 = L.C.F × Te / LBP
+	deq	: 상당흘수 = dMe + δTe
+5) 상당흘수(deq)에 대한 배수량(DISP')을 Hydrostatic Table에서 구한다.
+	※ 흘수의 중간값에 대하여 선형보간법을 사용한다.
+6) 해수 비중의 변경에 따른 배수량 수정을 실시한다.
+	γm 	: 흘수 계측시 해수의 비중 
+	DISP	: 수정된 배수량 = DISP' × γm  / 1.025
+7) 종방향 중량중심(L.C.G)의 계산 
+	배수량(DISP)에 대한 MTC, LCB를 Hydrostatic Table에서 구한다.
+	BG	 	= 100 × MTC × Te / DISP
+	L.C.G 	= LCB + BG
+	※ 선미트림(Te : -)일 경우 L.C.G는 LCB보다 선미쪽에 있다.
+	※ 선수트림(Te : +)일 경우 L.C.G는 LCB보다 선수쪽에 있다.

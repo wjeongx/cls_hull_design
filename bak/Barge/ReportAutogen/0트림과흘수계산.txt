@@ -1,0 +1,13 @@
+1) 본선에 적재하고자 하는 화물, 연료유, 청수, Ballast 및 기타 중량물을 적재하였을 경우 선박의 전체 중량(DISP)과 길이방향(LCG) 및 연직방향(KG) 무게중심을 구한다.
+2) Hydrostatic Table로부터 다음의 항목을 읽는다
+	deq		: 배수량(DISP)에 대한 상당흘수
+	LCB		: 상당흘수에 대한 종방향 부심위치
+	LCF		: 상당흘수에 대한 종방향 부면심위치
+	MTC		: 상당흘수에 대한 1cm 트림변화 모멘트
+3) 적하상태에 따른 트림(Tr)계산
+	Tr = DISP × BG  / (MTC ×100)
+	단, BG = LCG - LCB
+4) 선수 흘수(dF)와 선미 흘수(dA)를 구한다.
+	dF	= deq + (LBP/2 - LCF) × Tr / LBP
+	dA	= deq - (LBP/2 + LCF) × Tr / LBP
+	dM 	= (dF + dA) / 2

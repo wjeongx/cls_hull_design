@@ -1,0 +1,51 @@
+@ECHO OFF
+Rem RunFileVersion 3
+Rem Project= 0 Version= 0 WorkFile= C:\Program Files\SACS53\sacsexc.wsh
+echo SACS Element Stress and Code Check Started
+IF EXIST *.TMP DEL *.TMP
+IF EXIST *.EDI DEL *.EDI
+IF EXIST ?### DEL ?###
+SET SACOPT=XXNINCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+SET SACMSG=sacmsg.tmp
+SET POSTIN=pstinp.u66c_pr03_pstdata
+IF EXIST PSTLST.u66c_pr03_pstdata DEL PSTLST.u66c_pr03_pstdata
+SET PSTFIL=cmbcsf.u66c_pr03_comb
+SET SMEMFL=c:\program files\sacs53\aisc13th.sec
+IF EXIST PSTCSF.u66c_pr03_pstdata DEL PSTCSF.u66c_pr03_pstdata
+SET NEWPST=PSTCSF.u66c_pr03_pstdata
+SACTIM SACWPST STARTED AT
+run ~sacsprog~SACWPST < pstinp.u66c_pr03_pstdata >> PSTLST.u66c_pr03_pstdata
+IF ERRORLEVEL 1 GOTO ERR
+SACTIM SACWPST FINISHED AT
+Echo File list for Element Stress and Code Check
+Rem InpFile Post Processor Input File~pstinp.u66c_pr03_pstdata~0~12~1~POSTIN~0~1
+Rem InpFile SACS Common Solution File~cmbcsf.u66c_pr03_comb~0~12~3~PSTFIL~0~3
+Rem InpFile Member Library File~c:\program files\sacs53\aisc13th.sec~0~12~4~SMEMFL~3~4
+Rem OutFile Post Output Listing File~pstlst.u66c_pr03_pstdata~0~12~2~STOUT~2~2
+Rem OutFile Revised Common Solution File~pstcsf.u66c_pr03_pstdata~0~12~3~NEWPST~20~5
+Rem OutFile Post Run File~<this file>~0~12~100~~0~6
+Rem aaPFile pstinp.u66c_pr03_pstdata~12~1~4~0~1~0~POSTIN
+Rem aaPFile PSTLST.u66c_pr03_pstdata~12~2~5~0~2~2~STOUT
+Rem aaPFile cmbcsf.u66c_pr03_comb~12~3~1~0~1~0~PSTFIL
+Rem aaPFile c:\program files\sacs53\aisc13th.sec~12~4~1~0~1~3~SMEMFL
+Rem aaPFile PSTCSF.u66c_pr03_pstdata~12~3~2~0~2~20~NEWPST
+Rem aaPFile <this file>~100~0~100~0~2~0
+Rem aaIeopt 0000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000000<00000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Rem aIvalue 0100000011000000000600000
+Rem aaaIexe SACWPST~12
+Rem AnalTyp 300
+echo SACS Element Stress and Code Check Finished
+GOTO EXIT
+:ERR
+ECHO *** ERROR in SACS Execution ***
+ECHO Please check output listing files for additional error messages
+:EXIT
+SET POSTIN=
+SET PSTFIL=
+SET SMEMFL=
+SET NEWPST=
+SET SACOPT=
+SET SACMSG=
+IF EXIST *.TMP DEL *.TMP
+IF EXIST *.EDI DEL *.EDI
+ECHO ON

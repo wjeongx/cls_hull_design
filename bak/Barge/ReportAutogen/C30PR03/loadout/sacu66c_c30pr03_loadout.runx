@@ -1,0 +1,357 @@
+Rem Avars = 1, 12, 3, 2, 21, 1021, 1013
+
+Rem AnalysisTypeCategory=1
+Rem AnalysisTypeIndex=1
+@ECHO OFF
+echo SACS Linear Static Analysis Started
+Rem AnalTyp 500
+
+
+// AVAR 1 is use seastate. Set in UI
+Rem AVARFile 1,1001 InpFile Seastate Input File~~0~1~1~STDIN~0~1
+// AVAR 2 is model file. Set in UI
+Rem AVARFile 2 InpFile SACS Model File~sacinp.u66c_c30pr03_loadout~0~2~1~JCKFIL~0~3
+// AVAR 6 is use Gap elements. Set in UI and mutually exclusive with PSI
+Rem AVARFile 6,1006 InpFile Gap Input File~gaptmp.tmp~0~6~1~STDIN~19~11
+// AVAR 132 is import SE.  Set in UI or from model file 
+Rem AVARFile 132 InpFile Superelement File~~0~9~10~SUBIN~7~132
+// AVAR 4 is use PSI Set in UI and mutually exclusive with Gap
+Rem AVARFile 4 InpFile PSI Input File~~0~4~1~STDIN~0~13
+// AVAR 13 is joint can.  Set in UI
+Rem AVARFile 13,1013 InpFile Joint Can Input File~jcntmp.tmp~0~13~1~STDIN~0~20
+// AVAR 138 is use a Post input file if post is on.  Set in UI
+Rem AVARFile 12,138 InpFile Post Processor Input File~~0~12~1~STDIN~0~21
+
+Rem AVARFile 1 OutFile Linear Static Load File~seaoci.u66c_c30pr03_loadout~0~1~7~SPDATA~1~6
+Rem AVARFile 2 OutFile SACS Common Solution File~saccsf.u66c_c30pr03_loadout~0~3~3~PSTFIL~5~7
+Rem AVARFile 4,144 OutFile Foundation Plot File~~0~4~5~NPCFIL~0~8
+Rem AVARFile 4,144 OutFile Foundation Neutral Chart File~~0~4~39~SNCFIL~0~15
+Rem AVARFile 4,134 OutFile Foundation Superelement File~~0~4~10~PILSEF~0~19
+Rem AVARFile 4,1134 OutFile Foundation Superelement File~~0~4~10~PILSEF~0~22
+Rem AVARFile 4,171 OutFile 2nd Foundation Superelement File~~0~4~10~PILSEF1~0~14
+Rem AVARFile 4,174 OutFile Pile Solution File~~0~4~3~PILCSF~0~114
+Rem AVARFile 21 OutFile Postvue Data Base Directory~psvdb.u66c_c30pr03_loadout~0~21~25~POSTVIN~0~26
+Rem AVARFile 130 OutFile Redesigned SACS Input Data File~~0~12~7~OUTRDZ~0~4
+Rem AVARFile 50 OutFile SACS Reports Data Base Directory~~0~50~40~POSTVIN~0~27
+Rem AVARFile 178 OutFile Seastate Plot File~~0~1~5~SEANPF~0~28
+Rem AVARFile 178 OutFile Seastate Neutral Chart File~~0~1~39~SNCFIL~0~29
+
+// List of possible executables and corresponding listinf filenames to run with this runfile
+
+//  Format for aaaIexe Line
+// required =  module is required to run for this analysis type 
+//				0 - required module, can adjust options
+//				1 - optional module, can adjust options
+//				2 - required module, cannot adjust options
+//				3 - optional module, cannot adjust options
+//				4 - don't display this, cannot adjust options
+// Prereq   =  This module is required to be run, in order to run the aaaIexe module
+// Mutex    =  If specified aaaIexe module is on, then this module is disabled, and vice versa.
+// DefaultOn = The initial value of the execute flag for this module when first loaded
+// No concat listfile name = the default file name for when the list file concat is off...
+//  aaaIxee Module exe~pgm~required~prerequisite pgm~Mutually Exclusive Program~DefaultOn~No Concat Listfile 
+
+Rem ConcatFile=saclst.u66c_c30pr03_loadout
+
+Rem aaaIexe SACWSEA~1~1~0~0~0~saclst.u66c_c30pr03_loadout~
+Rem aaaIexe SACWPRE~2~0~0~0~1~saclst.u66c_c30pr03_loadout~
+Rem aaaIexe SACWSLV~3~0~0~0~1~saclst.u66c_c30pr03_loadout~
+// Rem aaaIexe SACWPSI~4~1~2~6~0~%List04
+// Rem aaaIexe SACWGap~6~1~2~4~0~%List06
+Rem aaaIexe SACWCMB~11~4~6~4~0~saclst.u66c_c30pr03_loadout~
+Rem aaaIexe SACWPST~12~1~2~0~1~saclst.u66c_c30pr03_loadout~
+Rem aaaIexe SACWJCN~13~1~2~0~0~saclst.u66c_c30pr03_loadout~
+Rem aaaIexe SACWPVI~21~1~2~0~1~saclst.u66c_c30pr03_loadout~
+// Rem aaaIexe SACWDB~50~3~21~0~0~%List50
+
+IF CONCAT GOTO SKIPCAT1
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "%List04" DEL "%List04"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "%List06" DEL "%List06"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+:SKIPCAT1
+IF NOT CONCAT GOTO SKIPCAT2
+    IF EXIST "saclst.u66c_c30pr03_loadout" DEL "saclst.u66c_c30pr03_loadout"
+:SKIPCAT2
+
+IF EXIST *.EDI DEL *.EDI
+IF EXIST ?### DEL ?###
+SET SACOPT=STXXNCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+SET SACMSG=sacmsg.tmp
+SET SMEMFL=$sacsdata\aisc13th.sec
+
+
+// SACS Database Reports
+IF NOT AVAR 50 GOTO SKIPSACSDBINIT
+
+	SET DBDIR=
+	SET TASKID=1
+	
+	SACTIM InitReports STARTED AT
+    IF NOT AVAR 1001 GOTO DBSKIPINPUTSEA
+		SET JCKFIL=sacinp.u66c_c30pr03_loadout
+	    run ~sacsprog~SACSDBInit < 
+	:DBSKIPINPUTSEA
+	
+    IF AVAR 1001 GOTO DBSKIPINPUTMODEL
+	    run ~sacsprog~SACSDBInit < sacinp.u66c_c30pr03_loadout
+	:DBSKIPINPUTMODEL
+	SACTIM InitReports FINISHED AT
+
+:SKIPSACSDBINIT
+
+// Seastate
+IF NOT AVAR 1 GOTO SKIP1
+
+SET SEAOPT=XXXXXXXXXXXXXXXXX
+	IF NOT AVAR 1001 GOTO SEASKIPJCKFIL
+		SET JCKFIL=sacinp.u66c_c30pr03_loadout
+	:SEASKIPJCKFIL
+	
+	IF NOT AVAR 178 GOTO SKIP178
+        IF EXIST "" DEL ""
+        SET SEANPF=
+        IF EXIST "" DEL ""
+        SET SNCFIL=
+    :SKIP178
+	
+    IF EXIST "seaoci.u66c_c30pr03_loadout" DEL "seaoci.u66c_c30pr03_loadout"
+    SET SPDATA=seaoci.u66c_c30pr03_loadout
+    SACTIM SACWSEA STARTED AT
+    
+    IF NOT AVAR 1001 GOTO SEASKIPINPUTSEA
+	    run ~sacsprog~SACWSEA <  >> saclst.u66c_c30pr03_loadout
+	:SEASKIPINPUTSEA
+	
+    IF AVAR 1001 GOTO SEASKIPINPUTMODEL
+	    run ~sacsprog~SACWSEA < sacinp.u66c_c30pr03_loadout >> saclst.u66c_c30pr03_loadout
+	:SEASKIPINPUTMODEL
+    
+    
+    IF ERRORLEVEL 1 GOTO ERR
+    SACTIM SACWSEA FINISHED AT
+:SKIP1
+
+// Pre
+IF NOT AVAR 2 GOTO SKIPZ
+
+	IF AVAR 1 GOTO PRESACSINMODEL
+		SET SACSIN=sacinp.u66c_c30pr03_loadout
+	:PRESACSINMODEL
+	
+	IF NOT AVAR 1 GOTO PRESACSINLOADS
+		SET SACSIN=seaoci.u66c_c30pr03_loadout
+	:PRESACSINLOADS	   
+    
+    SET PREOUT=SACOBF.TMP
+    IF EXIST "saccsf.u66c_c30pr03_loadout" DEL "saccsf.u66c_c30pr03_loadout"
+    SET PSTFIL=saccsf.u66c_c30pr03_loadout
+    IF NOT AVAR 4 GOTO SKIPPSTFIL
+		SET PSTFIL=SACPCS.TMP
+	:SKIPPSTFIL		
+    IF NOT AVAR 6 GOTO SKIPPSTFIL2
+		SET PSTFIL=SACCSF.TMP
+	:SKIPPSTFIL2		
+    IF NOT AVAR 132 GOTO SKIPSUBIN
+		SET SUBIN=
+	:SKIPSUBIN
+    SACTIM SACWPRE STARTED AT
+    
+    IF NOT AVAR 1001 GOTO PREINPUTLOAD
+		run ~sacsprog~SACWPRE < seaoci.u66c_c30pr03_loadout >> saclst.u66c_c30pr03_loadout
+    :PREINPUTLOAD
+    
+    IF AVAR 1001 GOTO PREINPUTMODEL
+		run ~sacsprog~SACWPRE < sacinp.u66c_c30pr03_loadout >> saclst.u66c_c30pr03_loadout
+	:PREINPUTMODEL    
+    
+    IF ERRORLEVEL 1 GOTO ERR
+    SACTIM SACWPRE FINISHED AT
+
+//Solve
+    IF NOT AVAR 4 GOTO SKIPTRISTIF
+		SET TRISTIF=SLVTRI.TMP
+	:SKIPTRISTIF		
+    SACTIM SACWSLV STARTED AT
+    run ~sacsprog~SACWSLV >> saclst.u66c_c30pr03_loadout
+    IF ERRORLEVEL 1 GOTO ERR
+    SACTIM SACWSLV FINISHED AT
+
+//PSI
+    IF NOT AVAR 4 GOTO SKIP5
+SET PSIOPT=
+SET PILSUP=
+        SET PSTPSI=saccsf.u66c_c30pr03_loadout
+        SET SUBSAV=PSIRST.TMP
+        
+        IF NOT AVAR 144 GOTO SKIPA
+            IF EXIST "" DEL ""
+            SET NPCFIL=
+            IF EXIST "" DEL ""
+            SET SNCFIL=
+        :SKIPA
+        
+        IF NOT AVAR 134 GOTO SKIP134
+            IF EXIST "" DEL ""
+            SET PILSEF=
+        :SKIP134
+        
+        IF NOT AVAR 1134 GOTO SKIP1134
+            IF EXIST "" DEL ""
+            SET PILSEF=
+        :SKIP1134
+        
+        IF NOT AVAR 171 GOTO SKIP171
+            IF EXIST "" DEL ""
+            SET PILSEF1=
+        :SKIP171
+        
+        IF NOT AVAR 174 GOTO SKIP174
+			IF EXIST "" DEL ""
+			SET PILCSF=
+        :SKIP174
+        
+        SACTIM SACWPSI STARTED AT
+        run ~sacsprog~SACWPSI <  >> %List04
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWPSI FINISHED AT
+        SET PSTFIL=saccsf.u66c_c30pr03_loadout
+    :SKIP5
+    
+//Gap
+    IF NOT AVAR 6 GOTO SKIPGAP
+		SETTMP GAP=
+        SET CMBIN=CMBIN.EDI
+        SACTIM SACWGap STARTED AT
+        run ~sacsprog~SACWGap < gaptmp.tmp >> %List06
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWGap FINISHED AT
+        SET PRIMARY=SACCSF.TMP
+        IF EXIST "saccsf.u66c_c30pr03_loadout" DEL "saccsf.u66c_c30pr03_loadout"
+        SET PSTFIL=saccsf.u66c_c30pr03_loadout
+        SACTIM SACWCMB STARTED AT
+        run ~sacsprog~SACWCMB < CMBIN.EDI >> saclst.u66c_c30pr03_loadout
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWCMB FINISHED AT
+    :SKIPGAP
+
+//Post
+    IF NOT AVAR 12 GOTO SKIP6
+    
+		IF NOT AVAR 130 GOTO SKIPOUTRDZ
+			IF EXIST "" DEL ""
+			SET OUTRDZ=
+		:SKIPOUTRDZ
+
+        IF NOT AVAR 138 GOTO SKIPPOSTIN
+			SET POSTIN=
+			IF NOT AVAR 21 GOTO SKIPPVONLY
+				SET PVONLY=NO
+	            SET NEWPST=PSTCSF.TMP
+			:SKIPPVONLY
+		:SKIPPOSTIN	
+        SACTIM SACWPST STARTED AT
+        run ~sacsprog~SACWPST >> saclst.u66c_c30pr03_loadout
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWPST FINISHED AT
+    :SKIP6
+
+//Joint Can
+    IF NOT AVAR 13 GOTO SKIP7
+		SETTMP JCN=
+        SACTIM SACWJCN STARTED AT
+        run ~sacsprog~SACWJCN < jcntmp.tmp >> saclst.u66c_c30pr03_loadout
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWJCN FINISHED AT
+    :SKIP7
+
+//Postvue DB
+    IF NOT AVAR 21 GOTO SKIP8
+    
+    	IF AVAR 1021 GOTO MODELINPUT
+			SET SACSIN=sacinp.u66c_c30pr03_loadout
+		:MODELINPUT
+    
+        IF AVAR 12 GOTO SKIPC
+	        IF NOT AVAR 138 GOTO SKIPPOSTIN2
+				SET POSTIN=
+				SET NEWPST=PSTCSF.TMP
+				SET PVONLY=TEMP
+				SACTIM SACWPST STARTED AT
+				run ~sacsprog~SACWPST <  >> saclst.u66c_c30pr03_loadout
+				IF ERRORLEVEL 1 GOTO ERR
+				SACTIM SACWPST FINISHED AT
+			:SKIPPOSTIN2
+        :SKIPC
+        
+        IF NOT AVAR 138 GOTO SKIPSETPSTFIL
+			SET PSTFIL=PSTCSF.TMP
+		:SKIPSETPSTFIL
+        
+        IF EXIST "psvdb.u66c_c30pr03_loadout" DEL "psvdb.u66c_c30pr03_loadout"
+		SET POSTVIN=psvdb.u66c_c30pr03_loadout
+SET MODSTR=YES
+        SET PVONLY=YES
+        SACTIM SACWPVI STARTED AT
+        run ~sacsprog~SACWPVI >> saclst.u66c_c30pr03_loadout
+        IF ERRORLEVEL 1 GOTO ERR
+        SACTIM SACWPVI FINISHED AT
+    :SKIP8
+    
+    // SACS Database Reports
+	IF NOT AVAR 50 GOTO SKIPSACSDBFINISH
+	
+		SACTIM FinishReports STARTED AT
+		run ~sacsprog~SACSDBPost
+		SACTIM FinishReports FINISHED AT
+		
+	:SKIPSACSDBFINISH
+	
+:SKIPZ
+
+REM **********
+Echo File list for Linear Static Analysis
+echo SACS Linear Static Analysis Finished
+GOTO EXIT
+:ERR
+ECHO *** ERROR in SACS Execution ***
+ECHO Please check output listing files for additional error messages
+:EXIT
+IF EXIST *.TMP DEL *.TMP
+IF EXIST *.EDI DEL *.EDI
+
+IF EXIST lf90.eer DEL lf90.eer
+RESET POSTIN=
+RESET JCKFIL=
+RESET SPDATA=
+RESET SMEMFL=
+RESET SACSIN=
+RESET PREOUT=
+RESET PSTFIL=
+RESET SUBIN=
+RESET TRISTIF=
+RESET PSTPSI=
+RESET SUBSAV=
+RESET PILSEF=
+RESET PILSEF1=
+RESET CMBIN=
+RESET PRIMARY=
+RESET NPCFIL=
+RESET SNCFIL=
+RESET PSTFIL=
+RESET POSTVIN=
+RESET MODSTR=
+RESET PVONLY=
+RESET SACOPT=
+RESET PSIOPT=
+RESET SACMSG=
+RESET OUTRDZ=
+RESET TASKID=
+RESET DBDIR=
+IF EXIST *.TMP DEL *.TMP
+IF EXIST *.EDI DEL *.EDI

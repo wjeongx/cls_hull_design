@@ -1,0 +1,10 @@
+from math import *
+
+E = 206000.
+sigy = 235
+ep = 0.002
+alpha = 1.753
+
+value = (ep*(E/sigy)-1)/alpha
+
+print value

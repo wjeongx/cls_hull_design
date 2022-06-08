@@ -1,0 +1,17 @@
+1) 밀도
+Fresh Water	: 	1.000	(ton/m3)
+Sea Water	: 	1.025	(ton/m3)
+Fuel Oil    	:	0.860	(ton/m3)
+Lubrication Oil	: 	0.900	(ton/m3)
+2) Store & Spare는 2.000 ton 을 적재하는 것으로 한다.
+3) Fuel oil & Lub. oil tanks to be deducted about 4 percent of full capacity due to expansion by heat.
+4) 각 TANK의 액체 자유표면에 대한 GM의 감소치(GGo)는 다음산식에 의한다.
+   GGo = ∑ (S.G x I) / DISPLACEMENT
+	단, S.G 	:	액체의 비중
+	    I 		:	액체의 단면2차 MOMENT
+5) Definition of "+" or "-" for L.C.G & L.C.B. & L.C.F, TRIM.
+  	+	:	Fore  direction from midship, Trim by the head.
+	-	:	After direction from midship, Trim by the stern.
+6) 단위
+	중량		:	Ton
+	길이		:	Mete

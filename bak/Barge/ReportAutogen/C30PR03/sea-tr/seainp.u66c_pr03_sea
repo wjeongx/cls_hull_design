@@ -1,0 +1,82 @@
+LDOPT SF                                            MN          CMB
+**************************************************************************
+FILE B
+*
+LOAD
+LOADCN  W1
+WIND
+WIND SW      15.      1.            10.021AP
+*
+LOADCN  W2
+WIND
+WIND SW      15.      1.    90.0    10.021AP
+*
+LOADCN  W3
+WIND
+WIND SW      15.      1.   180.0    10.021AP
+*
+LOADCN  W4
+WIND
+WIND SW      15.      1.   270.0    10.021AP
+*
+LOADCN  W5
+WIND
+WIND SW      15.      1.    45.0    10.021AP
+*
+LOADCN  W6
+WIND
+WIND SW      15.      1.   135.0    10.021AP
+*
+LOADCN  W7
+WIND
+WIND SW      15.      1.   225.0    10.021AP
+*
+LOADCN  W8
+WIND
+WIND SW      15.      1.   315.0    10.021AP
+*
+LCOMB
+******************************************************
+***** +/- PITCH +/-HEAVE, X DIR WIND
+******************************************************
+LCOMB T101  PIT-4.935 SUR 0.260 HEA 0.172  W1   1.0
+LCOMB T102  PIT-4.935 SUR 0.173 HEA-0.219  W1   1.0
+LCOMB T103  PIT 4.935 SUR-0.260 HEA 0.172  W3   1.0
+LCOMB T104  PIT 4.935 SUR-0.173 HEA-0.219  W3   1.0
+*
+******************************************************
+***** +/- ROLL +/-HEAVE, Y DIR WIND
+******************************************************
+LCOMB T105  ROL-7.896 SWA-0.410 HEA 0.128  W4   1.0
+LCOMB T106  ROL-7.896 SWA-0.274 HEA-0.248  W4   1.0
+LCOMB T107  ROL 7.896 SWA 0.410 HEA 0.128  W2   1.0
+LCOMB T108  ROL 7.896 SWA 0.274 HEA-0.248  W2   1.0
+*
+*******************************************************
+***** +/- 80% ROLL +/- 60% PITCH +/-HEAVE, XY DIR WIND
+*******************************************************
+LCOMB T201  ROL 6.317 SWA 0.328 PIT 2.961 SUR-0.156 HEA 0.188  W6   1.0
+LCOMB T202  ROL 6.317 SWA 0.219 PIT 2.961 SUR-0.104 HEA-0.188  W6   1.0
+LCOMB T203  ROL 6.317 SWA 0.328 PIT-2.961 SUR 0.156 HEA 0.195  W5   1.0
+LCOMB T204  ROL 6.317 SWA 0.219 PIT-2.961 SUR 0.104 HEA-0.195  W5   1.0
+*
+LCOMB T205  ROL-6.317 SWA-0.328 PIT-2.961 SUR 0.156 HEA 0.188  W8   1.0
+LCOMB T206  ROL-6.317 SWA-0.219 PIT-2.961 SUR 0.104 HEA-0.188  W8   1.0
+LCOMB T207  ROL-6.317 SWA-0.328 PIT 2.961 SUR-0.156 HEA 0.195  W7   1.0
+LCOMB T208  ROL-6.317 SWA-0.219 PIT 2.961 SUR-0.104 HEA-0.195  W7   1.0
+*
+*******************************************************
+***** +/- 60% ROLL +/- 80% PITCH +/-HEAVE, XY DIR WIND
+*******************************************************
+LCOMB T301  ROL 4.737 SWA 0.246 PIT 3.948 SUR-0.208 HEA 0.153  W6   1.0
+LCOMB T302  ROL 4.737 SWA 0.164 PIT 3.948 SUR-0.139 HEA-0.232  W6   1.0
+LCOMB T303  ROL 4.737 SWA 0.246 PIT-3.948 SUR 0.208 HEA 0.153  W5   1.0
+LCOMB T304  ROL 4.737 SWA 0.164 PIT-3.948 SUR 0.139 HEA-0.232  W5   1.0
+*
+LCOMB T305  ROL-4.737 SWA-0.246 PIT-3.948 SUR 0.208 HEA 0.153  W8   1.0
+LCOMB T306  ROL-4.737 SWA-0.164 PIT-3.948 SUR 0.139 HEA-0.232  W8   1.0
+LCOMB T307  ROL-4.737 SWA-0.246 PIT 3.948 SUR-0.208 HEA 0.153  W7   1.0
+LCOMB T308  ROL-4.737 SWA-0.164 PIT 3.948 SUR-0.139 HEA-0.232  W7   1.0
+*
+END
+

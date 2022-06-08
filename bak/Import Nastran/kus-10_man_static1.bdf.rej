@@ -1,0 +1,391 @@
+$REJECT (SEMTRN)  IGNORE INPUT CARD(S) BEFORE BEGIN BULK                        
+$ NASTRAN input file created by the Patran 2007 r1b input file                  
+$ translator on July      17, 2008 at 21:20:16.                                 
+$ Direct Text Input for Nastran System Cell Section                             
+$ Linear Static Analysis, Database                                              
+SOL 101                                                                         
+$REJECT (SEMTRN)  IGNORE INPUT CARD(S) AFTER  BEGIN BULK                        
+$ Elements and Element Properties for region : boom_attached1_flange            
+$>PBARL    1       1               BAR                                          
+$ Pset: "boom_attached1_flange" will be imported as: "pbarl.1"                  
+$>CBAR     302816  1       263138  263137  270000                               
+$ Elements and Element Properties for region : boom_attached2_flange            
+$>PBARL    2       1               BAR                                          
+$ Pset: "boom_attached2_flange" will be imported as: "pbarl.2"                  
+$>CBAR     302832  2       263196  263197  270001                               
+$ Elements and Element Properties for region : boom_attached2_flange_rh         
+$>PBARL    3       1               BAR                                          
+$ Pset: "boom_attached2_flange_rh" will be imported as: "pbarl.3"               
+$>CBAR     302864  3       264145  264144  270002                               
+$ Elements and Element Properties for region : fuse_skin_upr                    
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.6                                                              
+$ Composite Material Description :                                              
+$>PCOMP    4      -.4             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_skin_upr" will be imported as: "pcomp.4"                          
+$>CQUAD4   1366    4       2640    2636    2635    2639    0.      0.           
+$ Elements and Element Properties for region : fuse_skin_lwr                    
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.7                                                              
+$ Composite Material Description :                                              
+$>PCOMP    5      -.4             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_skin_lwr" will be imported as: "pcomp.5"                          
+$>CQUAD4   928     5       1840    1839    1842    1843    0.      0.           
+$ Elements and Element Properties for region : te                               
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.8                                                              
+$ Composite Material Description :                                              
+$>PCOMP    6      -.2             34.6     STRN    0.     .0167                 
+$ Pset: "te" will be imported as: "pcomp.6"                                     
+$>CQUAD4   1968    6       2635    2601    2617    3678    0.      0.           
+$ Elements and Element Properties for region : fuse_spar_flange_8ply            
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.9                                                              
+$ Composite Material Description :                                              
+$>PCOMP    7      -.8             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_spar_flange_8ply" will be imported as: "pcomp.7"                  
+$>CQUAD4   895     7       1779    1780    1777    1776    0.      0.           
+$ Elements and Element Properties for region : wing_tip_skin                    
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.10                                                             
+$ Composite Material Description :                                              
+$>PCOMP    8      -.2             34.6     STRN    0.     .0167                 
+$ Pset: "wing_tip_skin" will be imported as: "pcomp.8"                          
+$>CQUAD4   187157  8       4363    260180  260179  16033   0.      0.           
+$ Elements and Element Properties for region : ht_skin_upr_2ply                 
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.11                                                             
+$ Composite Material Description :                                              
+$>PCOMP    9      -.2             34.6     STRN    0.     .0167                 
+$ Pset: "ht_skin_upr_2ply" will be imported as: "pcomp.9"                       
+$>CQUAD4   36552   9       52383   52071   52043   52055   0.      0.           
+$ Elements and Element Properties for region : vt_skin_2ply                     
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.12                                                             
+$ Composite Material Description :                                              
+$>PCOMP    10     -.2             34.6     STRN    0.     .0167                 
+$ Pset: "vt_skin_2ply" will be imported as: "pcomp.10"                          
+$>CQUAD4   34657   10      50108   50057   50065   50107   0.      0.           
+$ Elements and Element Properties for region : boom_8ply                        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.13                                                             
+$ Composite Material Description :                                              
+$>PCOMP    11     -.8             34.6     STRN    0.     .0167                 
+$ Pset: "boom_8ply" will be imported as: "pcomp.11"                             
+$>CQUAD4   301366  11      263222  263239  263240  263223  0.      0.           
+$ Elements and Element Properties for region : ht_skin_lwr_2ply                 
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.14                                                             
+$ Composite Material Description :                                              
+$>PCOMP    12     -.2             34.6     STRN    0.     .0167                 
+$ Pset: "ht_skin_lwr_2ply" will be imported as: "pcomp.12"                      
+$>CQUAD4   36472   12      52065   52053   52089   52275   0.      0.           
+$ Elements and Element Properties for region : frame_em_angle                   
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.15                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   13             -2.9                            34.6                  
+$ Pset: "frame_em_angle" will be imported as: "pcomp.13"                        
+$>CQUAD4   3809    13      6783    2301    2364    6797    0.      0.           
+$ Elements and Element Properties for region : frame_em                         
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.16                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   14             -5.4                            34.6                  
+$ Pset: "frame_em" will be imported as: "pcomp.14"                              
+$>CQUAD4   301000  14      1796    1809    262717  6771    0.      0.           
+$ Elements and Element Properties for region : fuse_rib_balsa                   
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.17                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   15             -5.4                            34.6                  
+$ Pset: "fuse_rib_balsa" will be imported as: "pcomp.15"                        
+$>CQUAD4   1223    15      2408    2392    384     1733    0.      0.           
+$ Elements and Element Properties for region : fuse_frame_balsa_10t             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.18                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   16             -5.4                            34.6                  
+$ Pset: "fuse_frame_balsa_10t" will be imported as: "pcomp.16"                  
+$>CQUAD4   1       16      1       2       5       4       0.      0.           
+$ Elements and Element Properties for region : vt_rib_balsa                     
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.19                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   17             -2.7                            34.6                  
+$ Pset: "vt_rib_balsa" will be imported as: "pcomp.17"                          
+$>CQUAD4   34571   17      49881   49926   49919   49890   0.      0.           
+$ Elements and Element Properties for region : vt_spar_balsa                    
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.20                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   18             -2.7                            34.6                  
+$ Pset: "vt_spar_balsa" will be imported as: "pcomp.18"                         
+$>CQUAD4   34539   18      49864   49865   49874   49873   0.      0.           
+$ Elements and Element Properties for region : ht_spar_balsa                    
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.21                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   19             -2.7                            34.6                  
+$ Pset: "ht_spar_balsa" will be imported as: "pcomp.19"                         
+$>CQUAD4   36356   19      52043   52071   52080   52048   0.      0.           
+$ Elements and Element Properties for region : ht_rib_balsa                     
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.22                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   20             -2.7                            34.6                  
+$ Pset: "ht_rib_balsa" will be imported as: "pcomp.20"                          
+$>CQUAD4   36305   20      51983   51982   51977   51978   0.      0.           
+$ Elements and Element Properties for region : fuse_floor                       
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.23                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   21             -5.4                            34.6                  
+$ Pset: "fuse_floor" will be imported as: "pcomp.21"                            
+$>CQUAD4   426     21      924     430     431     925     0.     -6.75         
+$ Elements and Element Properties for region : fuse_spar_rib_flange_8ply        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.24                                                             
+$ Composite Material Description :                                              
+$>PCOMP    22     -.8             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_spar_rib_flange_8ply" will be imported as: "pcomp.22"             
+$>CQUAD4   744     22      1496    1491    585     586     0.      0.           
+$ Elements and Element Properties for region : fuse_em_support_balsa5t          
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.25                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   23             -2.9                            34.6                  
+$ Pset: "fuse_em_support_balsa5t" will be imported as: "pcomp.23"               
+$>CQUAD4   301115  23      1750    1790    262872  262871  0.      0.           
+$ Elements and Element Properties for region : wing_rib_balsa_5t                
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.30                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   24             -2.7                            34.6                  
+$ Pset: "wing_rib_balsa_5t" will be imported as: "pcomp.24"                     
+$>CQUAD4   2328    24      4413    4398    4371    4370    0.      0.           
+$ Elements and Element Properties for region : wing_skin_lwr_bay1_CF_5pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.31                                                             
+$ Composite Material Description :                                              
+$>PCOMP    25     -.5             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_lwr_bay1_CF_5pl" will be imported as: "pcomp.25"             
+$>CQUAD4   3338    25      6078    6082    5560    5569    0.      0.           
+$ Elements and Element Properties for region : wing_skin_lwr_bay2_CF_4pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.32                                                             
+$ Composite Material Description :                                              
+$>PCOMP    26     -.4             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_lwr_bay2_CF_4pl" will be imported as: "pcomp.26"             
+$>CQUAD4   3434    26      3758    3800    6239    4419    0.      0.           
+$ Elements and Element Properties for region : wing_skin_lwr_bay3_CF_3pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.33                                                             
+$ Composite Material Description :                                              
+$>PCOMP    27     -.3             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_lwr_bay3_CF_3pl" will be imported as: "pcomp.27"             
+$>CQUAD4   3514    27      6359    5411    5393    5833    0.      0.           
+$ Elements and Element Properties for region : wing_skin_lwr_bay4_CF_2pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.34                                                             
+$ Composite Material Description :                                              
+$>PCOMP    28     -.2             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_lwr_bay4_CF_2pl" will be imported as: "pcomp.28"             
+$>CQUAD4   3594    28      3870    3912    6482    4963    0.      0.           
+$ Elements and Element Properties for region : wing_skin_upr_bay1_CF_5pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.35                                                             
+$ Composite Material Description :                                              
+$>PCOMP    29     -.5             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_upr_bay1_CF_5pl" will be imported as: "pcomp.29"             
+$>CQUAD4   2874    29      5232    4370    4371    5233    0.      0.           
+$ Elements and Element Properties for region : wing_skin_upr_bay2_CF_4pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.36                                                             
+$ Composite Material Description :                                              
+$>PCOMP    30     -.4             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_upr_bay2_CF_4pl" will be imported as: "pcomp.30"             
+$>CQUAD4   2906    30      5312    4814    4771    5313    0.      0.           
+$ Elements and Element Properties for region : wing_skin_upr_bay3_CF_3pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.37                                                             
+$ Composite Material Description :                                              
+$>PCOMP    31     -.3             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_upr_bay3_CF_3pl" will be imported as: "pcomp.31"             
+$>CQUAD4   2938    31      5393    4970    4927    5395    0.      0.           
+$ Elements and Element Properties for region : wing_skin_upr_bay4_CF_2pl        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.38                                                             
+$ Composite Material Description :                                              
+$>PCOMP    32     -.2             34.6     STRN    0.     .0167                 
+$ Pset: "wing_skin_upr_bay4_CF_2pl" will be imported as: "pcomp.32"             
+$>CQUAD4   2970    32      5482    5077    3914    3872    0.      0.           
+$ Elements and Element Properties for region : wing_intr_rib_balsa_2p5t         
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.39                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   33             -1.45                           34.6                  
+$ Pset: "wing_intr_rib_balsa_2p5t" will be imported as: "pcomp.33"              
+$>CQUAD4   302880  33      270006  3698    3692    4102    0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange_7ply             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.40                                                             
+$ Composite Material Description :                                              
+$>PCOMP    34     -.7             34.6     STRN    0.     .0167                 
+$ Pset: "wing_rib_flange_7ply" will be imported as: "pcomp.34"                  
+$>CQUAD4   2882    34      3744    3758    4419    5252    0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange_6ply             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.41                                                             
+$ Composite Material Description :                                              
+$>PCOMP    35     -.6             34.6     STRN    0.     .0167                 
+$ Pset: "wing_rib_flange_6ply" will be imported as: "pcomp.35"                  
+$>CQUAD4   2914    35      3796    3814    4807    5332    0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange_5ply             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.42                                                             
+$ Composite Material Description :                                              
+$>PCOMP    36     -.5             34.6     STRN    0.     .0167                 
+$ Pset: "wing_rib_flange_5ply" will be imported as: "pcomp.36"                  
+$>CQUAD4   2946    36      5411    4969    4970    5393    0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange_4ply             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.43                                                             
+$ Composite Material Description :                                              
+$>PCOMP    37     -.4             34.6     STRN    0.     .0167                 
+$ Pset: "wing_rib_flange_4ply" will be imported as: "pcomp.37"                  
+$>CQUAD4   2994    37      4361    4369    5215    5535    0.      0.           
+$ Elements and Element Properties for region : fuse_keel_beam                   
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.44                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   38             -5.4                            34.6                  
+$ Pset: "fuse_keel_beam" will be imported as: "pcomp.38"                        
+$>CQUAD4   304412  38      6856    6946    271448  6861    0.      0.           
+$ Elements and Element Properties for region : wing_spar_web_6plies             
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.45                                                             
+$ Composite Material Description :                                              
+$>PCOMP    39     -.6             34.6     STRN    0.     .0167                 
+$ Pset: "wing_spar_web_6plies" will be imported as: "pcomp.39"                  
+$>CQUAD4   1978    39      3691    3690    3696    3697    0.      0.           
+$ Elements and Element Properties for region : wing_spar_flange_6plies          
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.46                                                             
+$ Composite Material Description :                                              
+$>PCOMP    40     -.6             34.6     STRN    0.     .0167                 
+$ Pset: "wing_spar_flange_6plies" will be imported as: "pcomp.40"               
+$>CQUAD4   2228    40      3691    3690    4098    4100    0.      0.           
+$ Elements and Element Properties for region : fuse_keel_beam_flange            
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.47                                                             
+$ Composite Material Description :                                              
+$>PCOMP    41     -.4             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_keel_beam_flange" will be imported as: "pcomp.41"                 
+$>CQUAD4   978     41      897     900     1914    1937    0.      0.           
+$ Elements and Element Properties for region : fuse_nose                        
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.48                                                             
+$ Composite Material Description :                                              
+$>PCOMP    42     -.6             34.6     STRN    0.     .0167                 
+$ Pset: "fuse_nose" will be imported as: "pcomp.42"                             
+$>CQUAD4   665     42      931     1346    1342    932     0.      0.           
+$ Elements and Element Properties for region : fuse_acc_dr_b5t_2ply_45          
+$ Composite Property Record created from P3/PATRAN composite material           
+$ record : pcomp.49                                                             
+$ Composite Material Description :                                              
+$>PCOMP*   43             -2.7                            34.6                  
+$ Pset: "fuse_acc_dr_b5t_2ply_45" will be imported as: "pcomp.43"               
+$>CQUAD4   306964  43      274081  274091  274089  274082  0.      0.           
+$ Elements and Element Properties for region : access_cover_fstr_kx             
+$>PELAS    44     19862.                                                        
+$ Pset: "access_cover_fstr_kx" will be imported as: "pelas.44"                  
+$>CELAS1   307720  44      1342    1       274089  1                            
+$ Elements and Element Properties for region : access_cover_fstr_ky             
+$>PELAS    45     19862.                                                        
+$ Pset: "access_cover_fstr_ky" will be imported as: "pelas.45"                  
+$>CELAS1   309038  45      8102    2       274136  2                            
+$ Elements and Element Properties for region : wing_rib_root                    
+$>PSHELL   46      1      2.       1               1                            
+$ Pset: "wing_rib_root" will be imported as: "pshell.46"                        
+$>CQUAD4   3715    46      3713    6644    6642    3707    0.      0.           
+$ Elements and Element Properties for region : fuselage_rib_root                
+$>PSHELL   47      1      2.       1               1                            
+$ Pset: "fuselage_rib_root" will be imported as: "pshell.47"                    
+$>CQUAD4   185153  47      256555  256795  256793  256552  0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange                  
+$>PSHELL   48      5      2.       5               5                            
+$ Pset: "wing_rib_flange" will be imported as: "pshell.48"                      
+$>CQUAD4   188392  48      4121    6137    261711  261709  0.      0.           
+$ Elements and Element Properties for region : wing_rib_root_rh                 
+$>PSHELL   49      1      2.       1               1                            
+$ Pset: "wing_rib_root_rh" will be imported as: "pshell.49"                     
+$>CQUAD4   300000  49      9357    9356    262179  262180  0.      0.           
+$ Elements and Element Properties for region : wing_rib_flange_rh               
+$>PSHELL   50      5      2.       5               5                            
+$ Pset: "wing_rib_flange_rh" will be imported as: "pshell.50"                   
+$>CQUAD4   300013  50      262202  262204  9981    9397    0.      0.           
+$ Elements and Element Properties for region : fuselage_rib_root_rh             
+$>PSHELL   51      1      2.       1               1                            
+$ Pset: "fuselage_rib_root_rh" will be imported as: "pshell.51"                 
+$>CQUAD4   300134  51      7108    7107    262335  262336  0.      0.           
+$ Elements and Element Properties for region : conm2                            
+$>CONM2    110986  103622  0      .26955   0.      0.      0.                   
+$ Referenced Material Records                                                   
+$ Material Record : balsa                                                       
+$ Description of Material :                                                     
+$>MAT1     3      3518.   157.    10.2038 1.51-7                                
+$ Material Record : al7050                                                      
+$ Description of Material :                                                     
+$>MAT1     1      71000.  26880.  .33     2.8-6                                 
+$ Material Record : al7050_ey                                                   
+$ Description of Material :                                                     
+$>MAT1     5      71.     26880.  .33     2.8-6                                 
+$ Material Record : carbon_fabric                                               
+$ Description of Material :                                                     
+$>MAT8     2      65116.  65116.  .09     3579.   3579.   3579.   1.6-6         
+$ Material Record : Honeycomb_core                                              
+$ Description of Material :                                                     
+$>MAT8     4      1.      1.      .3      1.      124.11  68.95   3.3638-8      
+$ Multipoint Constraints of the Entire Model                                    
+$>MPCADD   864     517     518     519     520     521     522     523          
+$ Nodes of the Entire Model                                                     
+$>GRID     1              943.5   -341.541226.38                                
+$ Loads for Load Case : LC-MAP082.SC1                                           
+$>LOAD     20     1.      1.       3      1.       1                            
+$ Loads for Load Case : LC-MAP170.SC2                                           
+$>LOAD     23     1.      1.       6      1.       4                            
+$ Loads for Load Case : LC-MAP260.SC3                                           
+$>LOAD     26     1.      1.       9      1.       7                            
+$ Loads for Load Case : LC-MAN095.SC4                                           
+$>LOAD     29     1.      1.       10     1.       12                           
+$ Loads for Load Case : LC-MAN170.SC5                                           
+$>LOAD     32     1.      1.       15     1.       13                           
+$ Loads for Load Case : LC-MAN260.SC6                                           
+$>LOAD     35     1.      1.       18     1.       16                           
+$ Pressure Loads of Load Set : pload4.1.2D                                      
+$>PLOAD4*  1               665            5.83471-4       5.83471-4             
+$ Pressure Loads of Load Set : pload4.3.2D                                      
+$>PLOAD4*  3               36472          3.73264-4       3.73264-4             
+$ Pressure Loads of Load Set : pload4.4.2D                                      
+$>PLOAD4*  4               665            .0020019        .0020019              
+$ Pressure Loads of Load Set : pload4.6.2D                                      
+$>PLOAD4*  6               36472          .00151758       .00151758             
+$ Pressure Loads of Load Set : pload4.7.2D                                      
+$>PLOAD4*  7               665            .00181333       .00181333             
+$ Pressure Loads of Load Set : pload4.9.2D                                      
+$>PLOAD4*  9               36472          .00127234       .00127234             
+$ Pressure Loads of Load Set : pload4.10.2D                                     
+$>PLOAD4*  10              926            9.86155-5       9.86155-5             
+$ Pressure Loads of Load Set : pload4.12.2D                                     
+$>PLOAD4*  12              36552          4.43895-4       4.43895-4             
+$ Pressure Loads of Load Set : pload4.13.2D                                     
+$>PLOAD4*  13              926            1.41087-4       1.41087-4             
+$ Pressure Loads of Load Set : pload4.15.2D                                     
+$>PLOAD4*  15              36552          7.70759-4       7.70759-4             
+$ Pressure Loads of Load Set : pload4.16.2D                                     
+$>PLOAD4*  16              926            1.09234-4       1.09234-4             
+$ Pressure Loads of Load Set : pload4.18.2D                                     
+$>PLOAD4*  18              36552          5.25611-4       5.25611-4             
+$ Referenced Coordinate Frames                                                  
+$>ENDDATA C3391128                                                              

@@ -1,0 +1,335 @@
+Beginning Analysis
+
+ *** START OF CONTROL FILE ECHO ***
+ SDIR='C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656'
+ DBS='C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656'
+ OUT='C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656'
+ SCR=YES
+ MEM=8388608
+ AUTH=adummy.dat
+ SMEM=200
+ DEL=MSCDEF
+ MSGCAT='C:\MSC.Software\Patran\2008_r1/analysis.msg'
+ JID='D:\Python\Import Nastran\kus-10_man_static1.bdf'
+ MACHINE='Intel' $(Default)
+ MODEL='PentiumII/1812' $(Default)
+ OPER='Windows XP' $(Default)
+ OSV='5.1 (Build 2600)' $(Default)
+ CONFIG=6 $(Default)
+ NPROC=2 $(Default)
+ *** END OF CONTROL FILE ECHO ***
+
+1
+ 
+ 
+ 
+ 
+                     THIS PROGRAM IS CONFIDENTIAL AND A TRADE SECRET OF MSC.SOFTWARE CORPORATION.  THE RECEIPT OR    
+                  POSSESSION OF THIS PROGRAM DOES NOT CONVEY ANY RIGHTS TO REPRODUCE OR DISCLOSE ITS CONTENTS, OR TO 
+                 MANUFACTURE, USE, OR SELL ANYTHING HEREIN, IN WHOLE OR IN PART, WITHOUT THE SPECIFIC WRITTEN CONSENT
+                                                    OF MSC.SOFTWARE CORPORATION.                                     
+ 
+ 
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * *                                 * *
+                                              * *           MSC.SOFTWARE          * *
+                                              * *               CORP              * *
+                                              * *                                 * *
+                                              * *    M D   R 3   N a s t r a n    * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *        Version 2008.0.0         * *
+                                              * *              MD R3              * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *          MAY  9, 2008           * *
+                                              * *                                 * *
+                                              * *              Intel              * *
+                                              * *      MODEL PentiumII/1812       * *
+                                              * *   Windows XP 5.1 (Build 2600)   * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+1
+ MACHINE                          MODEL                 OPERATING SYSTEM        MD Nastran       BUILD DATE         RUN DATE
+ Intel                            PentiumII/1812        Windows XP 5.1 (Buil   VERSION 2008.0.0  MAY  9, 2008       APR 18, 2009
+
+ 
+                               ===    M D   N a s t r a n             E X E C U T I O N   S U M M A R Y    ===
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    Subroutine
+ 
+  3:30:06     0:00        0.0         0.0         0.0        0.0    SEMTRN   BGN
+  3:30:06     0:00        0.0         0.0         0.0        0.0    SEMTRN   END
+  3:30:06     0:00        0.0         0.0         0.0        0.0    DBINIT   BGN
+      ** CURRENT PROJECT ID = ' "BLANK" '  ** CURRENT VERSION ID =          1
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   P R I M A R Y   D A T A B A S E     ( DBSNO   1, V2008.0 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    C:\DOCUME~1\정우열\...\Temp\N1656.MASTER     MASTER           MASTER       NEW           8193           1          090418033006
+    C:\DOCUME~1\정우열\...\Temp\N1656.DBALL      DBALL            DBALL        NEW           8193           1          090418033007
+    C:\DOCUME~1\정우열\...\Temp\N1656.OBJSCR     OBJSCR           OBJSCR       NEW           8193           1          090418033008
+               **** MEM FILE ****                * N/A *          SCRATCH 
+    C:\DOCUME~1\...\Temp\N1656.SCRATCH           SCRATCH          SCRATCH      NEW           8193           1          090418033009
+    C:\DOCUME~1\정우열\...\Temp\N1656.SCR300     SCR300           SCRATCH      NEW           8193           1          090418033010
+  3:30:06     0:00        1.0         1.0         0.0        0.0    DBINIT   END
+  3:30:06     0:00        1.0         0.0         0.0        0.0    XCSA     BGN
+1                                                                             APRIL  18, 2009   MD NASTRAN  5/ 9/08   PAGE     1
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     CEND                                                                                    
+  3:30:06     0:00        1.0         0.0         0.0        0.0    XCSA     END
+        USER OPENCORE (HICORE)         =    47621647  WORDS
+        EXECUTIVE SYSTEM WORK AREA     =      129604  WORDS
+        MASTER(RAM)                    =      200000  WORDS
+        SCRATCH(MEM) AREA              =     1638600  WORDS (     200 BUFFERS)
+        BUFFER POOL AREA (GINO/EXEC)   =      410150  WORDS (      50 BUFFERS)
+
+        TOTAL MD NASTRAN  MEMORY LIMIT =    50000000  WORDS
+
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    SubDMAP Line (S)SubDMAP/Module
+ 
+  3:30:06     0:00        1.0         0.0         0.0        0.0    IXSEM / IFP1    BEGN
+1    MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                         APRIL  18, 2009   MD NASTRAN  5/ 9/08   PAGE     2
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                  1      ECHO=NONE    $ ADDED BY SEMTRN                                                          
+                  2      TITLE = MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                                
+                  3      ECHO = NONE                                                                             
+                  4      MPC = 864                                                                               
+                  5      SUBCASE 1                                                                               
+                  6         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                  7         SUBTITLE=LC-MAP082                                                                   
+                  8         LOAD = 20                                                                            
+                  9         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 10         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 11         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
+                 12         GPFORCE=ALL                                                                          
+                 13         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 14      SUBCASE 2                                                                               
+                 15         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                 16         SUBTITLE=LC-MAP170                                                                   
+                 17         LOAD = 23                                                                            
+                 18         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 19         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 20         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
+                 21         GPFORCE=ALL                                                                          
+                 22         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 23      SUBCASE 3                                                                               
+                 24         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                 25         SUBTITLE=LC-MAP260                                                                   
+                 26         LOAD = 26                                                                            
+                 27         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 28         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 29         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
+                 30         GPFORCE=ALL                                                                          
+                 31         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 32      SUBCASE 4                                                                               
+                 33         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                 34         SUBTITLE=LC-MAN095                                                                   
+                 35         LOAD = 29                                                                            
+                 36         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 37         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 38         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
+                 39         GPFORCE=ALL                                                                          
+                 40         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 41      SUBCASE 5                                                                               
+                 42         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                 43         SUBTITLE=LC-MAN170                                                                   
+                 44         LOAD = 32                                                                            
+                 45         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 46         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 47         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
+                 48         GPFORCE=ALL                                                                          
+                 49         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 50      SUBCASE 6                                                                               
+1    MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                         APRIL  18, 2009   MD NASTRAN  5/ 9/08   PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                 51         TITLE=MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                               
+                 52         SUBTITLE=LC-MAN260                                                                   
+                 53         LOAD = 35                                                                            
+                 54         DISPLACEMENT(SORT1,REAL)=ALL                                                         
+                 55         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 56         STRAIN(SORT1,REAL,VONMISES,FIBER,BILIN)=ALL                                          
+                 57         GPFORCE=ALL                                                                          
+                 58         STRESS(SORT1,REAL,VONMISES,BILIN)=ALL                                                
+                 59         FORCE(SORT1,REAL,BILIN)=ALL                                                          
+                 60      BEGIN BULK                                                                              
+  3:30:06     0:00        1.0         0.0         0.0        0.0    IXSEM / IFP1    END 
+  3:30:06     0:00        1.0         0.0         0.0        0.0    IXSEM / XSORT   BEGN
+0                             INPUT BULK DATA ENTRY COUNT =   63235
+0                       TOTAL COUNT=     63235
+  3:30:07     0:01       16.0        15.0         0.5        0.5    IXSEM / XSORT   END 
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+    HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+    (WORDS)   DAY_TIME      NAME         MODULE                 (MB)   DAY_TIME      NAME         MODULE
+          0   03:30:06    PREFACE     0  PREFACE               6.406   03:30:07    PREFACE     0  PREFACE 
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +---------------- LOGICAL DBSETS ----------------+   +------------------------------ DBSET FILES -----------------------------+
+  DBSET     ALLOCATED  BLOCKSIZE       USED   USED     FILE      ALLOCATED  ALLOCATED    HIWATER       HIWATER  I/O TRANSFERRED
+             (BLOCKS)    (WORDS)   (BLOCKS)      %                (BLOCKS)       (GB)   (BLOCKS)          (GB)             (GB)
+ 
+  MASTER         5000       8192         14   0.28     MASTER         5000       0.15         14         0.000            0.001
+  DBALL        500000       8192        175   0.04     DBALL        500000      15.26        175         0.005            0.014
+  OBJSCR         5000       8192          4   0.08     OBJSCR         5000       0.15          4         0.000            0.000
+  SCRATCH     1000200       8192         10   0.00    (MEMFILE         200       0.01        200         0.006            0.000)
+                                                       SCRATCH      500000      15.26          1         0.000            0.000
+                                                       SCR300       500000      15.26         11         0.000            0.001
+                                                                                                                 ==============
+                                                                                                          TOTAL:          0.016
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+  GINO,EXEC          50         160         161              2          11     3:30:06    PREFACE     0  PREFACE       0
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCRATCH                      32768          0/1             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.OBJSCR                       32768          1/8             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.MASTER                       32768          2/27            128KB ( 4)            5 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.DBALL                        32768          2/467           128KB ( 4)           47 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCR300                       32768          9/11            128KB ( 4)            4 (M)
+ 
+  3:30:07     0:01       16.0         0.0         0.5        0.0    IXSEM / IFP     BEGN
+  3:30:07     0:01       16.0         0.0         0.5        0.0    IFP     
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY     *
+ *          64:CBAR             209:CELAS1            50:CONM2          15228:CQUAD4           118:CTRIA3         14455:GRID      *
+ *** USER WARNING MESSAGE 2251 (IFS1P)
+     ONE OR MORE MAT1 ENTRIES HAVE UNREASONABLE OR INCONSISTENT VALUES OF E,G OR NU.  ID OF FIRST ONE = 3
+ *** USER WARNING MESSAGE 2251 (IFS1P)
+     THE NUMBER OF MAT1 ENTRIES HAVING UNREASONABLE OR INCONSISTENT VALUES FOR E,G AND/OR NU IS 2
+     ID OF LAST ONE = 5
+ *           6:LOAD               3:MAT1               2:MAT8             255:MPC                1:MPCADD             3:PARAM     *
+ *           3:PBARL             40:PCOMP              2:PELAS          16499:PLOAD4             6:PSHELL           106:RBE2      *
+ *          49:RBE3    
+
+
+                                        M O D E L   S U M M A R Y
+
+                                   NUMBER OF GRID     POINTS   =    14455
+  
+                                   NUMBER OF CBAR     ELEMENTS =       64
+                                   NUMBER OF CELAS1   ELEMENTS =      209
+                                   NUMBER OF CONM2    ELEMENTS =       50
+                                   NUMBER OF CQUAD4   ELEMENTS =    15228
+                                   NUMBER OF CTRIA3   ELEMENTS =      118
+  
+                                   NUMBER OF RBE2     ELEMENTS =      106
+                                   NUMBER OF RBE3     ELEMENTS =       49
+ *    PARAM:  INREL     POST      PRTMAXIM                                                                                        *
+  3:30:07     0:01       21.0         5.0         0.8        0.3    IXSEM / IFP     END 
+  3:30:07     0:01       21.0         0.0         0.8        0.0    IXSEM / IFP6    BEGN
+  3:30:07     0:01       21.0         0.0         0.8        0.0    IFP6IN  
+1    MSC.NASTRAN JOB CREATED ON 08-JUL-08 AT 12:59:20                         APRIL  18, 2009   MD NASTRAN  5/ 9/08   PAGE     4
+                                                                                                                                    
+0                                                                                                                                   
+  3:30:07     0:01       21.0         0.0         0.8        0.0    IFP6OUT 
+  3:30:07     0:01       21.0         0.0         0.8        0.0    IXSEM / IFP6    END 
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+    HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+    (WORDS)   DAY_TIME      NAME         MODULE                 (MB)   DAY_TIME      NAME         MODULE
+          0   03:30:06    PREFACE     0  PREFACE               6.406   03:30:07    PREFACE     0  PREFACE 
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +---------------- LOGICAL DBSETS ----------------+   +------------------------------ DBSET FILES -----------------------------+
+  DBSET     ALLOCATED  BLOCKSIZE       USED   USED     FILE      ALLOCATED  ALLOCATED    HIWATER       HIWATER  I/O TRANSFERRED
+             (BLOCKS)    (WORDS)   (BLOCKS)      %                (BLOCKS)       (GB)   (BLOCKS)          (GB)             (GB)
+ 
+  MASTER         5000       8192         14   0.28     MASTER         5000       0.15         14         0.000            0.001
+  OBJSCR         5000       8192          4   0.08     OBJSCR         5000       0.15          4         0.000            0.000
+  SCRATCH     1000200       8192        103   0.01    (MEMFILE         200       0.01        200         0.006            0.000)
+                                                       SCRATCH      500000      15.26          1         0.000            0.000
+                                                       SCR300       500000      15.26         11         0.000            0.001
+                                                                                                                 ==============
+                                                                                                          TOTAL:          0.002
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+  GINO,EXEC          50         162         295              2          11     3:30:06    PREFACE     0  PREFACE       0
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCRATCH                      32768          0/1             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.OBJSCR                       32768          1/8             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.MASTER                       32768          5/28            128KB ( 4)            5 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCR300                       32768          9/11            128KB ( 4)            4 (M)
+ 
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+    HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+    (WORDS)   DAY_TIME      NAME         MODULE                 (MB)   DAY_TIME      NAME         MODULE
+          0   03:30:06    PREFACE     0  PREFACE               6.406   03:30:07    PREFACE     0  PREFACE 
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +---------------- LOGICAL DBSETS ----------------+   +------------------------------ DBSET FILES -----------------------------+
+  DBSET     ALLOCATED  BLOCKSIZE       USED   USED     FILE      ALLOCATED  ALLOCATED    HIWATER       HIWATER  I/O TRANSFERRED
+             (BLOCKS)    (WORDS)   (BLOCKS)      %                (BLOCKS)       (GB)   (BLOCKS)          (GB)             (GB)
+ 
+  MASTER         5000       8192         14   0.28     MASTER         5000       0.15         14         0.000            0.001
+  OBJSCR         5000       8192          4   0.08     OBJSCR         5000       0.15          4         0.000            0.000
+  SCRATCH     1000200       8192        103   0.01    (MEMFILE         200       0.01        200         0.006            0.000)
+                                                       SCRATCH      500000      15.26          1         0.000            0.000
+                                                       SCR300       500000      15.26         11         0.000            0.001
+                                                                                                                 ==============
+                                                                                                          TOTAL:          0.002
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+  GINO,EXEC          50         162         295              2          11     3:30:06    PREFACE     0  PREFACE       0
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)  MAP-I/O CNT
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCRATCH                      32768          0/1             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.OBJSCR                       32768          1/8             128KB ( 4)            1 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.MASTER                       32768          5/28            128KB ( 4)            5 (M)
+ C:\DOCUME~1\정우열\LOCALS~1\Temp\N1656.SCR300                       32768          9/11            128KB ( 4)            4 (M)
+ 
